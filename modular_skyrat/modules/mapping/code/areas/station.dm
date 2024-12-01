@@ -140,43 +140,6 @@
 	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "salon"
 
-// Wrestling areas for BlueShift
-/area/station/common/wrestling
-	name = "Wrestling"
-	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
-	icon_state = "wrestle"
-
-/area/station/common/wrestling/arena
-	name = "Wrestling Arena"
-	icon_state = "wrestle_arena"
-
-/area/station/common/wrestling/lobby
-	name = "Wrestling Arena Lobby"
-	icon_state = "wrestle_lobby"
-
-/area/station/common/wrestling/locker
-	name = "Wrestling Arena Locker Room"
-	icon_state = "wrestle_locker"
-
-/area/station/common/tailoring
-	name = "Tailoring Shop"
-	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
-	icon_state = "tailoring"
-
-// BlueShift Night Club
-/area/station/common/night_club
-	name = "Night Club"
-	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
-	icon_state = "nightclub"
-
-/area/station/common/night_club/back_stage
-	name = "Night Club Backstage"
-	icon_state = "nightclub_backstage"
-
-/area/station/common/night_club/changing_room
-	name = "Night Club Changing Room"
-	icon_state = "nightclub_changing_room"
-
 // Rec related areas
 /area/station/common/laser_tag
 	name = "Laser Tag"
@@ -560,20 +523,6 @@
 /area/station/maintenance/thruster_room/starboard
 	name = "Starboard Thruster Room"
 	icon_state = "sb_thrust_room"
-
-// EVA Sheds used on BlueShift
-/area/station/maintenance/eva_shed
-	name = "EVA Shed"
-	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
-	icon_state = "eva_shed"
-
-/area/station/maintenance/eva_shed/port
-	name = "Port EVA Shed"
-	icon_state = "eva_shed_port"
-
-/area/station/maintenance/eva_shed/starboard
-	name = "Starboard EVA Shed"
-	icon_state = "eva_shed_sb"
 
 // Department Rooms
 /area/station/science/xenobiology/control
