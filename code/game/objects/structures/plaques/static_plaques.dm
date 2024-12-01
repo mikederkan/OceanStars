@@ -117,10 +117,6 @@
 /obj/structure/plaque/static_plaque/golden/commission/meta
 	desc = "Spinward Sector Station SS-13\n'Meta' Class Outpost\nCommissioned 11/03/2553\n'Theseus' Station'"
 
-// Deltastation: added Dec 17, 2016 (#22066)
-/obj/structure/plaque/static_plaque/golden/commission/delta
-	desc = "Spinward Sector Station SS-13\n'Delta' Class Outpost\nCommissioned 17/12/2556\n'Efficiency Through Redundancy'"
-
 // Tramstation: added Mar 11, 2021 (#56509)
 /obj/structure/plaque/static_plaque/golden/commission/tram
 	desc = "Spinward Sector Station SS-13\n'Tram' Class Outpost\nCommissioned 11/03/2561\n'Making Moves'"
