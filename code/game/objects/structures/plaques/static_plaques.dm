@@ -129,10 +129,6 @@
 /obj/structure/plaque/static_plaque/golden/commission/northstar
 	desc = "Spinward Sector Ship SS-13\n'North Star' Class Vessel\nCommissioned 13/04/2563\n'New Opportunities'"
 
-// Birdshot: added Apr 29, 2023 (#74371)
-/obj/structure/plaque/static_plaque/golden/commission/birdshot
-	desc = "Spinward Sector Station SS-13\n'Birdshot' Class Outpost\nCommissioned 29/04/2563\n'Shooting for the Stars'"
-
 //Removed stations
 
 // Asteroidstation: added Oct 17, 2015 (169ab09f7b52254ee505e54cdea681fab287647b), removed Jun 19, 2016 (#18661)- 8 months, 2 days
