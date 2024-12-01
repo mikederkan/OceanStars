@@ -90,7 +90,6 @@ GLOBAL_LIST_INIT(typecache_powerfailure_safe_areas, typecacheof(list(
 	// Ignore these areas and dont let people expand them. They can expand into them though
 	var/static/list/blacklisted_areas = typecacheof(list(
 		/area/space,
-		/area/station/asteroid,
 		))
 
 	var/error = ""
