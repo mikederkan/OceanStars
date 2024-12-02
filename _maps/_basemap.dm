@@ -9,10 +9,6 @@
 		#include "map_files\IceBoxStation\IceBoxStation.dmm"
 		#include "map_files\MetaStation\MetaStation.dmm"
 		#include "map_files\Mining\Lavaland.dmm"
-				// SKYRAT EDIT ADDITON START - Compiling our modular maps too!
-		#include "map_files\VoidRaptor\VoidRaptor.dmm"
-		// SKYRAT EDIT END
-		#include "map_files\wawastation\wawastation.dmm"
 
 		#ifdef CIBUILDING
 			#include "templates.dm"
