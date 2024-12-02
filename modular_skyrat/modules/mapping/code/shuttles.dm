@@ -7,7 +7,7 @@
 	prefix = "_maps/shuttles/skyrat/"
 	name = "Outpoststation Emergency Shuttle"
 	description = "The perfect shuttle for rectangle enthuasiasts, this long and slender shuttle has been known for it's incredible(Citation Needed) safety rating."
-	admin_notes = "Has airlocks on both sides of the shuttle and will probably ram deltastation's maint wing below medical. Oh well?"
+	admin_notes = "Has airlocks on both sides of the shuttle."
 	credit_cost = CARGO_CRATE_VALUE * 4
 	occupancy_limit = 45
 
