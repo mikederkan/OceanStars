@@ -25,12 +25,6 @@
 	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "secure_bunker"
 
-// NT Consultant area
-/area/station/command/heads_quarters/nt_rep
-	name = "Nanotrasen Consultant's Office"
-	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
-	icon_state = "nt_rep"
-
 /*
 * Department areas
 */

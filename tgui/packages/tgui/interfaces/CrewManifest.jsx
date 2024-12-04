@@ -11,7 +11,6 @@ const commandJobs = [
   'Research Director',
   'Chief Medical Officer',
   'Quartermaster',
-  'Nanotrasen Consultant', // SKYRAT EDIT
 ];
 
 // SKYRAT EDIT CHANGE BEGIN - ALTERNATIVE_JOB_TITLES

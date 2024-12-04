@@ -65,7 +65,6 @@ const BASEICONS = {
   'Corrections Officer': 'hands-bound',
   'Customs Agent': 'shield-heart',
   'Engineering Guard': 'shield-heart',
-  'Nanotrasen Consultant': 'clipboard-check',
   Orderly: 'shield-heart',
   'Science Guard': 'shield-heart',
   'Security Medic': 'heart-pulse',
@@ -101,9 +100,6 @@ const ALTTITLES = {
   Mixologist: BASEICONS['Bartender'],
   Barkeeper: BASEICONS['Bartender'],
   Barista: BASEICONS['Bartender'],
-  // Blueshield - shield-dog
-  'Command Bodyguard': BASEICONS['Blueshield'],
-  'Executive Protection Agent': BASEICONS['Blueshield'],
   // Botanist - seedling
   Hydroponicist: BASEICONS['Botanist'],
   Gardener: BASEICONS['Botanist'],
@@ -201,8 +197,6 @@ const ALTTITLES = {
   Physician: BASEICONS['Medical Doctor'],
   // Mime - comment-slash
   Pantomimist: BASEICONS['Mime'],
-  // Nanotrasen Consultant - clipboard-check
-  'Nanotrasen Diplomat': BASEICONS['Nanotrasen Consultant'],
   // Paramedic - truck-medical
   'Emergency Medical Technician': BASEICONS['Paramedic'],
   'Search and Rescue Technician': BASEICONS['Paramedic'],

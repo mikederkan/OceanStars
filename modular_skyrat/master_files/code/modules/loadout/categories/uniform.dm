@@ -57,12 +57,12 @@
 /datum/loadout_item/uniform/jumpsuit/impcap
 	name = "Captain's Naval Jumpsuit"
 	item_path = /obj/item/clothing/under/rank/captain/skyrat/imperial
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 
 /datum/loadout_item/uniform/jumpsuit/imphop
 	name = "Head of Personnel's Naval Jumpsuit"
 	item_path = /obj/item/clothing/under/rank/civilian/head_of_personnel/skyrat/imperial
-	restricted_roles = list(JOB_HEAD_OF_PERSONNEL, JOB_NT_REP)
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
 
 /datum/loadout_item/uniform/jumpsuit/imphos
 	name = "Head of Security's Naval Uniform"
@@ -927,25 +927,25 @@
 /datum/loadout_item/uniform/formal/azulea_oldblood
 	name = " Oldblood's Royal regalia"
 	item_path = /obj/item/clothing/under/rank/azulean/old_blood
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 	restricted_species = list(SPECIES_AKULA)
 
 /datum/loadout_item/uniform/formal/azulea_oldblood/skirt
 	name = " Oldblood's Royal regalia (Skirt)"
 	item_path = /obj/item/clothing/under/rank/azulean/old_blood/skirt
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 	restricted_species = list(SPECIES_AKULA)
 
 /datum/loadout_item/uniform/formal/azulea_upstart
 	name = "Upstart's Noble Getup"
 	item_path = /obj/item/clothing/under/rank/azulean/upstart
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 	restricted_species = list(SPECIES_AKULA)
 
 /datum/loadout_item/uniform/formal/azulea_upstart/skirt
 	name = "Upstart's Noble Getup (Skirt)"
 	item_path = /obj/item/clothing/under/rank/azulean/upstart/skirt
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 	restricted_species = list(SPECIES_AKULA)
 
 // DONATOR ONLY
