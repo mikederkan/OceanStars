@@ -58,9 +58,6 @@
 /obj/item/clothing/head/hopcap/beret
 	greyscale_config_worn_vox = /datum/greyscale_config/beret_badge/worn/vox
 
-/obj/item/clothing/head/beret/blueshield
-	greyscale_config_worn_vox = /datum/greyscale_config/beret_badge/worn/vox
-
 /obj/item/clothing/head/flatcap
 	greyscale_config_worn_vox = /datum/greyscale_config/beret/worn/vox
 

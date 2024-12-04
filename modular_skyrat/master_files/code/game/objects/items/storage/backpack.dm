@@ -137,12 +137,6 @@
 	icon_state = "messenger_hop"
 	inhand_icon_state = "messenger_hop"
 
-/obj/item/storage/backpack/messenger/blueshield
-	name = "blueshield's messenger bag'"
-	desc = "A robust messenger bag issued to Nanotrasen's finest guard dogs, with extra TACTICAL POCKETS. Whatever that even means."
-	icon_state = "messenger_blueshield"
-	inhand_icon_state = "messenger_blueshield"
-
 /obj/item/storage/backpack/messenger/science/robo
 	name = "robotics messenger bag"
 	desc = "A sleek, industrial-strength messenger bag issued to robotics personnel. Smells faintly of oil; a fashionably mobile choice for fashionably sedentary mechanics."

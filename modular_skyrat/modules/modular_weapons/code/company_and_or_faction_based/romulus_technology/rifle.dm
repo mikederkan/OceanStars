@@ -226,38 +226,3 @@
 		/obj/item/ammo_box/magazine/caflechette = 2,
 		/obj/item/ammo_box/magazine/caflechette/ballpoint = 3,
 	), src)
-
-/obj/item/gun/ballistic/automatic/rom_flech/blueshield
-	name = "\improper RomTech CMG-2C Rifle"
-	desc = "The Compact Machinegun-2 Commando is an automatic rifle used by Romulus Executive Protection Service, modified to be one handed for usage with shield."
-	icon_state = "cmg2"
-	worn_icon = 'modular_skyrat/modules/modular_weapons/icons/mob/company_and_or_faction_based/carwo_defense_systems/guns_worn.dmi'
-	worn_icon_state = "infanterie_evil"
-	lefthand_file = 'modular_skyrat/modules/modular_weapons/icons/mob/company_and_or_faction_based/carwo_defense_systems/guns_lefthand.dmi'
-	righthand_file = 'modular_skyrat/modules/modular_weapons/icons/mob/company_and_or_faction_based/carwo_defense_systems/guns_righthand.dmi'
-	inhand_icon_state = "infanterie_evil"
-	w_class = WEIGHT_CLASS_BULKY
-	weapon_weight = WEAPON_LIGHT
-	burst_size = 3
-	spread = 0
-
-	unfolded_spread = 0
-	folded_spread = 7
-	folded_recoil = 2
-	unfolded_recoil = 0
-	one_handed_always = 1
-
-/obj/item/gun/ballistic/automatic/rom_flech/blueshield/empty
-	spawnwithmagazine = FALSE
-
-/obj/item/storage/toolbox/guncase/skyrat/pistol/blueshield_cmg
-	name = "CMG-2C Rifle Case"
-	weapon_to_spawn = /obj/item/gun/ballistic/automatic/rom_flech/blueshield/empty
-
-/obj/item/storage/toolbox/guncase/skyrat/pistol/blueshield_cmg/PopulateContents()
-	new weapon_to_spawn (src)
-
-	generate_items_inside(list(
-		/obj/item/ammo_box/magazine/caflechette = 2,
-		/obj/item/ammo_box/magazine/caflechette/ripper = 2,
-	), src)
