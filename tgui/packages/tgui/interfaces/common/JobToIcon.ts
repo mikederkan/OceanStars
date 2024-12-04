@@ -61,7 +61,6 @@ const BASEICONS = {
 
   'Telecomms Specialist': 'tower-cell',
   Barber: 'scissors',
-  Blueshield: 'shield-dog',
   Bouncer: 'shield-heart',
   'Corrections Officer': 'hands-bound',
   'Customs Agent': 'shield-heart',

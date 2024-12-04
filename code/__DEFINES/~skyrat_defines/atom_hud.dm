@@ -7,7 +7,6 @@
 #define SECHUD_BOUNCER "hudbouncer"
 #define SECHUD_SCIENCE_GUARD "hudscienceguard"
 //SR Nanotrasen
-#define SECHUD_BLUESHIELD "hudblueshield"
 #define SECHUD_NT_CONSULTANT "hudnanotrasenconsultant"
 //SR DS2
 #define SECHUD_DS2_DOCTOR "hud_ds2doctor"

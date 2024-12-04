@@ -88,13 +88,6 @@
 		"Professional Gamer",
 	)
 
-/datum/job/blueshield
-	alt_titles = list(
-		"Blueshield",
-		"Command Bodyguard",
-		"Executive Protection Agent",
-	)
-
 /datum/job/botanist
 	alt_titles = list(
 		"Botanist",

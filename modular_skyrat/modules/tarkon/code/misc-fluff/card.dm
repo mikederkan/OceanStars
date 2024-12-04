@@ -90,9 +90,9 @@
 	assignment = "Tarkon Ensign"
 	access = list(ACCESS_MEDICAL, ACCESS_ROBOTICS, ACCESS_AWAY_GENERAL, ACCESS_TARKON, ACCESS_WEAPONS)
 	department_color = COLOR_COMMAND_BLUE
-	sechud_icon_state = SECHUD_BLUESHIELD
+	sechud_icon_state = SECHUD_CAPTAIN //tarkon is gonna be deleted anyway
 	trim_icon = 'modular_skyrat/master_files/icons/obj/card.dmi'
-	trim_state = "trim_blueshield"
+	trim_state = "trim_captain"
 
 /obj/item/card/id/advanced/tarkon/ensign
 	name = "Tarkon ensign's access card"

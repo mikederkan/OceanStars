@@ -232,11 +232,6 @@
 	item_path = /obj/item/clothing/neck/mantle/hosmantle
 	restricted_roles = list(JOB_HEAD_OF_SECURITY)
 
-/datum/loadout_item/neck/mantle_bs
-	name = "Blueshield's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/bsmantle
-	restricted_roles = list(JOB_BLUESHIELD)
-
 /datum/loadout_item/neck/mantle_cap
 	name = "Captain's Mantle"
 	item_path = /obj/item/clothing/neck/mantle/capmantle

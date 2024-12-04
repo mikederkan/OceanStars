@@ -512,17 +512,6 @@
 	can_adjust = FALSE
 
 // Donation reward for NetraKyram
-/obj/item/clothing/under/rank/blueshield/netra
-	name = "black and silver armored dress"
-	desc = "An ankle length black and silver dress, made out of some shiny synthetic material with inlaid kevlar shards and silver reinforcements, a silver ring surrounds the collar, and it doesn't appear to have a zipper... How does somebody put this thing on anyways?"
-	icon = 'modular_skyrat/master_files/icons/donator/obj/clothing/uniform.dmi'
-	icon_state = "silver_dress"
-	worn_icon = 'modular_skyrat/master_files/icons/donator/mob/clothing/uniform.dmi'
-	worn_icon_digi = null
-	supports_variations_flags = NONE
-	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
-
-// Donation reward for NetraKyram
 /obj/item/clothing/gloves/netra
 	name = "black and silver gloves"
 	desc = "Some black gloves with silver reinforcements, made of a shiny synthetic material."

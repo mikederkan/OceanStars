@@ -24,9 +24,6 @@
 /datum/job/quartermaster
 	antagonist_restricted = TRUE
 
-/datum/job/blueshield
-	antagonist_restricted = TRUE
-
 /datum/job/corrections_officer
 	antagonist_restricted = TRUE
 

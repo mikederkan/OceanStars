@@ -31,12 +31,6 @@
 	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "nt_rep"
 
-// Blueshield area
-/area/station/command/heads_quarters/blueshield
-	name = "Blueshield's Office"
-	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
-	icon_state = "blueshield"
-
 /*
 * Department areas
 */

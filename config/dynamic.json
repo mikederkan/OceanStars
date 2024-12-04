@@ -24,7 +24,6 @@
 			},
 			"protected_roles": [
 				"Prisoner",
-				"Blueshield",
 				"Corrections Officer",
 				"Security Officer",
 				"Warden",

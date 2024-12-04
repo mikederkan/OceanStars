@@ -46,21 +46,6 @@
 
 	minimal_access |= ACCESS_WEAPONS
 
-/datum/id_trim/job/blueshield
-	assignment = "Blueshield"
-	trim_icon = 'modular_skyrat/master_files/icons/obj/card.dmi'
-	trim_state = "trim_blueshield"
-	department_color = COLOR_COMMAND_BLUE
-	subdepartment_color = COLOR_CENTCOM_BLUE // Not the other way around. I think.
-	sechud_icon_state = SECHUD_BLUESHIELD
-	extra_access = list(ACCESS_BRIG, ACCESS_CARGO, ACCESS_COURT, ACCESS_GATEWAY, ACCESS_SECURITY)
-	minimal_access = list(
-		ACCESS_BRIG_ENTRANCE, ACCESS_COMMAND, ACCESS_CONSTRUCTION, ACCESS_DETECTIVE, ACCESS_ENGINEERING,
-		ACCESS_MAINT_TUNNELS, ACCESS_MEDICAL, ACCESS_RC_ANNOUNCE, ACCESS_RESEARCH, ACCESS_WEAPONS,
-	)
-	minimal_wildcard_access = list(ACCESS_CAPTAIN)
-	template_access = list(ACCESS_CAPTAIN, ACCESS_CHANGE_IDS)
-
 /datum/id_trim/job/nanotrasen_consultant
 	assignment = "Nanotrasen Consultant"
 	trim_state = "trim_centcom"
