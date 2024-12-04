@@ -8118,7 +8118,6 @@
 #include "modular_skyrat\modules\modular_weapons\code\company_and_or_faction_based\trappiste_fabriek\pistol.dm"
 #include "modular_skyrat\modules\modular_weapons\code\company_and_or_faction_based\trappiste_fabriek\revolver.dm"
 #include "modular_skyrat\modules\modular_weapons\code\company_and_or_faction_based\xhihao_light_arms\ammo.dm"
-#include "modular_skyrat\modules\modular_weapons\code\company_and_or_faction_based\xhihao_light_arms\gunsets.dm"
 #include "modular_skyrat\modules\modular_weapons\code\company_and_or_faction_based\xhihao_light_arms\rifle.dm"
 #include "modular_skyrat\modules\mold\code\_mold_defines.dm"
 #include "modular_skyrat\modules\mold\code\mold.dm"

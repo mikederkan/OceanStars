@@ -13,11 +13,6 @@
 	max_purchase = 4
 	cost = 7
 
-/datum/armament_entry/hecu/primary/submachinegun/bogseo
-	item_type = /obj/item/gun/ballistic/automatic/xhihao_smg
-	max_purchase = 2
-	cost = 8
-
 /datum/armament_entry/hecu/primary/assaultrifle
 	subcategory = ARMAMENT_SUBCATEGORY_ASSAULTRIFLE
 	mags_to_spawn = 3
