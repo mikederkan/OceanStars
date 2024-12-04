@@ -445,12 +445,12 @@
 /datum/loadout_item/head/imperial_cap
 	name = "Captain's Naval Cap"
 	item_path = /obj/item/clothing/head/hats/imperial/cap
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 
 /datum/loadout_item/head/imperial_hop
 	name = "Head of Personnel's Naval Cap"
 	item_path = /obj/item/clothing/head/hats/imperial/hop
-	restricted_roles = list(JOB_HEAD_OF_PERSONNEL, JOB_NT_REP)
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
 
 
 /datum/loadout_item/head/imperial_cmo
@@ -536,13 +536,13 @@
 /datum/loadout_item/head/azulea_oldblood
 	name = "Oldblood's Royal cap"
 	item_path = /obj/item/clothing/head/hats/caphat/azulean/old_blood
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 	restricted_species = list(SPECIES_AKULA)
 
 /datum/loadout_item/head/azulea_upstart
 	name = "Upstart's Noble cap"
 	item_path = /obj/item/clothing/head/hats/caphat/azulean/upstart
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
+	restricted_roles = list(JOB_CAPTAIN)
 	restricted_species = list(SPECIES_AKULA)
 
 /*

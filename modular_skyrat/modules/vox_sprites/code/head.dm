@@ -67,8 +67,6 @@
 /obj/item/clothing/head/beret/sec/navywarden/syndicate
 	greyscale_config_worn_vox = /datum/greyscale_config/beret_badge/worn/vox
 
-/obj/item/clothing/head/nanotrasen_consultant/beret
-	greyscale_config_worn_vox = /datum/greyscale_config/beret_badge/worn/vox
 
 /obj/item/clothing/head/beret/sec/peacekeeper/armadyne
 	greyscale_config_worn_vox = /datum/greyscale_config/beret_badge_fancy/worn/vox

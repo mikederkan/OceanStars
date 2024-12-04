@@ -35,31 +35,6 @@
 	icon_state = "captainblacksuit"
 	can_adjust = FALSE
 
-
-/*
-*	NT CONSULTANT
-*/
-
-/obj/item/clothing/under/rank/nanotrasen_consultant
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/command.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/command.dmi'
-	worn_icon_digi = 'modular_skyrat/master_files/icons/mob/clothing/under/command_digi.dmi'
-	desc = "It's a green jumpsuit with some gold markings denoting the rank of \"Nanotrasen Consultant\"."
-	name = "nanotrasen consultant's jumpsuit"
-	icon_state = "nt_consultant"
-	sensor_mode = SENSOR_COORDS
-	random_sensor = FALSE
-
-/obj/item/clothing/under/rank/nanotrasen_consultant/skirt
-	name = "nanotrasen consultant's jumpskirt"
-	desc = "It's a green jumpskirt with some gold markings denoting the rank of \"Nanotrasen Consultant\"."
-	icon_state = "nt_consultant_skirt"
-	body_parts_covered = CHEST|GROIN|ARMS
-	dying_key = DYE_REGISTRY_JUMPSKIRT
-	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
-	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
-	gets_cropped_on_taurs = FALSE
-
 /*
 *	UNASSIGNED (Any head of staff)
 */

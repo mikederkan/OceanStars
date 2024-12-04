@@ -343,21 +343,6 @@
 		"Pantomimist",
 	)
 
-/datum/job/nanotrasen_consultant
-	alt_titles = list(
-		"Nanotrasen Consultant",
-		"Nanotrasen Advisor",
-		"Nanotrasen Diplomat",
-		"Nanotrasen Representative",
-		"Nanotrasen Liason",
-		"Central Command Consultant",
-		"Central Command Advisor",
-		"Central Command Diplomat",
-		"Central Command Representative",
-		"Central Command Liason",
-		"Corporate Liason",
-	)
-
 /datum/job/orderly
 	alt_titles = list(
 		"Orderly",

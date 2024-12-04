@@ -133,8 +133,6 @@
 	akula_outfit = /datum/outfit/akula
 
 // Modular jobs
-/datum/job/nanotrasen_consultant
-	akula_outfit = /datum/outfit/akula
 
 /datum/job/barber
 	akula_outfit = /datum/outfit/akula

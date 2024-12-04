@@ -6,8 +6,6 @@
 #define SECHUD_CUSTOMS_AGENT "hudcustomsagent"
 #define SECHUD_BOUNCER "hudbouncer"
 #define SECHUD_SCIENCE_GUARD "hudscienceguard"
-//SR Nanotrasen
-#define SECHUD_NT_CONSULTANT "hudnanotrasenconsultant"
 //SR DS2
 #define SECHUD_DS2_DOCTOR "hud_ds2doctor"
 #define SECHUD_DS2_RESEARCHER "hud_ds2researcher"

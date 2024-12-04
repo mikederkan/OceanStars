@@ -308,24 +308,6 @@
 	item_path = /obj/item/clothing/suit/jacket/delta
 	ckeywhitelist = list("deltatri")
 
-/datum/loadout_item/head/hubertcc
-	name = "CC Ensign's cap"
-	item_path = /obj/item/clothing/head/nanotrasen_consultant/hubert
-	ckeywhitelist = list("hackertdog")
-	restricted_roles = list(JOB_NT_REP)
-
-/datum/loadout_item/suit/hubertcc
-	name = "CC Ensign's armoured vest"
-	item_path = /obj/item/clothing/suit/armor/vest/nanotrasen_consultant/hubert
-	ckeywhitelist = list("hackertdog")
-	restricted_roles = list(JOB_NT_REP)
-
-/datum/loadout_item/uniform/hubertcc
-	name = "CC Ensign's uniform"
-	item_path = /obj/item/clothing/under/rank/nanotrasen_consultant/hubert
-	ckeywhitelist = list("hackertdog")
-	restricted_roles = list(JOB_NT_REP)
-
 /datum/loadout_item/head/frostyushanka
 	name = "Blue Ushanka"
 	item_path = /obj/item/clothing/head/costume/ushanka/frosty
@@ -480,12 +462,6 @@
 	name = "Pocket Watch"
 	item_path = /obj/item/clothing/accessory/hypno_watch
 	ckeywhitelist = list("slippyjoe")
-
-/datum/loadout_item/uniform/nt_idol
-	name = "NT Idol's Skirt"
-	item_path = /obj/item/clothing/under/nt_idol_skirt
-	ckeywhitelist = list("tetrako")
-	restricted_roles = list(JOB_NT_REP)
 
 //Chunko Fops were donated by SlippyJoe, who requested they are usable by everyone
 
@@ -672,7 +648,7 @@
 	name = "Silver Jacket Mk II"
 	item_path = /obj/item/clothing/suit/armor/skyy
 	ckeywhitelist = list("lt3")
-	restricted_roles = list(JOB_HEAD_OF_PERSONNEL, JOB_NT_REP)
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
 
 /datum/loadout_item/suit/lt3_jacket
 	name = "Silver Jacket"

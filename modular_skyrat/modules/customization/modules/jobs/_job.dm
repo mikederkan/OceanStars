@@ -88,10 +88,6 @@
 	banned_quirks = list(HEAD_RESTRICTED_QUIRKS)
 	banned_augments = list(HEAD_RESTRICTED_AUGMENTS)
 
-/datum/job/nanotrasen_consultant
-	banned_quirks = list(HEAD_RESTRICTED_QUIRKS)
-	banned_augments = list(HEAD_RESTRICTED_AUGMENTS)
-
 /datum/job/head_of_security
 	banned_quirks = list(SEC_RESTRICTED_QUIRKS, HEAD_RESTRICTED_QUIRKS)
 	banned_augments = list(SEC_RESTRICTED_AUGMENTS)
