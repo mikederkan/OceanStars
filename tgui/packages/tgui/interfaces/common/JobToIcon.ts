@@ -61,12 +61,6 @@ const BASEICONS = {
 
   'Telecomms Specialist': 'tower-cell',
   Barber: 'scissors',
-  Bouncer: 'shield-heart',
-  'Corrections Officer': 'hands-bound',
-  'Customs Agent': 'shield-heart',
-  'Engineering Guard': 'shield-heart',
-  Orderly: 'shield-heart',
-  'Science Guard': 'shield-heart',
   'Security Medic': 'heart-pulse',
   // SKYRAT EDIT END
 } as const;
@@ -106,8 +100,6 @@ const ALTTITLES = {
   'Botanical Researcher': BASEICONS['Botanist'],
   Herbalist: BASEICONS['Botanist'],
   Florist: BASEICONS['Botanist'],
-  // Bouncer - shield-heart
-  'Service Guard': BASEICONS['Bouncer'],
   // Captain - crown
   'Station Commander': BASEICONS['Captain'],
   'Commanding Officer': BASEICONS['Captain'],
