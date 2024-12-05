@@ -13,7 +13,6 @@
 		"stamp-paw_green" = 'modular_skyrat/master_files/icons/stamp_icons/paw_green.png',
 		// Other stamp icons
 		"stamp-nri" = 'modular_skyrat/master_files/icons/stamp_icons/large_stamp-nri.png',
-		"stamp-solfed" = 'modular_skyrat/master_files/icons/stamp_icons/large_stamp-solfed.png',
 		// SKYRAT EDIT ADDITION: END
 		"stamp-clown" = 'icons/stamp_icons/large_stamp-clown.png',
 		"stamp-deny" = 'icons/stamp_icons/large_stamp-deny.png',
