@@ -8,12 +8,6 @@
 	subcategory = "Surplus Clothing"
 	cost = PAYCHECK_CREW
 
-/datum/armament_entry/company_import/sol_defense/clothing/peacekeeper
-	item_type = /obj/item/clothing/under/sol_peacekeeper
-
-/datum/armament_entry/company_import/sol_defense/clothing/emt
-	item_type = /obj/item/clothing/under/sol_emt
-
 // Armor vests for protecting against bullets
 
 /datum/armament_entry/company_import/sol_defense/armor
@@ -31,9 +25,6 @@
 
 /datum/armament_entry/company_import/sol_defense/armor/sf_soft_vest
 	item_type = /obj/item/clothing/suit/armor/sf_peacekeeper
-
-/datum/armament_entry/company_import/sol_defense/armor/flak_jacket
-	item_type = /obj/item/clothing/suit/armor/vest/det_suit/sol
 
 /datum/armament_entry/company_import/sol_defense/armor/slim_vest
 	name = "type I vest"

@@ -12,7 +12,6 @@
 		/obj/item/storage/box/evidence = 16,
 		/obj/item/flashlight/seclite = 16,
 		/obj/item/restraints/legcuffs/bola/energy = 20,
-		/obj/item/clothing/gloves/tackler/security = 5,
 		/obj/item/ammo_box/advanced/s12gauge/bean = 2,
 	)
 	contraband = list(
@@ -51,7 +50,6 @@
 					/obj/item/clothing/suit/toggle/jacket/sec = 5,
 					/obj/item/clothing/suit/armor/vest/peacekeeper/brit = 5,
 					/obj/item/clothing/neck/security_cape = 5,
-					/obj/item/clothing/neck/security_cape/armplate = 5,
 					/obj/item/storage/backpack/security = 5,
 					/obj/item/storage/backpack/satchel/sec = 5,
 					/obj/item/storage/backpack/duffelbag/sec = 5,
@@ -65,14 +63,11 @@
 					/obj/item/clothing/under/rank/security/peacekeeper = 10,
 					/obj/item/clothing/under/rank/security/skyrat/utility = 3,
 					/obj/item/clothing/shoes/jackboots/sec = 10,
-					/obj/item/clothing/head/security_garrison = 10,
-					/obj/item/clothing/head/security_cap = 10,
 					/obj/item/clothing/head/beret/sec/peacekeeper = 5,
 					/obj/item/clothing/head/helmet/sec/sol = 5,
 					/obj/item/clothing/head/hats/warden/police/patrol = 5,
 					/obj/item/clothing/head/costume/ushanka/sec = 10,
 					/obj/item/clothing/gloves/color/black/security = 10,
-					/obj/item/clothing/head/helmet/sec/futuristic = 5,
 					)
 	premium = list( /obj/item/clothing/under/rank/security/officer/formal = 3,
 					/obj/item/clothing/suit/jacket/officer/blue = 3,
@@ -91,18 +86,12 @@
 	vend_reply = "Thank you for using the SecDrobe!"
 	icon = 'icons/obj/machines/vending.dmi'
 	icon_state = "secdrobe"
-	products = list(/obj/item/clothing/suit/hooded/wintercoat/security/redsec = 3,
-					/obj/item/storage/backpack/security/redsec = 3,
-					/obj/item/storage/backpack/satchel/sec/redsec = 3,
-					/obj/item/storage/backpack/duffelbag/sec/redsec = 3,
-					/obj/item/clothing/under/rank/security/officer/redsec = 3,
-					/obj/item/clothing/shoes/jackboots = 3,
+	products = list(/obj/item/clothing/shoes/jackboots = 3,
 					/obj/item/clothing/head/beret/sec = 3,
 					/obj/item/clothing/head/soft/sec = 3,
 					/obj/item/clothing/mask/bandana/red = 3,
 					/obj/item/clothing/gloves/color/black = 3,
 					/obj/item/clothing/under/rank/security/officer/skirt = 3,
-					/obj/item/clothing/under/rank/security/skyrat/utility/redsec = 3,
 					/obj/item/clothing/suit/toggle/jacket/sec/old = 3,
 					)
 	premium = list( /obj/item/clothing/under/rank/security/officer/formal = 5,

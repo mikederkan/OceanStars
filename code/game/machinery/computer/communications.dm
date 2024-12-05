@@ -5,13 +5,6 @@
 #define STATE_CHANGING_STATUS "changing_status"
 #define STATE_MAIN "main"
 #define STATE_MESSAGES "messages"
-//SKYRAT EDIT ADDITION
-GLOBAL_VAR_INIT(cops_arrived, FALSE)
-#define EMERGENCY_RESPONSE_POLICE "WOOP WOOP THAT'S THE SOUND OF THE POLICE"
-#define EMERGENCY_RESPONSE_ATMOS "DISCO INFERNO"
-#define EMERGENCY_RESPONSE_EMT "AAAAAUGH, I'M DYING, I NEEEEEEEEEED A MEDIC BAG"
-#define EMERGENCY_RESPONSE_EMAG "AYO THE PIZZA HERE"
-//SKYRAT EDIT END
 
 // The communications computer
 /obj/machinery/computer/communications
@@ -465,47 +458,6 @@ GLOBAL_VAR_INIT(cops_arrived, FALSE)
 			SSjob.safe_code_requested = TRUE
 			SSjob.safe_code_timer_id = addtimer(CALLBACK(SSjob, TYPE_PROC_REF(/datum/controller/subsystem/job, send_spare_id_safe_code), pod_location), 120 SECONDS, TIMER_UNIQUE | TIMER_STOPPABLE)
 			minor_announce("Due to staff shortages, your station has been approved for delivery of access codes to secure the Captain's Spare ID. Delivery via drop pod at [get_area(pod_location)]. ETA 120 seconds.")
-
-		// SKYRAT EDIT ADDITION START
-		if ("callThePolice")
-			if(!pre_911_check(usr))
-				return
-			calling_911(usr, "Marshals", EMERGENCY_RESPONSE_POLICE)
-		if ("callTheCatmos")
-			if(!pre_911_check(usr))
-				return
-			calling_911(usr, "Advanced Atmospherics", EMERGENCY_RESPONSE_ATMOS)
-		if ("callTheParameds")
-			if(!pre_911_check(usr))
-				return
-			calling_911(usr, "EMTs", EMERGENCY_RESPONSE_EMT)
-		if("callThePizza")
-			if(!(obj_flags & EMAGGED))
-				return
-			if(!pre_911_check(usr))
-				return
-			GLOB.cops_arrived = TRUE
-			log_game("[key_name(usr)] has dialed for a pizza order from Dogginos using an emagged communications console.")
-			message_admins("[ADMIN_LOOKUPFLW(usr)] has dialed for a pizza order from Dogginos using an emagged communications console.")
-			deadchat_broadcast(" has dialed for a pizza order from Dogginos using an emagged communications console.", span_name("[usr.real_name]"), usr, message_type=DEADCHAT_ANNOUNCEMENT)
-			GLOB.pizza_order = pick(GLOB.pizza_names)
-			call_911(EMERGENCY_RESPONSE_EMAG)
-			to_chat(usr, span_notice("Thank you for choosing Dogginos, [GLOB.pizza_order]!"))
-			playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
-		if("toggleEngOverride")
-			if(emergency_access_cooldown(usr)) //if were in cooldown, dont allow the following code
-				return
-			if (!authenticated_as_silicon_or_captain(usr))
-				return
-			if (GLOB.force_eng_override)
-				toggle_eng_override()
-				usr.log_message("disabled airlock engineering override.", LOG_GAME)
-				deadchat_broadcast(" disabled airlock engineering override at [span_name("[get_area_name(usr, TRUE)]")].", span_name("[usr.real_name]"), usr, message_type = DEADCHAT_ANNOUNCEMENT)
-			else
-				toggle_eng_override()
-				usr.log_message("enabled airlock engineering override.", LOG_GAME)
-				deadchat_broadcast(" enabled airlock engineering override at [span_name("[get_area_name(usr, TRUE)]")].", span_name("[usr.real_name]"), usr, message_type = DEADCHAT_ANNOUNCEMENT)
-		// SKYRAT EDIT ADDITION END
 
 /obj/machinery/computer/communications/proc/emergency_access_cooldown(mob/user)
 	if(toggle_uses == toggle_max_uses) //you have used up free uses already, do it one more time and start a cooldown
