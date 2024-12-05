@@ -14,7 +14,6 @@
 		/obj/item/storage/box/nri_survival_pack,
 		/obj/item/storage/medkit/emergency,
 		/obj/item/advanced_choice_beacon/nri/heavy,
-		/obj/item/beamout_tool,
 		/obj/item/crucifix,
 		/obj/item/reagent_containers/cup/glass/waterbottle/large/cryptobiolin,
 		/obj/item/ammo_box/magazine/recharge/plasma_battery,
@@ -46,7 +45,6 @@
 							/obj/item/clothing/head/beret/sec/nri,
 							/obj/item/ammo_box/magazine/recharge/plasma_battery,
 							/obj/item/gun/ballistic/automatic/pistol/plasma_thrower,
-							/obj/item/beamout_tool,
 							/obj/item/crucifix,
 							/obj/item/reagent_containers/cup/glass/waterbottle/large/cryptobiolin)
 
@@ -71,7 +69,6 @@
 							/obj/item/gun/medbeam,
 							/obj/item/gun/energy/cell_loaded/medigun/cmo,
 							/obj/item/storage/box/medicells,
-							/obj/item/beamout_tool,
 							/obj/item/crucifix,
 							/obj/item/reagent_containers/cup/glass/waterbottle/large/cryptobiolin)
 
@@ -93,7 +90,6 @@
 							/obj/item/construction/rcd/loaded/upgraded,
 							/obj/item/rcd_ammo/large,
 							/obj/item/advanced_choice_beacon/nri/engineer,
-							/obj/item/beamout_tool,
 							/obj/item/crucifix,
 							/obj/item/reagent_containers/cup/glass/waterbottle/large/cryptobiolin)
 
@@ -117,8 +113,7 @@
 	backpack_contents = list(/obj/item/storage/box/nri_survival_pack,
 							/obj/item/ammo_box/advanced/s12gauge/express,
 							/obj/item/suppressor/standard,
-							/obj/item/knife/combat,
-							/obj/item/beamout_tool)
+							/obj/item/knife/combat,)
 	l_pocket = null
 	r_pocket = null
 	shoes = /obj/item/clothing/shoes/combat/swat
@@ -139,8 +134,7 @@
 	back = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(/obj/item/storage/box/nri_survival_pack,
 							/obj/item/melee/baton/telescopic,
-							/obj/item/gun/energy/e_gun/mini,
-							/obj/item/beamout_tool)
+							/obj/item/gun/energy/e_gun/mini,)
 	l_pocket = null
 	r_pocket = null
 	shoes = /obj/item/clothing/shoes/sneakers/brown
@@ -165,7 +159,6 @@
 							/obj/item/ammo_box/magazine/recharge/plasma_battery,
 							/obj/item/storage/medkit/expeditionary,
 							/obj/item/melee/baton/telescopic,
-							/obj/item/beamout_tool)
 	l_pocket = null
 	r_pocket = null
 	shoes = /obj/item/clothing/shoes/sneakers/brown

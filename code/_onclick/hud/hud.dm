@@ -270,10 +270,6 @@ GLOBAL_LIST_INIT(available_erp_ui_styles, list(
 	alien_queen_finder = null
 	combo_display = null
 
-	//SKYRAT EDIT ADDITION START - SKYRAT HUD
-	wanted_lvl = null
-	// SKYRAT EDIT ADDITION END - SKYRAT HUD
-
 	QDEL_LIST_ASSOC_VAL(master_groups)
 	QDEL_LIST_ASSOC_VAL(plane_master_controllers)
 	QDEL_LIST(always_visible_inventory)
