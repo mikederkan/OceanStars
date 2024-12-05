@@ -79,10 +79,6 @@
 	banned_quirks = list(SEC_RESTRICTED_QUIRKS)
 	banned_augments = list(SEC_RESTRICTED_AUGMENTS)
 
-/datum/job/corrections_officer
-	banned_quirks = list(SEC_RESTRICTED_QUIRKS)
-	banned_augments = list(SEC_RESTRICTED_AUGMENTS)
-
 // Command
 /datum/job/captain
 	banned_quirks = list(HEAD_RESTRICTED_QUIRKS)
@@ -134,21 +130,6 @@
 
 /datum/job/prisoner
 	required_languages = null
-
-/datum/job/orderly
-	banned_quirks = list(GUARD_RESTRICTED_QUIRKS)
-
-/datum/job/science_guard
-	banned_quirks = list(GUARD_RESTRICTED_QUIRKS)
-
-/datum/job/customs_agent
-	banned_quirks = list(GUARD_RESTRICTED_QUIRKS)
-
-/datum/job/bouncer
-	banned_quirks = list(GUARD_RESTRICTED_QUIRKS)
-
-/datum/job/engineering_guard
-	banned_quirks = list(GUARD_RESTRICTED_QUIRKS)
 
 /datum/job/proc/has_required_languages(datum/preferences/pref)
 	if(!required_languages)
