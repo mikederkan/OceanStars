@@ -457,40 +457,7 @@ const PageMain = (props) => {
               onClick={() => act('restoreBackupRoutingData')}
             />
           )}
-          {
-            // SKYRAT EDIT BEGIN
-          }
-          {!!canMakeAnnouncement && (
-            <Button
-              icon="bullhorn"
-              content="Call Sol Federation 911: Marshals Response"
-              onClick={() => act('callThePolice')}
-            />
-          )}
-          {!!canMakeAnnouncement && (
-            <Button
-              icon="bullhorn"
-              content="Call Sol Federation 811: Advanced Atmospherics Response"
-              onClick={() => act('callTheCatmos')}
-            />
-          )}
-          {!!canMakeAnnouncement && (
-            <Button
-              icon="bullhorn"
-              content="Call Sol Federation 911: Medical Response"
-              onClick={() => act('callTheParameds')}
-            />
-          )}
-          {!!emagged && (
-            <Button
-              icon="bullhorn"
-              content="Place an Order with Dogginos Pizza"
-              onClick={() => act('callThePizza')}
-            />
-          )}
-          {
-            // SKYRAT EDIT END
-          }
+
         </Flex>
       </Section>
 
