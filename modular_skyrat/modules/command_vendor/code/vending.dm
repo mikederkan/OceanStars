@@ -145,7 +145,6 @@
 		/obj/item/clothing/under/rank/security/head_of_security/parade/female = 1,
 		/obj/item/clothing/suit/armor/hos/hos_formal = 1,
 		/obj/item/clothing/neck/cloak/hos = 1,
-		/obj/item/clothing/neck/cloak/hos/redsec = 1,
 		/obj/item/clothing/neck/mantle/hosmantle = 1,
 		/obj/item/clothing/glasses/hud/security/sunglasses/eyepatch = 1,
 		/obj/item/clothing/glasses/hud/security/sunglasses/gars/giga = 1,

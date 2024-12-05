@@ -295,12 +295,6 @@
 		/datum/job/warden = /obj/item/organ/internal/cyberimp/eyes/hud/security,
 		// SKYRAT EDIT ADDITION START - MODULAR JOBS
 		/datum/job/barber = /obj/item/organ/internal/ears/cybernetic/whisper,
-		/datum/job/corrections_officer = /obj/item/organ/internal/cyberimp/arm/flash,
-		/datum/job/orderly = /obj/item/organ/internal/cyberimp/brain/anti_drop,
-		/datum/job/science_guard = /obj/item/organ/internal/cyberimp/arm/flash,
-		/datum/job/customs_agent = /obj/item/organ/internal/cyberimp/eyes/hud/security,
-		/datum/job/bouncer = /obj/item/organ/internal/cyberimp/arm/strongarm,
-		/datum/job/engineering_guard = /obj/item/organ/internal/cyberimp/arm/flash,
 		/datum/job/telecomms_specialist = /obj/item/organ/internal/ears/cybernetic/xray,
 		// SKYRAT EDIT END
 	)

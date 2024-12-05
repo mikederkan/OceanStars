@@ -20,17 +20,17 @@
 
 /datum/loadout_item/accessory/armband_security_nonsec
 	name = "Blue Armband"
-	item_path = /obj/item/clothing/accessory/armband/deputy/lopland/nonsec
+	item_path = /obj/item/clothing/accessory/armband/deputy
 
 /datum/loadout_item/accessory/armband_security
 	name = "Security Armband"
-	item_path = /obj/item/clothing/accessory/armband/deputy/lopland
-	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE, JOB_CORRECTIONS_OFFICER)
+	item_path = /obj/item/clothing/accessory/armband/deputy
+	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE)
 
 /datum/loadout_item/accessory/armband_security_deputy
 	name = "Security Deputy Armband"
 	item_path = /obj/item/clothing/accessory/armband/deputy
-	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE, JOB_CORRECTIONS_OFFICER)
+	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE)
 
 /datum/loadout_item/accessory/armband_science
 	name = "Purple Armband"

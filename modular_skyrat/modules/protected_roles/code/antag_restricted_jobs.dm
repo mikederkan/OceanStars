@@ -20,21 +20,3 @@
 
 /datum/job/quartermaster
 	antagonist_restricted = TRUE
-
-/datum/job/corrections_officer
-	antagonist_restricted = TRUE
-
-/datum/job/orderly
-	antagonist_restricted = TRUE
-
-/datum/job/bouncer
-	antagonist_restricted = TRUE
-
-/datum/job/customs_agent
-	antagonist_restricted = TRUE
-
-/datum/job/engineering_guard
-	antagonist_restricted = TRUE
-
-/datum/job/science_guard
-	antagonist_restricted = TRUE

@@ -228,7 +228,7 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 	belt = /obj/item/modular_computer/pda/security
 	ears = /obj/item/radio/headset/headset_sec/alt
 	gloves = /obj/item/clothing/gloves/color/black/security
-	head = /obj/item/clothing/head/security_garrison //SKYRAT EDIT CHANGE - Original: /obj/item/clothing/head/helmet/sec
+	head = /obj/item/clothing/head/helmet/sec
 	shoes = /obj/item/clothing/shoes/jackboots/sec
 	glasses = /obj/item/clothing/glasses/hud/security //SKYRAT EDIT - ADDITION
 	l_pocket = /obj/item/restraints/handcuffs
@@ -242,10 +242,8 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 	box = /obj/item/storage/box/survival/security
 	chameleon_extras = list(
 		/obj/item/clothing/glasses/hud/security/sunglasses,
-		/obj/item/clothing/head/helmet,
 		/obj/item/gun/energy/disabler,
 		)
-		//The helmet is necessary because /obj/item/clothing/head/helmet/sec is overwritten in the chameleon list by the standard helmet, which has the same name and icon state
 	implants = list(/obj/item/implant/mindshield)
 
 /datum/outfit/job/security/mod

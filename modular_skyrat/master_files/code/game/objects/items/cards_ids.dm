@@ -16,10 +16,3 @@
 	name = "syndicate prisoner card"
 	icon = 'modular_skyrat/master_files/icons/obj/card.dmi'
 	icon_state = "card_ds2prisoner"
-
-// SOLFED
-/obj/item/card/id/advanced/solfed
-	name = "solfed identification card"
-	icon = 'modular_skyrat/master_files/icons/obj/card.dmi'
-	icon_state = "card_solfed"
-	assigned_icon_state = "assigned_solfed"

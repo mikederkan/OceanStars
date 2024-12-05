@@ -10,12 +10,6 @@
 							JOB_DETECTIVE,
 							JOB_HEAD_OF_SECURITY,
 							JOB_CAPTAIN,
-							JOB_CORRECTIONS_OFFICER,
-							JOB_ORDERLY,
-							JOB_BOUNCER,
-							JOB_CUSTOMS_AGENT,
-							JOB_ENGINEERING_GUARD,
-							JOB_SCIENCE_GUARD,
 							)
 	required_candidates = 1
 	weight = 4 //Slightly less common than normal midround traitors.

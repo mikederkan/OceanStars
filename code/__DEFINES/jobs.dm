@@ -63,30 +63,25 @@
 #define JOB_SECURITY_OFFICER_ENGINEERING "Security Officer (Engineering)"
 #define JOB_SECURITY_OFFICER_SCIENCE "Security Officer (Science)"
 #define JOB_SECURITY_OFFICER_SUPPLY "Security Officer (Cargo)"
-#define JOB_CORRECTIONS_OFFICER "Corrections Officer" // SKYRAT EDIT ADDITION
 //Engineering
 #define JOB_STATION_ENGINEER "Station Engineer"
 #define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
-#define JOB_ENGINEERING_GUARD "Engineering Guard" // SKYRAT EDIT ADDITION
 #define JOB_TELECOMMS_SPECIALIST "Telecomms Specialist" // SKYRAT EDIT ADDITION
 //Medical
 #define JOB_CORONER "Coroner"
 #define JOB_MEDICAL_DOCTOR "Medical Doctor"
 #define JOB_PARAMEDIC "Paramedic"
 #define JOB_CHEMIST "Chemist"
-#define JOB_ORDERLY "Orderly" // SKYRAT EDIT ADDITION
 //Science
 #define JOB_SCIENTIST "Scientist"
 #define JOB_ROBOTICIST "Roboticist"
 #define JOB_GENETICIST "Geneticist"
-#define JOB_SCIENCE_GUARD "Science Guard"
 //Supply
 #define JOB_QUARTERMASTER "Quartermaster"
 #define JOB_CARGO_TECHNICIAN "Cargo Technician"
 #define JOB_CARGO_GORILLA "Cargo Gorilla"
 #define JOB_SHAFT_MINER "Shaft Miner"
 #define JOB_BITRUNNER "Bitrunner"
-#define JOB_CUSTOMS_AGENT "Customs Agent" // SKYRAT EDIT ADDITION
 //Service
 #define JOB_BARTENDER "Bartender"
 #define JOB_BOTANIST "Botanist"
@@ -100,7 +95,6 @@
 #define JOB_CHAPLAIN "Chaplain"
 #define JOB_PSYCHOLOGIST "Psychologist"
 #define JOB_BARBER "Barber" // SKYRAT EDIT ADDITION
-#define JOB_BOUNCER "Bouncer" // SKYRAT EDIT ADDITION
 //ERTs
 #define JOB_ERT_DEATHSQUAD "Death Commando"
 #define JOB_ERT_COMMANDER "Emergency Response Team Commander"
@@ -133,10 +127,6 @@
 #define JOB_NAVAL_REAR_ADMIRAL "Rear Admiral"
 #define JOB_NAVAL_ADMIRAL "Admiral"
 #define JOB_NAVAL_FLEET_ADMIRAL "Fleet Admiral"
-// Off-Station
-#define JOB_SPACE_POLICE "Space Police"
-#define JOB_SOLFED "SolFed"
-#define JOB_SOLFED_LIASON "SolFed Liason"
 // SKYRAT EDIT ADDITION END
 
 #define JOB_GROUP_ENGINEERS list( \
@@ -184,14 +174,8 @@
 #define JOB_DISPLAY_ORDER_DETECTIVE 37
 #define JOB_DISPLAY_ORDER_SECURITY_OFFICER 38
 #define JOB_DISPLAY_ORDER_PRISONER 39
-#define JOB_DISPLAY_ORDER_SECURITY_MEDIC 100 //SKYRAT EDIT ADDITON
-#define JOB_DISPLAY_ORDER_CORRECTIONS_OFFICER 101 //SKYRAT EDIT ADDITON
-#define JOB_DISPLAY_ORDER_ORDERLY 102 //SKYRAT EDIT ADDITION
-#define JOB_DISPLAY_ORDER_SCIENCE_GUARD 103 //SKYRAT EDIT ADDITION
-#define JOB_DISPLAY_ORDER_BOUNCER 104 //SKYRAT EDIT ADDITION
-#define JOB_DISPLAY_ORDER_ENGINEER_GUARD 105 //SKYRAT EDIT ADDITION
-#define JOB_DISPLAY_ORDER_CUSTOMS_AGENT 106 //SKYRAT EDIT ADDITION
-#define JOB_DISPLAY_ORDER_EXP_CORPS 107 //SKYRAT EDIT ADDITON
+#define JOB_DISPLAY_ORDER_SECURITY_MEDIC 100 //SKYRAT EDIT ADDITON i forgot how much this sucks
+#define JOB_DISPLAY_ORDER_EXP_CORPS 101 //SKYRAT EDIT ADDITON
 #define JOB_DISPLAY_ORDER_TELECOMMS_SPECIALIST 51 //SKYRAT EDIT ADDITION
 
 #define DEPARTMENT_UNASSIGNED "No Department"

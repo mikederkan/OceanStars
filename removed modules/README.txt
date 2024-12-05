@@ -1,0 +1,1 @@
+This a folder for modules that are being removed, but otherwise have desirable features/sprites/etc that will be re-used later.
