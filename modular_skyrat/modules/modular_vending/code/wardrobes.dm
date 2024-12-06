@@ -21,8 +21,6 @@
 		/obj/item/clothing/under/rank/engineering/engineer/skyrat/trouser = 3,
 		/obj/item/clothing/under/rank/engineering/engineer/skyrat/utility = 3,
 		/obj/item/clothing/under/rank/engineering/engineer/skyrat/hazard_chem = 3,
-		/obj/item/clothing/under/rank/engineering/engineer/skyrat/utility/telecomm = 3,
-		/obj/item/clothing/under/rank/engineering/engineer/skyrat/utility/telecomm/skirt = 3,
 		/obj/item/clothing/under/misc/overalls = 3,
 		/obj/item/clothing/suit/toggle/jacket/engi = 3,
 		/obj/item/clothing/suit/toggle/jacket/tcomm = 3,
