@@ -71,11 +71,3 @@
 /datum/area_spawn/barber_landmark
 	target_areas = list(/area/station/service/salon, /area/station/hallway/secondary/service)
 	desired_atom = /obj/effect/landmark/start/barber
-
-/datum/area_spawn/telecomms_specialist_landmark
-	target_areas = list(
-		/area/station/tcommsat/computer,
-		/area/station/engineering/lobby,
-		/area/station/engineering/break_room,
-	)
-	desired_atom = /obj/effect/landmark/start/telecomms_specialist
