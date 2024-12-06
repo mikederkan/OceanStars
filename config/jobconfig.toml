@@ -64,8 +64,8 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 3
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [CAPTAIN]
 "Playtime Requirements" = 2400
@@ -92,8 +92,8 @@
 "Playtime Requirements" = 60
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [CHIEF_ENGINEER]
 "Playtime Requirements" = 2400

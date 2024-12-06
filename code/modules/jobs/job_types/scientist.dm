@@ -32,7 +32,8 @@
 		/obj/item/disk/design_disk/bepis = 2,
 	)
 	rpg_title = "Thaumaturgist"
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = JOB_CANNOT_OPEN_SLOTS
 
 	job_tone = "boom"
 

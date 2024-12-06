@@ -42,7 +42,8 @@
 
 	family_heirlooms = list(/obj/item/toy/plush/slimeplushie)
 	rpg_title = "Archmagister"
-	job_flags = STATION_JOB_FLAGS | HEAD_OF_STAFF_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = JOB_CANNOT_OPEN_SLOTS
 
 	voice_of_god_power = 1.4 //Command staff has authority
 

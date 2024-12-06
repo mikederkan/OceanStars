@@ -34,7 +34,8 @@
 
 	family_heirlooms = list(/obj/item/bikehorn/golden)
 	rpg_title = "Jester"
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = JOB_CANNOT_OPEN_SLOTS
 
 	job_tone = "honk"
 

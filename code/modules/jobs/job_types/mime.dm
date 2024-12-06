@@ -29,7 +29,8 @@
 		/obj/item/book/granter/action/spell/mime/mimery = 1,
 	)
 	rpg_title = "Fool"
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = JOB_CANNOT_OPEN_SLOTS
 
 	voice_of_god_power = 0.5 //Why are you speaking
 	voice_of_god_silence_power = 3

@@ -30,7 +30,8 @@
 		/obj/item/toy/plush/ratplush = 1
 	)
 	rpg_title = "Paladin"
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = JOB_CANNOT_OPEN_SLOTS
 
 	voice_of_god_power = 2 //Chaplains are very good at speaking with the voice of god
 
@@ -87,7 +88,7 @@
 					holy_bible.deity_name = pick("Sweet Bro", "Hella Jeff", "Stairs", "AH")
 				if("F.A.T.A.L. Rulebook")
 					holy_bible.deity_name = "Twenty Ten-Sided Dice"
-				if("Toilet Humor")
+				if("Toilet Humor") //i hate you people
 					holy_bible.deity_name = pick("Skibidi Toilet", "Skibidi Wizard", "Skibidi Bathtub", "John Skibidi", "Skibidi Skibidi", "G-Toilet 1.0", "John Freeman")
 			human_spawned.adjustOrganLoss(ORGAN_SLOT_BRAIN, 100) // also starts off brain damaged as fuck
 		if("servicianism", "partying")

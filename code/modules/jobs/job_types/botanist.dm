@@ -3,8 +3,8 @@
 	description = "Grow plants for the cook, for medicine, and for recreation."
 	department_head = list(JOB_HEAD_OF_PERSONNEL)
 	faction = FACTION_STATION
-	total_positions = 3
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = SUPERVISOR_HOP
 	exp_granted_type = EXP_TYPE_CREW
 	config_tag = "BOTANIST"
@@ -36,7 +36,8 @@
 		/obj/item/food/monkeycube/bee = 2
 	)
 
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = STATION_JOB_FLAGS | JOB_CANNOT_OPEN_SLOTS
 	rpg_title = "Gardener"
 
 /datum/outfit/job/botanist

@@ -34,8 +34,8 @@
 		/obj/item/grenade/gas_crystal/healium_crystal = 10,
 		/obj/item/grenade/gas_crystal/nitrous_oxide_crystal = 5,
 	)
-
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = JOB_CANNOT_OPEN_SLOTS
 	rpg_title = "Aeromancer"
 
 /datum/outfit/job/atmos
