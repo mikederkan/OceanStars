@@ -295,7 +295,6 @@
 		/datum/job/warden = /obj/item/organ/internal/cyberimp/eyes/hud/security,
 		// SKYRAT EDIT ADDITION START - MODULAR JOBS
 		/datum/job/barber = /obj/item/organ/internal/ears/cybernetic/whisper,
-		/datum/job/telecomms_specialist = /obj/item/organ/internal/ears/cybernetic/xray,
 		// SKYRAT EDIT END
 	)
 

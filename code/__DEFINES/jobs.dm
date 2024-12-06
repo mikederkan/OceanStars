@@ -66,7 +66,6 @@
 //Engineering
 #define JOB_STATION_ENGINEER "Station Engineer"
 #define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
-#define JOB_TELECOMMS_SPECIALIST "Telecomms Specialist" // SKYRAT EDIT ADDITION
 //Medical
 #define JOB_CORONER "Coroner"
 #define JOB_MEDICAL_DOCTOR "Medical Doctor"
@@ -176,7 +175,6 @@
 #define JOB_DISPLAY_ORDER_PRISONER 39
 #define JOB_DISPLAY_ORDER_SECURITY_MEDIC 100 //SKYRAT EDIT ADDITON i forgot how much this sucks
 #define JOB_DISPLAY_ORDER_EXP_CORPS 101 //SKYRAT EDIT ADDITON
-#define JOB_DISPLAY_ORDER_TELECOMMS_SPECIALIST 51 //SKYRAT EDIT ADDITION
 
 #define DEPARTMENT_UNASSIGNED "No Department"
 
