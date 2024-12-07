@@ -47,10 +47,6 @@ GLOBAL_DATUM(cargo_sloth, /mob/living/basic/sloth)
 	if(!mapload || !isnull(GLOB.cargo_sloth) || !is_station_level(z))
 		return
 
-	// If someone adds non-cargo sloths to maps we'll have a problem but we're fine for now
-	GLOB.cargo_sloth = src
-	GLOB.gorilla_start += get_turf(src)
-
 /mob/living/basic/sloth/Destroy()
 	if(GLOB.cargo_sloth == src)
 		GLOB.cargo_sloth = null

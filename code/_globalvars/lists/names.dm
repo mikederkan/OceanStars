@@ -26,7 +26,6 @@ GLOBAL_LIST_INIT(megacarp_last_names, world.file2list("strings/names/megacarp2.t
 GLOBAL_LIST_INIT(cyberauth_names, world.file2list("strings/names/cyberauth.txt"))
 GLOBAL_LIST_INIT(hacker_aliases, world.file2list("strings/names/hackers.txt"))
 GLOBAL_LIST_INIT(syndicate_monkey_names, world.file2list("strings/names/syndicate_monkey.txt"))
-GLOBAL_LIST_INIT(cargorilla_names, world.file2list("strings/names/cargorilla.txt"))
 GLOBAL_LIST_INIT(guardian_first_names, world.file2list("strings/names/guardian_descriptions.txt"))
 GLOBAL_LIST_INIT(guardian_tech_surnames, world.file2list("strings/names/guardian_gamepieces.txt"))
 GLOBAL_LIST_INIT(guardian_fantasy_surnames, world.file2list("strings/names/guardian_tarot.txt"))

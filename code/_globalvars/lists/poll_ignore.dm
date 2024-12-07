@@ -7,7 +7,6 @@
 #define POLL_IGNORE_ASHWALKER "ashwalker"
 #define POLL_IGNORE_BLOB "blob"
 #define POLL_IGNORE_BOTS "bots"
-#define POLL_IGNORE_CARGORILLA "cargorilla"
 #define POLL_IGNORE_CONSTRUCT "construct"
 #define POLL_IGNORE_CONTRACTOR_SUPPORT "contractor_support"
 #define POLL_IGNORE_DRONE "drone"
@@ -46,7 +45,6 @@ GLOBAL_LIST_INIT(poll_ignore_desc, list(
 	POLL_IGNORE_ASHWALKER = "Ashwalker eggs",
 	POLL_IGNORE_BLOB = "Blob spores",
 	POLL_IGNORE_BOTS = "Bots",
-	POLL_IGNORE_CARGORILLA = "Cargorilla",
 	POLL_IGNORE_CONSTRUCT = "Construct",
 	POLL_IGNORE_CONTRACTOR_SUPPORT = "Contractor Support Unit",
 	POLL_IGNORE_DRONE = "Drone shells",
