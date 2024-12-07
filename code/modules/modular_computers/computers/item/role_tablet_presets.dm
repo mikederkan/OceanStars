@@ -390,13 +390,6 @@
 		/datum/computer_file/program/bounty_board,
 	)
 
-/obj/item/modular_computer/pda/bridge_assistant
-	name = "bridge assistant PDA"
-	greyscale_colors = "#374f7e#a92323"
-	starting_programs = list(
-		/datum/computer_file/program/status,
-	)
-
 /obj/item/modular_computer/pda/veteran_advisor
 	name = "security advisor PDA"
 	greyscale_colors = "#EA3232#FFD700"

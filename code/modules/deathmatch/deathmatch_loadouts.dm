@@ -765,8 +765,7 @@
 	ears = /obj/item/radio/headset/headset_com
 	neck = /obj/item/clothing/neck/large_scarf/blue
 	//suit
-	id_trim = /datum/id_trim/job/bridge_assistant // half tider half command
-	id = /obj/item/card/id/advanced/chameleon
+	id = /obj/item/card/id/advanced/chameleon //id gone fuck deathmatch
 	uniform = /obj/item/clothing/under/trek/command/next
 	l_pocket = /obj/item/gun/energy/e_gun/mini
 	r_pocket = /obj/item/extinguisher/mini
