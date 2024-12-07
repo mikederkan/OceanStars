@@ -13,8 +13,7 @@
 
 /obj/effect/spawner/random/astrum/mid
 	name = "astrum mid"
-	loot = list(/obj/item/storage/medkit/expeditionary = 20,
-				/obj/item/shield/riot/tele = 12,
+	loot = list(/obj/item/shield/riot/tele = 12,
 				/obj/item/dnainjector/shock = 10,
 				/obj/item/book/granter/action/spell/summonitem = 20,
 				/obj/item/storage/backpack/holding = 12,
