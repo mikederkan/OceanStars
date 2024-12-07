@@ -1138,6 +1138,31 @@
 		)
 	job = /datum/job/shaft_miner
 
+	/datum/id_trim/job/shipbreaker //copy of cargo tech, dummy file
+	assignment = JOB_SHIPBREAKER
+	trim_state = "trim_cargotechnician"
+	department_color = COLOR_CARGO_BROWN
+	subdepartment_color = COLOR_CARGO_BROWN
+	sechud_icon_state = SECHUD_SHIPBREAKER
+	minimal_access = list(
+		ACCESS_CARGO,
+		ACCESS_MAINT_TUNNELS,
+		ACCESS_MECH_MINING,
+		ACCESS_MINERAL_STOREROOM,
+		ACCESS_SHIPPING,
+		)
+	extra_access = list(
+		ACCESS_BIT_DEN,
+		ACCESS_MINING,
+		ACCESS_MINING_STATION,
+		)
+	template_access = list(
+		ACCESS_CAPTAIN,
+		ACCESS_CHANGE_IDS,
+		ACCESS_QM,
+		)
+	job = /datum/job/shipbreaker
+
 /// ID card obtained from the mining Disney dollar points vending machine.
 /datum/id_trim/job/shaft_miner/spare
 	minimal_access = list(
@@ -1178,6 +1203,35 @@
 		ACCESS_CE,
 		)
 	job = /datum/job/station_engineer
+
+/datum/id_trim/job/station_mechanic //copy of station engineer, dummy file
+	assignment = JOB_STATION_MECHANIC
+	trim_state = "trim_stationengineer"
+	department_color = COLOR_ENGINEERING_ORANGE
+	subdepartment_color = COLOR_ENGINEERING_ORANGE
+	sechud_icon_state = SECHUD_STATION_ENGINEER
+	minimal_access = list(
+		ACCESS_AUX_BASE,
+		ACCESS_CONSTRUCTION,
+		ACCESS_ENGINEERING,
+		ACCESS_ENGINE_EQUIP,
+		ACCESS_EXTERNAL_AIRLOCKS,
+		ACCESS_MAINT_TUNNELS,
+		ACCESS_MECH_ENGINE,
+		ACCESS_MINERAL_STOREROOM,
+		ACCESS_MINISAT,
+		ACCESS_TCOMMS,
+		ACCESS_TECH_STORAGE,
+		)
+	extra_access = list(
+		ACCESS_ATMOSPHERICS,
+		)
+	template_access = list(
+		ACCESS_CAPTAIN,
+		ACCESS_CHANGE_IDS,
+		ACCESS_CE,
+		)
+	job = /datum/job/station_mechanic
 
 /datum/id_trim/job/warden
 	assignment = JOB_WARDEN

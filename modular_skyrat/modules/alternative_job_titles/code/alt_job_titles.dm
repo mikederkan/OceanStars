@@ -293,7 +293,6 @@
 		"Custodian",
 		"Groundskeeper",
 		"Maid",
-		"Maintenance Technician",
 		"Sanitation Technician",
 	)
 
@@ -403,6 +402,17 @@
 		"Security Assistant",
 	)
 
+/datum/job/shipbreaker
+	alt_titles = list(
+	"Shipbreaker",
+	"Salvage Technician",
+	"Systems Reclaimer",
+	"Scrapper",
+	"Junker",
+	"Breaker",
+	"Ship Butcher",
+	)
+
 /datum/job/shaft_miner
 	alt_titles = list(
 		"Shaft Miner",
@@ -418,22 +428,22 @@
 	alt_titles = list(
 		"Station Engineer",
 		"Electrician",
-		"Emergency Damage Control Technician",
-		"Engine Technician",
 		"EVA Technician",
-		"Mechanic",
+		"Stationwright",
+		"Infrastructure Specialist",
+		"Solar Technician",
+		"Maintenance Engineer",
 		"Apprentice Engineer",
 	)
 
-/datum/job/telecomms_specialist
+/datum/job/station_mechanic
 	alt_titles = list(
-		"Telecomms Specialist",
-		"Wireless Operator",
-		"Network Engineer",
-		"Sysadmin",
-		"Tram Technician",
+		"Station Mechanic",
+		"Plumber",
+		"Hydromechanic",
+		"Fluid Systems Technician",
+		"Mechanical Systems Specialist",
 	)
-
 
 /datum/job/warden
 	alt_titles = list(

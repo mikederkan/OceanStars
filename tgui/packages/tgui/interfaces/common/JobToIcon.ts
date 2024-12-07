@@ -50,7 +50,9 @@ const BASEICONS = {
   'Security Officer (Science)': 'shield-halved',
   'Security Officer': 'shield-halved',
   'Shaft Miner': 'digging',
-  'Station Engineer': 'gears',
+  Shipbreaker: 'rocket',
+  'Station Engineer': 'bolt-lightning',
+  'Station Mechanic': 'gears',
   'Syndicate Operative': 'dragon',
   Warden: 'handcuffs',
   // SKYRAT EDIT START - Skyrat-exclusive jobs have icons too
@@ -165,7 +167,6 @@ const ALTTITLES = {
   Custodian: BASEICONS['Janitor'],
   'Custodial Technician': BASEICONS['Janitor'],
   'Sanitation Technician': BASEICONS['Janitor'],
-  'Maintenance Technician': BASEICONS['Janitor'],
   Concierge: BASEICONS['Janitor'],
   Maid: BASEICONS['Janitor'],
   // Lawyer - gavel
@@ -243,14 +244,29 @@ const ALTTITLES = {
   Spelunker: BASEICONS['Shaft Miner'],
   'Drill Technician': BASEICONS['Shaft Miner'],
   Prospector: BASEICONS['Shaft Miner'],
-  // Station Engineer - gears
-  'Emergency Damage Control Technician': BASEICONS['Station Engineer'],
+  // Shipbreaker: - rocket
+  Shipbreaker: BASEICONS['Shipbreaker'],
+	'Salvage Technician': BASEICONS['Shipbreaker'],
+	'Systems Reclaimer': BASEICONS['Shipbreaker'],
+	Scrapper: BASEICONS['Shipbreaker'],
+	Junker: BASEICONS['Shipbreaker'],
+	Breaker: BASEICONS['Shipbreaker'],
+	'Ship Butcher': BASEICONS['Shipbreaker'],
+  // Station Engineer - bolt-lightning
+  'Station Engineer': BASEICONS['Station Engineer'],
   Electrician: BASEICONS['Station Engineer'],
-  'Engine Technician': BASEICONS['Station Engineer'],
   'EVA Technician': BASEICONS['Station Engineer'],
-  Mechanic: BASEICONS['Station Engineer'],
+  Stationwright: BASEICONS['Station Engineer'],
+  'Infrastructure Specialist': BASEICONS['Station Engineer'],
+  'Solar Technician': BASEICONS['Station Engineer'],
+  'Maintenance Engineer': BASEICONS['Station Engineer'],
   'Apprentice Engineer': BASEICONS['Station Engineer'],
-  'Engineering Trainee': BASEICONS['Station Engineer'],
+  // Station Mechanic - gears
+  'Station Mechanic': BASEICONS['Station Mechanic'],
+  Plumber: BASEICONS['Station Mechanic'],
+  Hydromechanic: BASEICONS['Station Mechanic'],
+  'Fluid Systems Technician': BASEICONS['Station Mechanic'],
+  'Mechanical Systems Specialist': BASEICONS['Station Mechanic'],
   // Virologist - virus
   Virologist: 'virus',
   Pathologist: BASEICONS['Virologist'],
