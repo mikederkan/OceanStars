@@ -50,7 +50,7 @@ const BASEICONS = {
   'Security Officer (Science)': 'shield-halved',
   'Security Officer': 'shield-halved',
   'Shaft Miner': 'digging',
-  Shipbreaker: 'rocket'
+  Shipbreaker: 'rocket',
   'Station Engineer': 'bolt-lightning',
   'Station Mechanic': 'gears',
   'Syndicate Operative': 'dragon',
