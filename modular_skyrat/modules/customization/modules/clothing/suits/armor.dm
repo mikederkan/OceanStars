@@ -89,14 +89,3 @@
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
 	icon_state = "solgov_overcoat"
 	body_parts_covered = CHEST|ARMS
-
-/obj/item/clothing/suit/armor/vest/bridge
-	name = "bridge assistant coat"
-	desc = "For those big enough to live on the bridge, but not so big they can reach the buttons."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
-	icon_state = "coat_solgov"
-
-/obj/item/clothing/suit/armor/vest/bridge/Initialize(mapload)
-	. = ..()
-	AddComponent(/datum/component/toggle_icon)

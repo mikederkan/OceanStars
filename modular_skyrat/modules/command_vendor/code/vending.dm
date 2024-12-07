@@ -175,7 +175,6 @@
 		/obj/item/clothing/head/hats/imperial/white = 2,
 		/obj/item/clothing/head/hats/imperial/red = 5,
 		/obj/item/clothing/head/hats/imperial/helmet = 5,
-		/obj/item/clothing/suit/armor/vest/bridge = 5,
 		/obj/item/clothing/glasses/sunglasses/gar/giga = 5,
 		/obj/item/clothing/head/hats/caphat/naval/fleet_admiral = 5,
 		/obj/item/clothing/neck/cloak/fleet_admiral = 5,
