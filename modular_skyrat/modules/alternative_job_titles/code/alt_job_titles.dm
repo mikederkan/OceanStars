@@ -408,8 +408,9 @@
 	"Salvage Technician",
 	"Systems Reclaimer",
 	"Scrapper",
-	"Junkwright",
-	"Breaksmith",
+	"Junker",
+	"Breaker",
+	"Ship Butcher",
 	)
 
 /datum/job/shaft_miner
@@ -428,10 +429,10 @@
 		"Station Engineer",
 		"Electrician",
 		"EVA Technician",
-		"Stationwright"
+		"Stationwright",
+		"Infrastructure Specialist",
+		"Solar Technician",
 		"Maintenance Engineer",
-		"Infrastructure Specialist"
-		"Solar Technician"
 		"Apprentice Engineer",
 	)
 
