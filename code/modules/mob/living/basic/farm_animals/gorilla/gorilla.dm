@@ -151,20 +151,4 @@
 	. = ..()
 	transform *= 0.75
 
-/// Cargo's wonderful mascot, the tranquil box-carrying ape
-/mob/living/basic/gorilla/cargorilla
-	name = "Cargorilla" // Overriden, normally
-	icon = 'icons/mob/simple/cargorillia.dmi'
-	desc = "Cargo's pet gorilla. They seem to have an 'I love Mom' tattoo."
-	maxHealth = 200
-	health = 200
-	faction = list(FACTION_NEUTRAL, FACTION_MONKEY, FACTION_JUNGLE)
-	unique_name = FALSE
-	ai_controller = null
-
-/mob/living/basic/gorilla/cargorilla/Initialize(mapload)
-	. = ..()
-	ADD_TRAIT(src, TRAIT_PACIFISM, INNATE_TRAIT)
-	AddComponent(/datum/component/crate_carrier)
-
 #undef GORILLA_HANDS_LAYER
