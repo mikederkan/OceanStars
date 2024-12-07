@@ -41,7 +41,6 @@
 	attack_verb_simple = list("shove", "bash")
 	transparent = TRUE
 	max_integrity = 150
-	repairable_by = /obj/item/stack/sheet/iron //what to repair the shield with
 	shield_break_leftover = /obj/item/ballistic_broken
 
 /obj/item/ballistic_broken

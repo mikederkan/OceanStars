@@ -157,7 +157,6 @@
 							/obj/item/gun/ballistic/automatic/pistol/plasma_marksman,
 							/obj/item/ammo_box/magazine/recharge/plasma_battery,
 							/obj/item/ammo_box/magazine/recharge/plasma_battery,
-							/obj/item/storage/medkit/expeditionary,
 							/obj/item/melee/baton/telescopic,)
 	l_pocket = null
 	r_pocket = null

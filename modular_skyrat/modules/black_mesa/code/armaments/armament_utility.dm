@@ -14,11 +14,6 @@
 	max_purchase = 8
 	cost = 1
 
-/datum/armament_entry/hecu/utility/pouch_knives
-	item_type = /obj/item/storage/pouch/ammo/marksman
-	max_purchase = 4
-	cost = 3
-
 /datum/armament_entry/hecu/utility/basic_tools
 	item_type = /obj/item/storage/toolbox/mechanical
 	max_purchase = 2
