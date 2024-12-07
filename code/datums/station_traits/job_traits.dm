@@ -76,40 +76,6 @@
 	var/datum/job/our_job = SSjob.GetJobType(job_to_add)
 	return our_job.player_old_enough(player) && ..()
 
-/// Adds a gorilla to the cargo department, replacing the sloth and the mech
-/datum/station_trait/job/cargorilla
-	name = "Cargo Gorilla"
-	button_desc = "Sign up to become the Cargo Gorilla, a peaceful shepherd of boxes."
-	weight = 1
-	show_in_report = FALSE // Selective attention test. Did you spot the gorilla?
-	can_roll_antag = CAN_ROLL_NEVER
-	job_to_add = /datum/job/cargo_gorilla
-
-/datum/station_trait/job/cargorilla/New()
-	. = ..()
-	RegisterSignal(SSatoms, COMSIG_SUBSYSTEM_POST_INITIALIZE, PROC_REF(replace_cargo))
-
-/* SKYRAT EDIT REMOVAL
-/datum/station_trait/job/cargorilla/on_lobby_button_update_overlays(atom/movable/screen/lobby/button/sign_up/lobby_button, list/overlays)
-	. = ..()
-	overlays += LAZYFIND(lobby_candidates, lobby_button.get_mob()) ? "gorilla_on" : "gorilla_off"
-*/
-/// Remove the cargo equipment and personnel that are being replaced by a gorilla.
-/datum/station_trait/job/cargorilla/proc/replace_cargo(datum/source)
-	SIGNAL_HANDLER
-	var/mob/living/basic/sloth/cargo_sloth = GLOB.cargo_sloth
-	if(isnull(cargo_sloth))
-		lobby_candidates = list()
-		destroy_lobby_buttons() // Sorry folks
-		sign_up_button = FALSE
-		return
-
-	// hmm our sloth looks funny today
-	qdel(cargo_sloth)
-	// monkey carries the crates, the age of robot is over
-	if(GLOB.cargo_ripley)
-		qdel(GLOB.cargo_ripley)
-
 /datum/station_trait/job/veteran_advisor
 	name = "Veteran Advisor"
 	button_desc = "Sign up to become a DISABLED but hard boiled Veteran Advisor of Nanotrasen Security Force. Advise HoS and Captain, train Officers, all while fighting your PTSD."
