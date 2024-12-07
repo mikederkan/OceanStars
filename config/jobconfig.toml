@@ -270,12 +270,26 @@
 "Spawn Positions" = 4
 "Total Positions" = 4
 
+[SHIPBREAKER]
+"Playtime Requirements" = 60
+"Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 0
+"Total Positions" = 0
+
 [STATION_ENGINEER]
 "Playtime Requirements" = 60
 "Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 5
 "Total Positions" = 5
+
+[STATION_MECHANIC]
+"Playtime Requirements" = 60
+"Required Account Age" = 0
+"# Required Character Age" = 0
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [VANGUARD_OPERATIVE]
 "Playtime Requirements" = 400

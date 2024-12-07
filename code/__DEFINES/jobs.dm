@@ -63,6 +63,7 @@
 //Engineering
 #define JOB_STATION_ENGINEER "Station Engineer"
 #define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
+#define JOB_STATION_MECHANIC "Station Mechanic"
 //Medical
 #define JOB_CORONER "Coroner"
 #define JOB_MEDICAL_DOCTOR "Medical Doctor"
@@ -77,6 +78,7 @@
 #define JOB_CARGO_TECHNICIAN "Cargo Technician"
 #define JOB_SHAFT_MINER "Shaft Miner"
 #define JOB_BITRUNNER "Bitrunner"
+#define JOB_SHIPBREAKER "Shipbreaker"
 //Service
 #define JOB_BARTENDER "Bartender"
 #define JOB_BOTANIST "Botanist"
