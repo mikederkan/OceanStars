@@ -1,4 +1,5 @@
 //dye registry, add dye colors and their resulting output here if you want the sprite to change instead of just the color.
+//actually cute but must go cuz i hate fun
 GLOBAL_LIST_INIT(dye_registry, list(
 	DYE_REGISTRY_UNDER = list(
 		DYE_RED = /obj/item/clothing/under/color/red,
@@ -25,7 +26,6 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_PRISONER = /obj/item/clothing/under/rank/prisoner,
 		DYE_SYNDICATE = /obj/item/clothing/under/syndicate,
 		DYE_CENTCOM = /obj/item/clothing/under/rank/centcom/commander,
-		DYE_COSMIC = /obj/item/clothing/under/rank/station_trait/human_ai,
 	),
 	DYE_REGISTRY_JUMPSKIRT = list(
 		DYE_RED = /obj/item/clothing/under/color/jumpskirt/red,

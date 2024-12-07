@@ -463,7 +463,5 @@ That prevents a few funky behaviors.
 
 /obj/item/circuitboard/aicore/Initialize(mapload)
 	. = ..()
-	if(mapload && HAS_TRAIT(SSstation, STATION_TRAIT_HUMAN_AI))
-		return INITIALIZE_HINT_QDEL
 
 #undef AI_CORE_BRAIN

@@ -1065,9 +1065,6 @@
 	. = ..()
 	if(!istype(exposed_carbon))
 		return
-	var/obj/item/organ/internal/liver/liver = exposed_carbon.get_organ_slot(ORGAN_SLOT_LIVER)
-	if(liver && HAS_TRAIT(liver, TRAIT_HUMAN_AI_METABOLISM))
-		return
 	reac_volume = round(reac_volume,0.1)
 	if(methods & INGEST)
 		exposed_carbon.adjustBruteLoss(min(6*toxpwr, reac_volume * toxpwr), required_bodytype = affected_bodytype)

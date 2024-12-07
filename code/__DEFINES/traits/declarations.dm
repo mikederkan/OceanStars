@@ -588,6 +588,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // a liking to those substances. Steal a sec officer's liver, eat donuts good.
 
 // These traits are applied to /obj/item/organ/internal/liver
+// damn these are fucking stupid and must go
 #define TRAIT_LAW_ENFORCEMENT_METABOLISM "law_enforcement_metabolism"
 #define TRAIT_CULINARY_METABOLISM "culinary_metabolism"
 #define TRAIT_COMEDY_METABOLISM "comedy_metabolism"
@@ -598,7 +599,6 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_BALLMER_SCIENTIST "ballmer_scientist"
 #define TRAIT_MAINTENANCE_METABOLISM "maintenance_metabolism"
 #define TRAIT_CORONER_METABOLISM "coroner_metabolism"
-#define TRAIT_HUMAN_AI_METABOLISM "human_ai_metabolism"
 
 //LUNG TRAITS
 /// Lungs always breathe normally when in vacuum/space.
