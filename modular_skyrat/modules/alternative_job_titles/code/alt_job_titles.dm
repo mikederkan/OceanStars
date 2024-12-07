@@ -293,7 +293,6 @@
 		"Custodian",
 		"Groundskeeper",
 		"Maid",
-		"Maintenance Technician",
 		"Sanitation Technician",
 	)
 
@@ -430,7 +429,7 @@
 		"Electrician",
 		"EVA Technician",
 		"Stationwright"
-		"Maintenance Engineer"
+		"Maintenance Engineer",
 		"Infrastructure Specialist"
 		"Solar Technician"
 		"Apprentice Engineer",
