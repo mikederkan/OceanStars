@@ -377,15 +377,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	keyslot2 = new /obj/item/encryptionkey/ai
 	command = TRUE
 
-/obj/item/radio/headset/silicon/human_ai
-	name = "\proper Disconnected Subspace Transceiver"
-	desc = "A headset that is rumored to be one day implanted into a brain in a jar directly."
-	icon_state = "rob_headset"
-	worn_icon_state = "rob_headset"
-	keyslot2 = new /obj/item/encryptionkey/ai_with_binary
-	command = TRUE
-
-/obj/item/radio/headset/silicon/ai/evil
+/obj/item/radio/headset/silicon/ai/evil // what?
 	name = "\proper Evil Integrated Subspace Transceiver"
 	keyslot2 = new /obj/item/encryptionkey/ai/evil
 	command = FALSE
