@@ -578,18 +578,6 @@
 	icon_state = "hood_ce"
 	armor_type = /datum/armor/engineering_ce
 
-// Atmospherics Technician
-/obj/item/clothing/suit/hooded/wintercoat/engineering/atmos
-	name = "atmospherics winter coat"
-	desc = "A yellow and blue winter coat. The zipper pull-tab is made to look like a miniature breath mask."
-	icon_state = "coatatmos"
-	inhand_icon_state = "coatatmos"
-	hoodtype = /obj/item/clothing/head/hooded/winterhood/engineering/atmos
-
-/obj/item/clothing/head/hooded/winterhood/engineering/atmos
-	desc = "A yellow and blue winter coat hood."
-	icon_state = "hood_atmos"
-
 // Cargo Technician
 /obj/item/clothing/suit/hooded/wintercoat/cargo
 	name = "cargo winter coat"
