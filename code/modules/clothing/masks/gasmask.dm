@@ -172,7 +172,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 
 /obj/item/clothing/mask/gas/atmos
 	name = "atmospheric gas mask"
-	desc = "Improved gas mask utilized by atmospheric technicians. It's flameproof!"
+	desc = "Improved gas mask utilized by station engineers. It's flameproof!"
 	icon_state = "gas_atmos"
 	inhand_icon_state = "gas_atmos"
 	armor_type = /datum/armor/gas_atmos

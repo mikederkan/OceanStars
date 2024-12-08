@@ -560,10 +560,6 @@
 	name = "Engineering Winter Coat"
 	item_path = /obj/item/clothing/suit/hooded/wintercoat/engineering
 
-/datum/loadout_item/suit/coat_atmos
-	name = "Atmospherics Winter Coat"
-	item_path = /obj/item/clothing/suit/hooded/wintercoat/engineering/atmos
-
 /datum/loadout_item/suit/coat_hydro
 	name = "Hydroponics Winter Coat"
 	item_path = /obj/item/clothing/suit/hooded/wintercoat/hydro

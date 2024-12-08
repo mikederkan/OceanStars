@@ -1197,11 +1197,6 @@
 	inhand_icon_state = "assistant"
 	toysay = "Greytide world wide!"
 
-/obj/item/toy/figure/atmos
-	name = "\improper Atmospheric Technician action figure"
-	icon_state = "atmos"
-	toysay = "Glory to Atmosia!"
-
 /obj/item/toy/figure/bartender
 	name = "\improper Bartender action figure"
 	icon_state = "bartender"
