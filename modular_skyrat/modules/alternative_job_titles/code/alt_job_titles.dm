@@ -47,15 +47,6 @@
 		"Waiter",
 	)
 
-/datum/job/atmospheric_technician
-	alt_titles = list(
-		"Atmospheric Technician",
-		"Emergency Fire Technician",
-		"Firefighter",
-		"Life Support Technician",
-		"HVAC Engineer",
-	)
-
 /datum/job/barber
 	alt_titles = list(
 		"Barber",
@@ -427,12 +418,14 @@
 /datum/job/station_engineer
 	alt_titles = list(
 		"Station Engineer",
+		"Maintenance Engineer",
+		"HVAC Engineer",
 		"Electrician",
 		"EVA Technician",
-		"Stationwright",
+		"Atmospheric Technician",
+		"Life Support Technician",
 		"Infrastructure Specialist",
 		"Solar Technician",
-		"Maintenance Engineer",
 		"Apprentice Engineer",
 	)
 

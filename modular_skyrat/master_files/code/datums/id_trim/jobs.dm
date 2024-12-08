@@ -25,11 +25,6 @@
 
 	minimal_access |= ACCESS_WEAPONS
 
-/datum/id_trim/job/atmospheric_technician/New()
-	. = ..()
-
-	minimal_access |= ACCESS_ENGINE_EQUIP
-
 /datum/id_trim/job/chief_medical_officer/New()
 	. = ..()
 

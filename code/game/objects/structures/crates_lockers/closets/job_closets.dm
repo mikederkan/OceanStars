@@ -152,24 +152,6 @@
 		/obj/item/radio/headset/headset_cargo = 1)
 	generate_items_inside(items_inside,src)
 
-/obj/structure/closet/wardrobe/atmospherics_yellow
-	name = "atmospherics wardrobe"
-	icon_door = "atmos_wardrobe"
-
-/obj/structure/closet/wardrobe/atmospherics_yellow/PopulateContents()
-	var/static/items_inside = list(
-		/obj/item/clothing/accessory/pocketprotector = 1,
-		/obj/item/storage/backpack/duffelbag/engineering = 1,
-		/obj/item/storage/backpack/satchel/eng = 1,
-		/obj/item/storage/backpack/industrial = 1,
-		/obj/item/storage/backpack/messenger/eng = 1,
-		/obj/item/clothing/suit/atmos_overalls = 3,
-		/obj/item/clothing/suit/hooded/wintercoat/engineering/atmos = 3,
-		/obj/item/clothing/under/rank/engineering/atmospheric_technician = 3,
-		/obj/item/clothing/shoes/sneakers/black = 3)
-	generate_items_inside(items_inside,src)
-	return
-
 /obj/structure/closet/wardrobe/engineering_yellow
 	name = "engineering wardrobe"
 	icon_door = "engi_wardrobe"

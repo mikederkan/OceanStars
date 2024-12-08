@@ -854,12 +854,8 @@
 	display_name = "Plasmamen"
 	desc = "Burn baby burn!"
 	species_override = /datum/species/plasmaman
-
-	head = /obj/item/clothing/head/helmet/space/plasmaman/atmospherics
 	suit = /obj/item/clothing/suit/hazardvest
 	suit_store = /obj/item/flashlight
-	uniform = /obj/item/clothing/under/plasmaman/atmospherics
-	id_trim = /datum/id_trim/job/atmospheric_technician
 	id = /obj/item/card/id/advanced/chameleon
 	belt = /obj/item/storage/belt/utility/atmostech
 	gloves = /obj/item/clothing/gloves/color/plasmaman/atmos
