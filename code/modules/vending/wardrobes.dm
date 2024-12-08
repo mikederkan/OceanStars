@@ -151,31 +151,6 @@ GLOBAL_VAR_INIT(roaches_deployed, FALSE)
 /obj/item/vending_refill/wardrobe/engi_wardrobe
 	machine_name = "EngiDrobe"
 
-/obj/machinery/vending/wardrobe/atmos_wardrobe
-	name = "AtmosDrobe"
-	desc = "This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job."
-	icon_state = "atmosdrobe"
-	product_ads = "Get your inflammable clothing right here!!!"
-	vend_reply = "Thank you for using the AtmosDrobe!"
-	products = list(
-		/obj/item/clothing/accessory/pocketprotector = 3,
-		/obj/item/clothing/under/rank/engineering/atmospheric_technician = 3,
-		/obj/item/clothing/under/rank/engineering/atmospheric_technician/skirt = 3,
-		/obj/item/clothing/suit/atmos_overalls = 3,
-		/obj/item/clothing/suit/hooded/wintercoat/engineering/atmos = 3,
-		/obj/item/clothing/shoes/sneakers/black = 3,
-		/obj/item/storage/backpack/satchel/eng = 3,
-		/obj/item/storage/backpack/industrial = 3,
-		/obj/item/storage/backpack/duffelbag/engineering = 3,
-		/obj/item/storage/backpack/messenger/eng = 3,
-	)
-	refill_canister = /obj/item/vending_refill/wardrobe/atmos_wardrobe
-	payment_department = ACCOUNT_ENG
-	light_color = COLOR_VIVID_YELLOW
-
-/obj/item/vending_refill/wardrobe/atmos_wardrobe
-	machine_name = "AtmosDrobe"
-
 /obj/machinery/vending/wardrobe/cargo_wardrobe
 	name = "CargoDrobe"
 	desc = "A highly advanced vending machine for buying cargo related clothing for free."

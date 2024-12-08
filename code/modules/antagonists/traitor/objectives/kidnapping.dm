@@ -42,7 +42,6 @@
 		// Cargo
 		/datum/job/cargo_technician,
 		// Engineering
-		/datum/job/atmospheric_technician,
 		/datum/job/station_engineer,
 		// Medical
 		/datum/job/chemist,

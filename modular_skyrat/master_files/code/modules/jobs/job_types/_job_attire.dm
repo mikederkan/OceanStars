@@ -2,9 +2,6 @@
 /datum/job/assistant
 	akula_outfit = /datum/outfit/akula/assistant
 
-/datum/job/atmospheric_technician
-	akula_outfit = /datum/outfit/akula/station_engineer
-
 /datum/job/bartender
 	akula_outfit = /datum/outfit/akula
 

@@ -52,9 +52,6 @@
 		if(target.trim == JOB_STATION_ENGINEER)
 			engineers++
 
-		if(target.trim == JOB_ATMOSPHERIC_TECHNICIAN)
-			engineers++
-
 	if(engineers > crew_threshold)
 		return FALSE
 

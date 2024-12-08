@@ -126,7 +126,7 @@
 /datum/loadout_item/glasses/mesonpatch
 	name = "Meson Eyepatch"
 	item_path = /obj/item/clothing/glasses/hud/eyepatch/meson
-	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER, JOB_ATMOSPHERIC_TECHNICIAN)
+	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER)
 
 /datum/loadout_item/glasses/sechud
 	name = "Security HUD"
@@ -171,7 +171,7 @@
 /datum/loadout_item/glasses/aviator_meson
 	name = "Meson HUD Aviators"
 	item_path = /obj/item/clothing/glasses/hud/ar/aviator/meson
-	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER, JOB_ATMOSPHERIC_TECHNICIAN)
+	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER)
 
 /datum/loadout_item/glasses/aviator_diagnostic
 	name = "Diagnostic HUD Aviators"
@@ -197,7 +197,7 @@
 /datum/loadout_item/glasses/prescription_aviator_meson
 	name = "Prescription Meson HUD Aviators"
 	item_path = /obj/item/clothing/glasses/hud/ar/aviator/meson/prescription
-	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER, JOB_ATMOSPHERIC_TECHNICIAN)
+	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER)
 
 /datum/loadout_item/glasses/prescription_aviator_diagnostic
 	name = "Prescription Diagnostic HUD Aviators"
@@ -222,7 +222,7 @@
 /datum/loadout_item/glasses/retinal_projector_meson
 	name = "Retinal Projector Meson HUD"
 	item_path = /obj/item/clothing/glasses/hud/ar/projector/meson
-	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER, JOB_ATMOSPHERIC_TECHNICIAN)
+	restricted_roles = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN, JOB_SHAFT_MINER, JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER)
 
 /datum/loadout_item/glasses/retinal_projector_diagnostic
 	name = "Retinal Projector Diagnostic HUD"

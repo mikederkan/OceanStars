@@ -60,6 +60,8 @@
 
 	backpack_contents = list(
 		/obj/item/construction/rcd/loaded,
+		/obj/item/analyzer,
+		/obj/item/extinguisher/mini,
 	)
 
 	box = /obj/item/storage/box/survival/engineer
