@@ -127,9 +127,9 @@
 
 #define JOB_GROUP_ENGINEERS list( \
 	JOB_STATION_ENGINEER, \
-	JOB_STATION_MECHANIC, \  //im guessing this is for orange alert and thats going
+	JOB_STATION_MECHANIC, \
 )
-
+//im guessing this is for orange alert and thats going
 
 #define JOB_DISPLAY_ORDER_ASSISTANT 1
 #define JOB_DISPLAY_ORDER_CAPTAIN 2
