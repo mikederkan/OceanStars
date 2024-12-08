@@ -857,7 +857,6 @@
 	suit = /obj/item/clothing/suit/hazardvest
 	suit_store = /obj/item/flashlight
 	id = /obj/item/card/id/advanced/chameleon
-	belt = /obj/item/storage/belt/utility/atmostech
 	gloves = /obj/item/clothing/gloves/color/plasmaman/atmos
 	shoes = /obj/item/clothing/shoes/workboots
 	r_pocket = /obj/item/tank/internals/plasmaman/belt/full
