@@ -159,10 +159,9 @@
 
 /datum/supply_pack/vending/wardrobes/engineering
 	name = "Engineering Wardrobe Supply Crate"
-	desc = "This crate contains refills for the EngiDrobe and AtmosDrobe."
-	cost = CARGO_CRATE_VALUE * 3
+	desc = "This crate contains refills for the EngiDrobe."
+	cost = CARGO_CRATE_VALUE * 1.5
 	contains = list(/obj/item/vending_refill/wardrobe/engi_wardrobe,
-					/obj/item/vending_refill/wardrobe/atmos_wardrobe,
 				)
 	crate_name = "engineering department wardrobe supply crate"
 

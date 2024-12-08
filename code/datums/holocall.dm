@@ -333,12 +333,6 @@
 /datum/preset_holoimage/engineer/ce/mod
 	outfit_type = /datum/outfit/job/ce/mod
 
-/datum/preset_holoimage/engineer/atmos
-	outfit_type = /datum/outfit/job/atmos
-
-/datum/preset_holoimage/engineer/atmos/mod
-	outfit_type = /datum/outfit/job/atmos/mod
-
 /datum/preset_holoimage/researcher
 	outfit_type = /datum/outfit/job/scientist
 
@@ -396,7 +390,7 @@
 	NAME Jacob Ullman
 	SAY Lets blow this popsicle stand of a station.
 	DELAY 20
-	PRESET /datum/preset_holoimage/engineer/atmos
+	PRESET /datum/preset_holoimage/engineer/mod
 	NAME Lindsey Cuffler
 	SAY Uh, sir? Shouldn't we call for a secondary shuttle? The bluespace drive on this thing made an awfully weird noise when we jumped here..
 	DELAY 30
@@ -414,7 +408,7 @@
 	SOUND sparks
 	SOUND warpspeed
 	DELAY 15
-	PRESET /datum/preset_holoimage/engineer/atmos
+	PRESET /datum/preset_holoimage/engineer/mod
 	NAME Lindsey Cuffler
 	SAY Uhh.. is it supposed to be doing that??
 	DELAY 15
@@ -439,7 +433,7 @@
 	SAY Maria, how's Build?
 	DELAY 10
 	NAME Maria Dell
-	PRESET /datum/preset_holoimage/engineer/atmos
+	PRESET /datum/preset_holoimage/engineer/mod
 	SAY It's fine, don't worry. I've got Plastic on it. And frankly, i'm kinda busy with, the, uhhm, incinerator.
 	DELAY 30
 	NAME Dave Tundrale
@@ -447,14 +441,14 @@
 	SAY Aight, wonderful. The science mans been kinda shit though. No RCDs-
 	DELAY 20
 	NAME Maria Dell
-	PRESET /datum/preset_holoimage/engineer/atmos
+	PRESET /datum/preset_holoimage/engineer/mod
 	SAY Enough about your RCDs. They're not even that important, just bui-
 	DELAY 15
 	SOUND explosion
 	DELAY 10
 	SAY Oh, shit!
 	DELAY 10
-	PRESET /datum/preset_holoimage/engineer/atmos/mod
+	PRESET /datum/preset_holoimage/engineer/mod
 	LANGUAGE /datum/language/narsie
 	NAME Unknown
 	SAY RISE, MY LORD!!
@@ -465,7 +459,7 @@
 	SAY Fuck, fuck, fuck!
 	DELAY 20
 	NAME Maria Dell
-	PRESET /datum/preset_holoimage/engineer/atmos
+	PRESET /datum/preset_holoimage/engineer/mod
 	SAY GEORGE, WAIT-
 	DELAY 10
 	PRESET /datum/preset_holoimage/corgi
@@ -573,7 +567,7 @@
 /obj/item/disk/holodisk/ruin/space/travelers_rest
 	name = "Owner's memo"
 	desc = "A holodisk containing a small memo from the previous owner, addressed to someone else."
-	preset_image_type = /datum/preset_holoimage/engineer/atmos
+	preset_image_type = /datum/preset_holoimage/engineer/mod
 	preset_record_text = {"
 		NAME Space Adventurer
 		SOUND PING
