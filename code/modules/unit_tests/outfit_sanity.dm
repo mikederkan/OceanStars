@@ -44,9 +44,6 @@
 	var/prototype_name = initial(prototype_outfit.name)
 	var/mob/living/carbon/human/H = allocate(/mob/living/carbon/human/consistent)
 
-	var/list/outfits_to_check = subtypesof(/datum/outfit)
-	outfits_to_check -= typesof(/datum/outfit/deathmatch_loadout)
-
 	for (var/outfit_type in outfits_to_check)
 		// Only make one human and keep undressing it because it's much faster
 		for (var/obj/item/I in H.get_equipped_items(INCLUDE_POCKETS))
