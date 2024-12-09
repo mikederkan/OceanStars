@@ -540,6 +540,8 @@
 		to_chat(user, span_warning("You're still recovering from your last escape attempt!")) // prevent escape spam
 		return FALSE
 
+	var/escape_chance = CONSTRICT_ESCAPE_CHANCE
+
 	if (!prob(escape_chance))
 		user.visible_message(span_warning("[user] squirms as they fail to escape from [owner]'s tail!"), span_warning("You squirm as you fail to escape from [owner]'s tail!"), ignored_mobs = owner)
 		to_chat(owner, span_warning("[user] squirms as they fail to escape from the grip of your tail!"))
