@@ -69,8 +69,8 @@
 /datum/sprite_accessory/snouts/mammal/tajaran
 	recommended_species = list(SPECIES_MAMMAL, SPECIES_TAJARAN, SPECIES_HUMANOID)
 
-/datum/sprite_accessory/snouts/mammal/akula
-	recommended_species = list(SPECIES_MAMMAL, SPECIES_AKULA, SPECIES_AQUATIC, SPECIES_HUMANOID)
+/datum/sprite_accessory/snouts/mammal/shark
+	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMANOID)
 
 /datum/sprite_accessory/snouts/mammal/bird
 	name = "Beak"
@@ -211,15 +211,15 @@
 	name = "Sergal"
 	icon_state = "sergal"
 
-/datum/sprite_accessory/snouts/mammal/akula/shark
+/datum/sprite_accessory/snouts/mammal/shark
 	name = "Shark"
 	icon_state = "shark"
 
-/datum/sprite_accessory/snouts/mammal/akula/hshark
+/datum/sprite_accessory/snouts/mammal/hshark
 	name = "hShark"
 	icon_state = "hshark"
 
-/datum/sprite_accessory/snouts/mammal/akula/hshark_eyes
+/datum/sprite_accessory/snouts/mammal/hshark_eyes
 	name = "hShark and eyes"
 	icon_state = "hshark_eyes"
 
@@ -406,7 +406,7 @@
 	name = "Corvid Beak (Top)"
 	icon_state = "fcorvidbeak"
 
-/datum/sprite_accessory/snouts/mammal/akula/shark_light
+/datum/sprite_accessory/snouts/mammal/shark_light
 	name = "Shark Light"
 	icon_state = "sharkblubber"
 	color_src = USE_MATRIXED_COLORS

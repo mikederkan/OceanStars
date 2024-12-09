@@ -158,12 +158,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/syndicate, 32)
 	icon_state = "folded_nri"
 	sign_path = /obj/structure/sign/flag/nri
 
-/obj/item/sign/flag/azulea
-	name = "folded flag of Azulea"
-	desc = "The folded flag of the Akulan nation Azulea."
-	icon_state = "folded_azulea"
-	sign_path = /obj/structure/sign/flag/azulea
-
 /// Please, for the love of God, use this in Black Mesa ONLY. NOWHERE ELSE. It's the only reason it was allowed in the game.
 /obj/item/sign/flag/usa
 	name = "folded flag of the United States of America"

@@ -81,7 +81,7 @@
 // AdditionalEmotes *turf quirks
 /datum/quirk/water_aspect
 	name = "Water aspect (Emotes)"
-	desc = "(Aquatic innate) Underwater societies are home to you, space ain't much different. (Say *turf to cast)"
+	desc = "You can control water for aesthetic purposes. (Say *turf to cast)"
 	value = 0
 	mob_trait = TRAIT_WATER_ASPECT
 	gain_text = span_notice("You feel like you can control water.")

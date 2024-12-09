@@ -44,15 +44,6 @@
 	result = /obj/item/food/cookie/shortbread
 	category = CAT_PASTRY
 
-/datum/crafting_recipe/food/tuna
-	name = "Can of Tuna"
-	time = 40
-	reqs = list(/obj/item/stack/sheet/iron = 1,
-		/obj/item/food/fishmeat = 2
-	)
-	result = /obj/item/food/canned/tuna
-	category = CAT_SEAFOOD
-
 // Recipes that provide crafting instructions and don't yield any result
 
 /datum/crafting_recipe/food/grill/battered_sausage

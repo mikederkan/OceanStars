@@ -20,7 +20,6 @@
 //SKYRAT EDIT ADDITION BEGIN - MORE SCANNER GATE OPTIONS
 #define SCANGATE_MAMMAL "mammal"
 #define SCANGATE_VOX "vox"
-#define SCANGATE_AQUATIC "aquatic"
 #define SCANGATE_INSECT "insect"
 #define SCANGATE_XENO "xeno"
 #define SCANGATE_UNATHI "unathi"
@@ -253,8 +252,6 @@
 						scan_species = /datum/species/mammal
 					if(SCANGATE_VOX)
 						scan_species = /datum/species/vox
-					if(SCANGATE_AQUATIC)
-						scan_species = /datum/species/aquatic
 					if(SCANGATE_INSECT)
 						scan_species = /datum/species/insect
 					if(SCANGATE_XENO)
@@ -465,7 +462,6 @@
 //SKYRAT EDIT BEGIN - MORE SCANNER GATE OPTIONS
 #undef SCANGATE_MAMMAL
 #undef SCANGATE_VOX
-#undef SCANGATE_AQUATIC
 #undef SCANGATE_INSECT
 #undef SCANGATE_XENO
 #undef SCANGATE_UNATHI
