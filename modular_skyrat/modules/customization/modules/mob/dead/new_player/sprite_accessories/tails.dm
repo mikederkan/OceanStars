@@ -70,11 +70,11 @@
 	organ_type = /obj/item/organ/external/tail/fluffy
 	flags_for_organ = SPRITE_ACCESSORY_WAG_ABLE
 
-/datum/sprite_accessory/tails/mammal/wagging/shark
+/datum/sprite_accessory/tails/mammal/wagging/akula
 	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMAN, SPECIES_SYNTH, SPECIES_HUMANOID, SPECIES_GHOUL)
 
 /datum/sprite_accessory/tails/mammal/wagging/tajaran
-	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMAN, SPECIES_SYNTH, SPECIES_HUMANOID, SPECIES_GHOUL)
+	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMAN, SPECIES_SYNTH, SPECIES_TAJARAN, SPECIES_HUMANOID, SPECIES_GHOUL)
 
 /datum/sprite_accessory/tails/mammal/teshari
 	recommended_species = list(SPECIES_TESHARI)
@@ -317,13 +317,13 @@
 	icon_state = "bigring_large"
 	color_src = USE_MATRIXED_COLORS
 
+/datum/sprite_accessory/tails/mammal/wagging/akula //if this doesnt work re-add /akula/. akula are gone, dmi movement sprites are just annoying
+	name = "Shark Alt"
+	icon_state = "akula"
+
 /datum/sprite_accessory/tails/mammal/wagging/shark
 	name = "Shark"
 	icon_state = "shark"
-
-/datum/sprite_accessory/tails/mammal/wagging/shark_alt
-	name = "Shark Alt"
-	icon_state = "shark_alt"
 
 /datum/sprite_accessory/tails/mammal/wagging/shark_no_fin
 	name = "Shark (No Fin)"
