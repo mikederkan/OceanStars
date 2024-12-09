@@ -18,9 +18,6 @@
 //Grab breakout odds
 #define OVERSIZED_GRAB_RESIST_BONUS 10 /// For those with the oversized trait, they get this.
 
-//Grab breakout bonus for akulas when at 10+ wet_stacks
-#define AKULA_GRAB_RESIST_BONUS 10
-
 // Damage modifiers
 #define OVERSIZED_HARM_DAMAGE_BONUS 5 /// Those with the oversized trait do 5 more damage.
 #define OVERSIZED_KICK_EFFECTIVENESS_BONUS 5 /// Increased unarmed_effectiveness/stun threshold on oversized kicks.

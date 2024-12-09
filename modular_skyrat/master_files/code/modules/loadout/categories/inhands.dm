@@ -71,7 +71,3 @@
 /datum/loadout_item/inhand/flag_nri
 	name = "Folded Novaya Rossiyskaya Imperiya Flag"
 	item_path = /obj/item/sign/flag/nri
-
-/datum/loadout_item/inhand/flag_azulea
-	name = "Folded Azulea Flag"
-	item_path = /obj/item/sign/flag/azulea

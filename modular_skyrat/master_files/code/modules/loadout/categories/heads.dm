@@ -278,10 +278,6 @@
 	name = "Witch Hat"
 	item_path = /obj/item/clothing/head/wizard/marisa/fake
 
-/datum/loadout_item/head/akula_helmet
-	name = "Shoredress Helmet"
-	item_path = /obj/item/clothing/head/helmet/space/akula_wetsuit
-
 /*
 *	MISC
 */
@@ -532,18 +528,6 @@
 /datum/loadout_item/head/jesteralt
 	name = "Jester hat (Alt)"
 	item_path = /obj/item/clothing/head/costume/jesteralt
-
-/datum/loadout_item/head/azulea_oldblood
-	name = "Oldblood's Royal cap"
-	item_path = /obj/item/clothing/head/hats/caphat/azulean/old_blood
-	restricted_roles = list(JOB_CAPTAIN)
-	restricted_species = list(SPECIES_AKULA)
-
-/datum/loadout_item/head/azulea_upstart
-	name = "Upstart's Noble cap"
-	item_path = /obj/item/clothing/head/hats/caphat/azulean/upstart
-	restricted_roles = list(JOB_CAPTAIN)
-	restricted_species = list(SPECIES_AKULA)
 
 /*
 *	JOB BERETS

@@ -64,10 +64,6 @@ const TARGET_SPECIES_LIST = [
     value: 'vox',
   },
   {
-    name: 'Aquatic',
-    value: 'aquatic',
-  },
-  {
     name: 'Anthromorphic Insect',
     value: 'insect',
   },

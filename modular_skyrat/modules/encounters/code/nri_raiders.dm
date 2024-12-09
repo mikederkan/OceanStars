@@ -189,7 +189,7 @@ GLOBAL_VAR(first_officer)
 	flavour_text = "The station has refused to pay the fine for breaking Imperial regulations, you are here to recover the debt. Do so by demanding the funds. Force approach is usually recommended, but isn't the only method."
 	important_text = "Allowed races are humans, Akulas, IPCs. Follow your field officer's orders. Important mention - while you are listed as the pirates gamewise, you really aren't lore-and-everything-else-wise. Roleplay accordingly."
 	outfit = /datum/outfit/pirate/nri
-	restricted_species = list(/datum/species/human, /datum/species/akula, /datum/species/synthetic)
+	restricted_species = list(/datum/species/human, /datum/species/synthetic)
 	random_appearance = FALSE
 	show_flavor = TRUE
 
@@ -219,7 +219,7 @@ GLOBAL_VAR(first_officer)
 	name = "NRI Officer sleeper"
 	prompt_name = "a NRI Field Officer"
 	mob_name = "Novaya Rossiyskaya Imperiya police patrol's field officer"
-	outfit = /datum/outfit/pirate/nri/officer
+	outfit = /datum/outfit/pirate/nri/officer //akulas are mentioned but not used, this will be removed later
 	flavour_text = "The station has refused to pay the fine for breaking Imperial regulations, as a consequence you are here to perform a prolonged inspection."
 	important_text = "Allowed races are humans, Akulas, IPCs. Roleplay accordingly. There is an important document in your pocket I'd advise you to read and keep safe."
 

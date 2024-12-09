@@ -60,8 +60,8 @@
 /datum/sprite_accessory/ears/mutant/tajaran
 	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMAN, SPECIES_SYNTH, SPECIES_FELINE, SPECIES_TAJARAN, SPECIES_HUMANOID, SPECIES_GHOUL)
 
-/datum/sprite_accessory/ears/mutant/akula
-	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMAN, SPECIES_SYNTH, SPECIES_FELINE, SPECIES_AQUATIC, SPECIES_AKULA, SPECIES_HUMANOID, SPECIES_GHOUL)
+/datum/sprite_accessory/ears/mutant/shark
+	recommended_species = list(SPECIES_MAMMAL, SPECIES_HUMAN, SPECIES_SYNTH, SPECIES_FELINE, SPECIES_HUMANOID, SPECIES_GHOUL)
 
 /datum/sprite_accessory/ears/mutant/axolotl
 	name = "Axolotl"
@@ -169,7 +169,7 @@
 	name = "Fox"
 	icon_state = "fox"
 
-/datum/sprite_accessory/ears/mutant/akula/hammerhead
+/datum/sprite_accessory/ears/mutant/hammerhead
 	name = "Hammerhead"
 	icon_state = "hammerhead"
 
@@ -223,7 +223,7 @@
 	name = "Scolipede"
 	icon_state = "pede"
 
-/datum/sprite_accessory/ears/mutant/akula/sergal
+/datum/sprite_accessory/ears/mutant/sergal
 	name = "Sergal"
 	icon_state = "sergal"
 

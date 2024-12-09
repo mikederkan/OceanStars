@@ -1975,7 +1975,6 @@
 	pixel_y = 1
 	},
 /obj/item/food/canned/tomatoes,
-/obj/item/food/canned/tuna{
 	pixel_x = -6;
 	pixel_y = -5
 	},
