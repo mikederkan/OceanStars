@@ -3058,12 +3058,14 @@
 /datum/reagent/hauntium/on_mob_metabolize(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
 	to_chat(affected_mob, span_userdanger("You feel an evil presence inside you!"))
+	if(affected_mob.mob_biotypes & MOB_UNDEAD || HAS_MIND_TRAIT(affected_mob, TRAIT_MORBID))
+		affected_mob.add_mood_event("morbid_hauntium", /datum/mood_event/morbid_hauntium, name) //8 minutes of slight mood buff if undead or morbid
 	else
 		affected_mob.add_mood_event("hauntium_spirits", /datum/mood_event/hauntium_spirits, name) //8 minutes of mood debuff
 
 /datum/reagent/hauntium/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
-	if(affected_mob.mob_biotypes & MOB_UNDEAD)
+	if(affected_mob.mob_biotypes & MOB_UNDEAD) //if undead, acts like an addiction-less drug
 		affected_mob.remove_status_effect(/datum/status_effect/jitter)
 		affected_mob.AdjustStun(-50 * REM * seconds_per_tick)
 		affected_mob.AdjustKnockdown(-50 * REM * seconds_per_tick)
@@ -3075,6 +3077,7 @@
 			. = UPDATE_MOB_HEALTH
 		if(SPT_PROB(10, seconds_per_tick))
 			affected_mob.emote(pick("twitch","choke","shiver","gag"))
+
 
 // The same as gold just with a slower metabolism rate, to make using the Hand of Midas easier.
 /datum/reagent/gold/cursed

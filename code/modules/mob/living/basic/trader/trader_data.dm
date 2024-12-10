@@ -92,7 +92,6 @@
 		/obj/item/clothing/mask/bandana/skull/black = list(PAYCHECK_CREW, INFINITY),
 		/obj/item/food/cookie/sugar/spookyskull = list(PAYCHECK_CREW * 0.2, INFINITY),
 		/obj/item/instrument/trombone/spectral = list(PAYCHECK_CREW * 200, INFINITY),
-		/obj/item/shovel/serrated = list(PAYCHECK_CREW * 3, INFINITY),
 	)
 
 	initial_wanteds = list(

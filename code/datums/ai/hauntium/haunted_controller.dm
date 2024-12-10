@@ -29,6 +29,7 @@
 	if(isliving(equipper))
 		var/mob/living/possibly_cool = equipper
 		if(possibly_cool.mob_biotypes & MOB_UNDEAD)
+			haunt_equipper = FALSE
 	if(haunt_equipper)
 		//You have now become one of the victims of the HAAAAUNTTIIIINNGGG OOOOOO~~~
 		set_blackboard_key_assoc(BB_TO_HAUNT_LIST, equipper, HAUNTED_ITEM_AGGRO_ADDITION)

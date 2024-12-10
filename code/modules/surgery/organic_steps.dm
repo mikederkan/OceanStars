@@ -153,7 +153,6 @@
 	name = "saw bone (circular saw)"
 	implements = list(
 		TOOL_SAW = 100,
-		/obj/item/shovel/serrated = 75,
 		/obj/item/melee/arm_blade = 75,
 		/obj/item/fireaxe = 50,
 		/obj/item/hatchet = 35,

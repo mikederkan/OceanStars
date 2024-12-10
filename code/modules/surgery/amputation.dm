@@ -45,7 +45,6 @@
 		/obj/item/shears = 300,
 		TOOL_SCALPEL = 100,
 		TOOL_SAW = 100,
-		/obj/item/shovel/serrated = 75,
 		/obj/item/melee/arm_blade = 80,
 		/obj/item/fireaxe = 50,
 		/obj/item/hatchet = 40,
@@ -73,7 +72,6 @@
 	name = "detach limb (circular saw)"
 	implements = list(
 		TOOL_SAW = 100,
-		/obj/item/shovel/serrated = 100,
 		/obj/item/fireaxe = 90,
 		/obj/item/hatchet = 75,
 		TOOL_SCALPEL = 25,
