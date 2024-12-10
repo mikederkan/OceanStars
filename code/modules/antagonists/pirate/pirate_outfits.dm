@@ -89,7 +89,6 @@
 	back = /obj/item/storage/backpack/satchel/med
 	glasses = /obj/item/clothing/glasses/hud/health/night
 	gloves = /obj/item/clothing/gloves/color/black
-	head = /obj/item/clothing/head/utility/surgerycap/black
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	l_pocket = /obj/item/card/emag/doorjack
 
