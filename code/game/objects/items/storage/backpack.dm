@@ -133,12 +133,6 @@
 	icon_state = "backpack-medical"
 	inhand_icon_state = "medicalpack"
 
-/obj/item/storage/backpack/coroner
-	name = "coroner backpack"
-	desc = "It's a backpack especially designed for use in an undead environment."
-	icon_state = "backpack-coroner"
-	inhand_icon_state = "coronerpack"
-
 /obj/item/storage/backpack/security
 	name = "security backpack"
 	desc = "It's a very robust backpack."
@@ -333,12 +327,6 @@
 	icon_state = "satchel-chemistry"
 	inhand_icon_state = "satchel-chem"
 
-/obj/item/storage/backpack/satchel/coroner
-	name = "coroner satchel"
-	desc = "A satchel used to carry whatever's left of human bodies."
-	icon_state = "satchel-coroner"
-	inhand_icon_state = "satchel-coroner"
-
 /obj/item/storage/backpack/satchel/gen
 	name = "geneticist satchel"
 	desc = "A sterile satchel with geneticist colours."
@@ -530,12 +518,6 @@
 	desc = "A large duffel bag for holding extra medical supplies."
 	icon_state = "duffel-medical"
 	inhand_icon_state = "duffel-med"
-
-/obj/item/storage/backpack/duffelbag/coroner
-	name = "coroner duffel bag"
-	desc = "A large duffel bag for holding large amounts of organs at once."
-	icon_state = "duffel-coroner"
-	inhand_icon_state = "duffel-coroner"
 
 /obj/item/storage/backpack/duffelbag/explorer
 	name = "explorer duffel bag"
@@ -849,12 +831,6 @@
 	desc = "A sterile messenger bag with chemist colours, good for getting to your alleyway deals on time."
 	icon_state = "messenger_chemistry"
 	inhand_icon_state = "messenger_chemistry"
-
-/obj/item/storage/backpack/messenger/coroner
-	name = "coroner messenger bag"
-	desc = "A messenger bag used to sneak your way out of graveyards at a good pace."
-	icon_state = "messenger_coroner"
-	inhand_icon_state = "messenger_coroner"
 
 /obj/item/storage/backpack/messenger/gen
 	name = "geneticist messenger bag"

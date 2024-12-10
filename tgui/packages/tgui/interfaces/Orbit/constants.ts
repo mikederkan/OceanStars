@@ -36,7 +36,6 @@ export const DEPARTMENT2COLOR: Record<string, Department> = {
     trims: [
       'Chemist',
       'Chief Medical Officer',
-      'Coroner',
       'Medical Doctor',
       'Paramedic',
     ],

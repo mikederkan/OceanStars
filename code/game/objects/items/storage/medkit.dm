@@ -384,44 +384,6 @@
 	generate_items_inside(items_inside,src)
 	list_of_everything_medkits_can_hold += items_inside
 
-/obj/item/storage/medkit/coroner
-	name = "compact coroner's medkit"
-	desc = "A smaller medical kit designed primarily for assisting in dissecting the deceased, rather than treating the living."
-	icon = 'icons/obj/storage/medkit.dmi'
-	icon_state = "compact_coronerkit"
-	inhand_icon_state = "coronerkit"
-
-/obj/item/storage/medkit/coroner/Initialize(mapload)
-	. = ..()
-	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
-	atom_storage.max_slots = 14
-	atom_storage.max_total_storage = 24
-	atom_storage.set_holdable(list(
-		/obj/item/reagent_containers,
-		/obj/item/bodybag,
-		/obj/item/toy/crayon,
-		/obj/item/pen,
-		/obj/item/paper,
-		/obj/item/surgical_drapes,
-		/obj/item/scalpel,
-		/obj/item/retractor,
-		/obj/item/hemostat,
-		/obj/item/cautery,
-		/obj/item/autopsy_scanner,
-	))
-
-/obj/item/storage/medkit/coroner/PopulateContents()
-	if(empty)
-		return
-	var/static/items_inside = list(
-		/obj/item/reagent_containers/cup/bottle/formaldehyde = 1,
-		/obj/item/reagent_containers/medigel/sterilizine = 1,
-		/obj/item/reagent_containers/blood = 1,
-		/obj/item/bodybag = 2,
-		/obj/item/reagent_containers/syringe = 1,
-	)
-	generate_items_inside(items_inside,src)
-
 //medibot assembly
 /obj/item/storage/medkit/tool_act(mob/living/user, obj/item/tool, list/modifiers)
 	if(!istype(tool, /obj/item/bodypart/arm/left/robot) && !istype(tool, /obj/item/bodypart/arm/right/robot))
