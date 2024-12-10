@@ -76,12 +76,6 @@
 	icon_state = "messenger_chemistry"
 	inhand_icon_state = "messenger_chemistry"
 
-/obj/item/storage/backpack/messenger/coroner
-	name = "coroner messenger bag"
-	desc = "A messenger bag used to sneak your way out of graveyards at a good pace."
-	icon_state = "messenger_coroner"
-	inhand_icon_state = "messenger_coroner"
-
 /obj/item/storage/backpack/messenger/gen
 	name = "geneticist messenger bag"
 	desc = "A sterile messenger bag with geneticist colours, making a remarkably cute accessory for hulks."

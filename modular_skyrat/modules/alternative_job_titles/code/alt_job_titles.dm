@@ -184,16 +184,6 @@
 		"Pastry Chef",
 	)
 
-/datum/job/coroner
-	alt_titles = list(
-		"Coroner",
-		"Forensic Pathologist",
-		"Funeral Director",
-		"Medical Examiner",
-		"Mortician",
-		"Undertaker",
-	)
-
 /datum/job/curator
 	alt_titles = list(
 		"Curator",

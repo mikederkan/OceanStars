@@ -31,14 +31,14 @@
 	crate_name = "medipen crate"
 	crate_type = /obj/structure/closet/crate/deforest
 
-/datum/supply_pack/medical/coroner_crate
+/datum/supply_pack/medical/autopsy_crate
 	name = "Autopsy Kit"
 	desc = "Contains an autopsy scanner, when you lose your own and really \
 		need to complete your dissection experiments."
 	cost = CARGO_CRATE_VALUE * 2.5
 	contains = list(
 		/obj/item/autopsy_scanner = 1,
-		/obj/item/storage/medkit/coroner = 1,
+		/obj/item/storage/medkit/regular = 1,
 	)
 	crate_name = "autopsy kit crate"
 

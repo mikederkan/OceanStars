@@ -77,9 +77,6 @@
 /obj/item/clothing/suit/toggle/labcoat/science
 	greyscale_config_worn_teshari = /datum/greyscale_config/labcoat/worn/teshari //tacks teshari override onto labcoats
 
-/obj/item/clothing/suit/toggle/labcoat/coroner
-	greyscale_config_worn_teshari = /datum/greyscale_config/labcoat/worn/teshari //tacks teshari override onto labcoats
-
 /obj/item/clothing/suit/toggle/labcoat/virologist
 	greyscale_config_worn_teshari = /datum/greyscale_config/labcoat/worn/teshari //tacks teshari override onto labcoats
 
