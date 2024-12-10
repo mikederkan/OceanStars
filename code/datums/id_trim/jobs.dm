@@ -383,7 +383,6 @@
 	minimal_access = list(
 		ACCESS_KITCHEN,
 		ACCESS_MINERAL_STOREROOM,
-		ACCESS_MORGUE,
 		ACCESS_SERVICE,
 		)
 	extra_access = list(
@@ -400,33 +399,6 @@
 /datum/id_trim/job/cook/chef
 	assignment = JOB_CHEF
 	sechud_icon_state = SECHUD_CHEF
-
-/datum/id_trim/job/coroner
-	assignment = JOB_CORONER
-	trim_state = "trim_coroner"
-	department_color = COLOR_MEDICAL_BLUE
-	subdepartment_color = COLOR_SERVICE_LIME
-	sechud_icon_state = SECHUD_CORONER
-	minimal_access = list(
-		ACCESS_MEDICAL,
-		ACCESS_MINERAL_STOREROOM,
-		ACCESS_MORGUE,
-		ACCESS_MORGUE_SECURE,
-		ACCESS_SERVICE,
-		ACCESS_SURGERY,
-	)
-	extra_access = list(
-		ACCESS_PSYCHOLOGY,
-		ACCESS_PHARMACY,
-		ACCESS_VIROLOGY,
-	)
-	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
-		ACCESS_CMO,
-		ACCESS_HOP,
-	)
-	job = /datum/job/coroner
 
 /datum/id_trim/job/curator
 	assignment = JOB_CURATOR
@@ -686,6 +658,7 @@
 		ACCESS_MEDICAL,
 		ACCESS_MINERAL_STOREROOM,
 		ACCESS_MORGUE,
+		ACCESS_MORGUE_SECURE, //should probably remove morgue secure altogether but whatever
 		ACCESS_PHARMACY,
 		ACCESS_SURGERY,
 		ACCESS_VIROLOGY,

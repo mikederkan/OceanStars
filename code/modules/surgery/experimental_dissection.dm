@@ -10,7 +10,7 @@
 		/datum/surgery_step/experimental_dissection,
 		/datum/surgery_step/close,
 	)
-	surgery_flags = SURGERY_REQUIRE_RESTING | SURGERY_MORBID_CURIOSITY
+	surgery_flags = SURGERY_REQUIRE_RESTING
 	possible_locs = list(BODY_ZONE_CHEST)
 	target_mobtypes = list(/mob/living)
 

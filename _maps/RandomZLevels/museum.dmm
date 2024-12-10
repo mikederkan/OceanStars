@@ -1320,7 +1320,6 @@
 /obj/machinery/conveyor{
 	dir = 1
 	},
-/obj/item/vending_refill/wardrobe/coroner_wardrobe,
 /turf/open/indestructible/plating,
 /area/awaymission/museum)
 "kL" = (
@@ -5698,7 +5697,6 @@
 /obj/machinery/conveyor{
 	dir = 1
 	},
-/obj/item/clothing/under/rank/medical/scrubs/coroner,
 /turf/open/indestructible/plating,
 /area/awaymission/museum)
 "VS" = (

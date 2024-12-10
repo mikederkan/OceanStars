@@ -43,11 +43,6 @@
 			rods[nullrod_type] = initial(nullrod_type.menu_description)
 		//special non-nullrod subtyped shit
 		rods[/obj/item/gun/ballistic/bow/divine/with_quiver] = "A divine bow and 10 quivered holy arrows."
-		rods[/obj/item/organ/internal/cyberimp/arm/shard/scythe] = "A shard that implants itself into your arm, \
-									allowing you to conjure forth a vorpal scythe. \
-									Allows you to behead targets for empowered strikes. \
-									Harms you if you dismiss the scythe without first causing harm to a creature. \
-									The shard also causes you to become Morbid, shifting your interests towards the macabre."
 		rods[/obj/item/melee/skateboard/holyboard] = "A skateboard that grants you flight and anti-magic abilities while ridden. Fits in your bag."
 		AddComponent(/datum/component/subtype_picker, rods, CALLBACK(src, PROC_REF(on_holy_weapon_picked)))
 
@@ -877,12 +872,6 @@
 	// If the target is rebuked, we also add some additional damage. It is the closest thing to 'studying' your target, okay?
 	if(living_target.has_status_effect(/datum/status_effect/rebuked))
 		sneak_attack_dice += 2
-
-	// If we're morbid, and the target has been dissected, we get an extra d6.
-	// The chances of this occuring are quite low, as even having this weapon means you're locked out of becoming morbid as a chaplain, but when it does come up...
-	// Or the coroner stole this blade to go hunt the recently dead...
-	if(HAS_TRAIT(user, TRAIT_MORBID) && HAS_TRAIT(living_target, TRAIT_DISSECTED))
-		sneak_attack_dice += roll("1d6")
 
 	// Baton + this weapon might be a little too much fun so we're nerfing this combination outright.
 	if(HAS_TRAIT(living_target, TRAIT_IWASBATONED))

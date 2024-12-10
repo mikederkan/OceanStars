@@ -654,11 +654,6 @@
 	icon_state = "surgicalcapcmo"
 	desc = "The CMO's medical surgery cap to prevent their hair from entering the insides of the patient!"
 
-/obj/item/clothing/head/utility/surgerycap/black
-	name = "black surgery cap"
-	icon_state = "surgicalcapblack"
-	desc = "A black medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
-
 /obj/item/clothing/head/utility/head_mirror
 	name = "head mirror"
 	desc = "Used by doctors to look into a patient's eyes, ears, and mouth. \

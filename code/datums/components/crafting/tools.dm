@@ -17,17 +17,6 @@
 	result = /obj/structure/bonfire/player_made // SKYRAT EDIT - Pollution - ORIGINAL: result = /obj/structure/bonfire
 	category = CAT_TOOLS
 
-/datum/crafting_recipe/boneshovel
-	name = "Serrated Bone Shovel"
-	reqs = list(
-		/obj/item/stack/sheet/bone = 4,
-		/datum/reagent/fuel/oil = 5,
-		/obj/item/shovel = 1,
-	)
-	result = /obj/item/shovel/serrated
-	category = CAT_TOOLS
-	crafting_flags = CRAFT_CHECK_DENSITY | CRAFT_MUST_BE_LEARNED
-
 /datum/crafting_recipe/lasso
 	name = "Bone Lasso"
 	reqs = list(

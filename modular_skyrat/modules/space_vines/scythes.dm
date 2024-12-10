@@ -18,7 +18,6 @@
 	attack_verb_continuous = list("chops", "slices", "cuts", "reaps")
 	attack_verb_simple = list("chop", "slice", "cut", "reap")
 	hitsound = 'sound/weapons/bladeslice.ogg'
-	item_flags = CRUEL_IMPLEMENT //maybe they want to use it in surgery
 
 	var/hit_range = 0
 	var/swiping = FALSE

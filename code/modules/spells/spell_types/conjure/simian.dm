@@ -75,7 +75,7 @@
 	var/static/list/monky_weapon = list(
 		list(/obj/item/food/grown/banana, /obj/item/grown/bananapeel),
 		list(/obj/item/tailclub, /obj/item/knife/combat/bone),
-		list(/obj/item/shovel/serrated, /obj/item/spear/bamboospear),
+		list(/obj/item/spear/bamboospear),
 		list(/obj/item/spear/bonespear, /obj/item/fireaxe/boneaxe),
 		list(/obj/item/gun/syringe/blowgun, /obj/item/gun/ballistic/revolver),
 	)

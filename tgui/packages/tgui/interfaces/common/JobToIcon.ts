@@ -23,7 +23,6 @@ const BASEICONS = {
   'Chief Medical Officer': 'user-md',
   Clown: 'face-grin-tears',
   Cook: 'utensils',
-  Coroner: 'skull',
   Curator: 'book',
   'Cyber Police': 'qrcode',
   Cyborg: 'robot',
@@ -127,9 +126,6 @@ const ALTTITLES = {
   Butcher: BASEICONS['Cook'],
   'Culinary Artist': BASEICONS['Cook'],
   'Sous-Chef': BASEICONS['Cook'],
-  // Coroner - skull
-  Mortician: BASEICONS['Coroner'],
-  'Funeral Director': BASEICONS['Coroner'],
   // Curator - book
   Librarian: BASEICONS['Curator'],
   Journalist: BASEICONS['Curator'],
