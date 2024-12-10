@@ -462,27 +462,6 @@
 		clear_mood_event(MOOD_CATEGORY_AREA_BEAUTY)
 		return
 
-	if(HAS_TRAIT(mob_parent, TRAIT_MORBID))
-		if(HAS_TRAIT(mob_parent, TRAIT_SNOB))
-			switch(area_to_beautify.beauty)
-				if(BEAUTY_LEVEL_DECENT to BEAUTY_LEVEL_GOOD)
-					add_mood_event(MOOD_CATEGORY_AREA_BEAUTY, /datum/mood_event/ehroom)
-					return
-				if(BEAUTY_LEVEL_GOOD to BEAUTY_LEVEL_GREAT)
-					add_mood_event(MOOD_CATEGORY_AREA_BEAUTY, /datum/mood_event/badroom)
-					return
-				if(BEAUTY_LEVEL_GREAT to INFINITY)
-					add_mood_event(MOOD_CATEGORY_AREA_BEAUTY, /datum/mood_event/horridroom)
-					return
-		switch(area_to_beautify.beauty)
-			if(-INFINITY to BEAUTY_LEVEL_HORRID)
-				add_mood_event(MOOD_CATEGORY_AREA_BEAUTY, /datum/mood_event/greatroom)
-			if(BEAUTY_LEVEL_HORRID to BEAUTY_LEVEL_BAD)
-				add_mood_event(MOOD_CATEGORY_AREA_BEAUTY, /datum/mood_event/goodroom)
-			if(BEAUTY_LEVEL_BAD to BEAUTY_LEVEL_DECENT)
-				clear_mood_event(MOOD_CATEGORY_AREA_BEAUTY)
-		return
-
 	if(HAS_TRAIT(mob_parent, TRAIT_SNOB))
 		switch(area_to_beautify.beauty)
 			if(-INFINITY to BEAUTY_LEVEL_HORRID)

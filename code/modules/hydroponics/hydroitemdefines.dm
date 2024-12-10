@@ -531,7 +531,6 @@
 	attack_verb_simple = list("chop", "slice", "cut", "reap")
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	sharpness = SHARP_EDGED
-	item_flags = CRUEL_IMPLEMENT //maybe they want to use it in surgery
 	var/swiping = FALSE
 
 /obj/item/scythe/Initialize(mapload)

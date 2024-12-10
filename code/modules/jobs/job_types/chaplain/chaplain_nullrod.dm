@@ -46,8 +46,7 @@
 		rods[/obj/item/organ/internal/cyberimp/arm/shard/scythe] = "A shard that implants itself into your arm, \
 									allowing you to conjure forth a vorpal scythe. \
 									Allows you to behead targets for empowered strikes. \
-									Harms you if you dismiss the scythe without first causing harm to a creature. \
-									The shard also causes you to become Morbid, shifting your interests towards the macabre."
+									Harms you if you dismiss the scythe without first causing harm to a creature."
 		rods[/obj/item/melee/skateboard/holyboard] = "A skateboard that grants you flight and anti-magic abilities while ridden. Fits in your bag."
 		AddComponent(/datum/component/subtype_picker, rods, CALLBACK(src, PROC_REF(on_holy_weapon_picked)))
 

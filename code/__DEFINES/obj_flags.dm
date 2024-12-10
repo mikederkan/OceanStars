@@ -33,11 +33,10 @@
 #define IMMUTABLE_SLOW (1<<10) // When players should not be able to change the slowdown of the item (Speed potions, etc)
 #define IN_STORAGE (1<<11) //is this item in the storage item, such as backpack? used for tooltips
 #define SURGICAL_TOOL (1<<12) //Tool commonly used for surgery: won't attack targets in an active surgical operation on help intent (in case of mistakes)
-#define CRUEL_IMPLEMENT (1<<13) //This object, when used for surgery, is a lot worse at the job if the target is alive rather than dead
-#define HAND_ITEM (1<<14) // If an item is just your hand (circled hand, slapper) and shouldn't block things like riding
-#define EXAMINE_SKIP (1<<15) // Makes the Examine proc not read out this item.
-#define XENOMORPH_HOLDABLE (1<<16) // A Xenomorph can hold this item.
-#define NO_PIXEL_RANDOM_DROP (1<<17) //if dropped, it wont have a randomized pixel_x/pixel_y
+#define HAND_ITEM (1<<13) // If an item is just your hand (circled hand, slapper) and shouldn't block things like riding
+#define EXAMINE_SKIP (1<<14) // Makes the Examine proc not read out this item.
+#define XENOMORPH_HOLDABLE (1<<15) // A Xenomorph can hold this item.
+#define NO_PIXEL_RANDOM_DROP (1<<16) //if dropped, it wont have a randomized pixel_x/pixel_y
 ///Can be equipped on digitigrade legs.
 #define IGNORE_DIGITIGRADE (1<<18)
 /// Has contextual screentips when HOVERING OVER OTHER objects

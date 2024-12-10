@@ -83,8 +83,6 @@
 #define SURGERY_SPEEDUP_AREA 0.5 // Skyrat Edit Addition - reward for doing surgery in surgery
 ///Modifier given to surgery speed for dissected bodies.
 #define SURGERY_SPEED_DISSECTION_MODIFIER 0.8
-///Modifier given to users with TRAIT_MORBID on certain surgeries
-#define SURGERY_SPEED_MORBID_CURIOSITY 0.7
 ///Modifier given to patients with TRAIT_ANALGESIA
 #define SURGERY_SPEED_TRAIT_ANALGESIA 0.8
 
@@ -116,9 +114,6 @@
 
 	if(HAS_TRAIT(target, TRAIT_SURGICALLY_ANALYZED))
 		speed_mod *= SURGERY_SPEED_DISSECTION_MODIFIER
-
-	if(check_morbid_curiosity(user, tool, surgery))
-		speed_mod *= SURGERY_SPEED_MORBID_CURIOSITY
 
 	/* SKYRAT EDIT START - Worked in with reward buffs below
 	if(HAS_TRAIT(target, TRAIT_ANALGESIA))
@@ -301,16 +296,6 @@
 			chems += chemname
 	return english_list(chems, and_text = require_all_chems ? " and " : " or ")
 
-// Check if we are entitled to morbid bonuses
-/datum/surgery_step/proc/check_morbid_curiosity(mob/user, obj/item/tool, datum/surgery/surgery)
-	if(!(surgery.surgery_flags & SURGERY_MORBID_CURIOSITY))
-		return FALSE
-	if(tool && !(tool.item_flags & CRUEL_IMPLEMENT))
-		return FALSE
-	if(!HAS_MIND_TRAIT(user, TRAIT_MORBID))
-		return FALSE
-	return TRUE
-
 //Replaces visible_message during operations so only people looking over the surgeon can see them.
 /datum/surgery_step/proc/display_results(mob/user, mob/living/target, self_message, detailed_message, vague_message, target_detailed = FALSE)
 	user.visible_message(detailed_message, self_message, vision_distance = 1, ignored_mobs = target_detailed ? null : target)
@@ -353,7 +338,6 @@
 
 #undef SURGERY_SPEED_TRAIT_ANALGESIA
 #undef SURGERY_SPEED_DISSECTION_MODIFIER
-#undef SURGERY_SPEED_MORBID_CURIOSITY
 #undef SURGERY_SLOWDOWN_CAP_MULTIPLIER
 #undef SURGERY_STATE_STARTED
 #undef SURGERY_STATE_FAILURE

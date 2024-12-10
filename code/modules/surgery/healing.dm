@@ -103,10 +103,6 @@
 
 	user_msg += get_progress(user, target, brute_healed, burn_healed)
 
-	if(HAS_MIND_TRAIT(user, TRAIT_MORBID) && ishuman(user) && !dead_patient) //Morbid folk don't care about tending the dead as much as tending the living
-		var/mob/living/carbon/human/morbid_weirdo = user
-		morbid_weirdo.add_mood_event("morbid_tend_wounds", /datum/mood_event/morbid_tend_wounds)
-
 	display_results(
 		user,
 		target,
