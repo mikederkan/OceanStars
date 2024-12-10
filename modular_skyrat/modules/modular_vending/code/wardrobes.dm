@@ -32,13 +32,6 @@
 		/obj/item/storage/backpack/messenger/eng = 3,
 	)
 
-/obj/machinery/vending/wardrobe/atmos_wardrobe
-	skyrat_products = list(
-		/obj/item/clothing/glasses/meson/engine = 2,
-		/obj/item/clothing/head/beret/atmos = 4,
-		/obj/item/storage/backpack/messenger/eng = 3,
-	)
-
 /obj/machinery/vending/wardrobe/cargo_wardrobe
 	skyrat_products = list(
 		/obj/item/clothing/under/rank/cargo/tech/skyrat/long = 3,

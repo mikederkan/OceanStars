@@ -648,7 +648,6 @@
 		/obj/machinery/vending/sustenance = "Sustenance Vendor",
 		/obj/machinery/vending/tool = "YouTool",
 		/obj/machinery/vending/wallmed = "NanoMed",
-		/obj/machinery/vending/wardrobe/atmos_wardrobe = "AtmosDrobe",
 		/obj/machinery/vending/wardrobe/bar_wardrobe = "BarDrobe",
 		/obj/machinery/vending/wardrobe/cargo_wardrobe = "CargoDrobe",
 		/obj/machinery/vending/wardrobe/chap_wardrobe = "ChapDrobe",
