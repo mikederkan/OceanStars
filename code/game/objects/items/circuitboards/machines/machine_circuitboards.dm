@@ -653,7 +653,6 @@
 		/obj/machinery/vending/wardrobe/chap_wardrobe = "ChapDrobe",
 		/obj/machinery/vending/wardrobe/chef_wardrobe = "ChefDrobe",
 		/obj/machinery/vending/wardrobe/chem_wardrobe = "ChemDrobe",
-		/obj/machinery/vending/wardrobe/coroner_wardrobe = "MortiDrobe",
 		/obj/machinery/vending/wardrobe/curator_wardrobe = "CuraDrobe",
 		/obj/machinery/vending/wardrobe/det_wardrobe = "DetDrobe",
 		/obj/machinery/vending/wardrobe/engi_wardrobe = "EngiDrobe",

@@ -220,11 +220,6 @@
 		/obj/item/radio/headset,
 	)
 
-/obj/machinery/vending/wardrobe/coroner_wardrobe/ghost_cafe
-	excluded_products = list(
-		/obj/item/radio/headset,
-	)
-
 /obj/machinery/vending/wardrobe/curator_wardrobe/ghost_cafe
 	excluded_products = list(
 		/obj/item/radio/headset,

@@ -878,12 +878,6 @@
 	if(living_target.has_status_effect(/datum/status_effect/rebuked))
 		sneak_attack_dice += 2
 
-	// If we're morbid, and the target has been dissected, we get an extra d6.
-	// The chances of this occuring are quite low, as even having this weapon means you're locked out of becoming morbid as a chaplain, but when it does come up...
-	// Or the coroner stole this blade to go hunt the recently dead...
-	if(HAS_TRAIT(user, TRAIT_MORBID) && HAS_TRAIT(living_target, TRAIT_DISSECTED))
-		sneak_attack_dice += roll("1d6")
-
 	// Baton + this weapon might be a little too much fun so we're nerfing this combination outright.
 	if(HAS_TRAIT(living_target, TRAIT_IWASBATONED))
 		sneak_attack_dice *= 0.5
