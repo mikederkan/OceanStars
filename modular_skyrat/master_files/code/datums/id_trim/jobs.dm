@@ -40,14 +40,3 @@
 	. = ..()
 
 	minimal_access |= ACCESS_WEAPONS
-/datum/id_trim/job/barber
-	assignment = "Barber"
-	trim_icon = 'modular_skyrat/master_files/icons/obj/card.dmi'
-	trim_state = "trim_barber"
-	department_color = COLOR_SERVICE_LIME
-	subdepartment_color = COLOR_SERVICE_LIME
-	sechud_icon_state = SECHUD_BARBER
-	extra_access = list()
-	minimal_access = list(ACCESS_BARBER, ACCESS_MAINT_TUNNELS, ACCESS_SERVICE, ACCESS_THEATRE)
-	template_access = list(ACCESS_CAPTAIN, ACCESS_CHANGE_IDS, ACCESS_HOP)
-	job = /datum/job/barber

@@ -10,5 +10,4 @@
 #define SECHUD_DS2_GENSTAFF "hud_ds2generalstaff"
 #define SECHUD_DS2_PRISONER "hud_ds2prisoner"
 //SR Misc
-#define SECHUD_BARBER "hudbarber"
 #define SECHUD_SCRAMBLED "hudscrambled"
