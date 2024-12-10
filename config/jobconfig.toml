@@ -32,13 +32,6 @@
 "Spawn Positions" = -1
 "Total Positions" = -1
 
-[BARBER]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
 [BARTENDER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0

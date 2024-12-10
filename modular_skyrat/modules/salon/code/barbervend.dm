@@ -5,8 +5,8 @@
 	icon_state = "barbervend"
 	product_slogans = "Spread the colour, like butter, onto toast... Onto their hair.; Sometimes, I dream about dyes...; Paint 'em up and call me Mr. Painter.; Look brother, I'm a vendomat, I solve practical problems."
 	product_ads = "Cut 'em all!; To sheds!; Hair be gone!; Prettify!; Beautify!"
-	vend_reply = "Come again!; Buy another!; Dont you love your new look?"
-	req_access = list(ACCESS_BARBER)
+	vend_reply = "Come again!; Buy another!; Dont you love your new look?" //in gi rum imus noc te et con sumi snip snip snip
+	//req_access = list(ACCESS_BARBER)
 	refill_canister = /obj/item/vending_refill/barbervend
 	products = list(
 		/obj/item/reagent_containers/spray/quantum_hair_dye = 3,

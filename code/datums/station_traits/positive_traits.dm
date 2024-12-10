@@ -291,9 +291,6 @@
 		/datum/job/shaft_miner = /obj/item/organ/internal/monster_core/rush_gland,
 		/datum/job/station_engineer = /obj/item/organ/internal/cyberimp/arm/toolset,
 		/datum/job/warden = /obj/item/organ/internal/cyberimp/eyes/hud/security,
-		// SKYRAT EDIT ADDITION START - MODULAR JOBS
-		/datum/job/barber = /obj/item/organ/internal/ears/cybernetic/whisper,
-		// SKYRAT EDIT END
 	)
 
 /datum/station_trait/cybernetic_revolution/New()

@@ -174,10 +174,6 @@
 	area_flags = CULT_PERMITTED | BLOBS_ALLOWED | UNIQUE_AREA
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
-/area/station/service/barber
-	name = "\improper Barber"
-	icon_state = "barber"
-
 /*
 * Abandoned Rooms
 */

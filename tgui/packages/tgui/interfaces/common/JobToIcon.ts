@@ -57,7 +57,6 @@ const BASEICONS = {
   Warden: 'handcuffs',
   // SKYRAT EDIT START - Skyrat-exclusive jobs have icons too
 
-  Barber: 'scissors',
   'Security Medic': 'heart-pulse',
   // SKYRAT EDIT END
 } as const;
@@ -82,11 +81,6 @@ const ALTTITLES = {
   'Life Support Technician': BASEICONS['Atmospheric Technician'],
   'Emergency Fire Technician': BASEICONS['Atmospheric Technician'],
   Firefighter: BASEICONS['Atmospheric Technician'],
-  // Barber - scissors
-  'Salon Manager': BASEICONS['Barber'],
-  'Salon Technician': BASEICONS['Barber'],
-  Stylist: BASEICONS['Barber'],
-  Colorist: BASEICONS['Barber'],
   // Bartender - cocktail
   Mixologist: BASEICONS['Bartender'],
   Barkeeper: BASEICONS['Bartender'],

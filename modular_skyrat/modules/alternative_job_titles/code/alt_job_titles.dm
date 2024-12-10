@@ -47,17 +47,6 @@
 		"Waiter",
 	)
 
-/datum/job/barber
-	alt_titles = list(
-		"Barber",
-		"Aethestician",
-		"Colorist",
-		"Masseuse",
-		"Salon Manager",
-		"Salon Technician",
-		"Stylist",
-	)
-
 /datum/job/bartender
 	alt_titles = list(
 		"Bartender",

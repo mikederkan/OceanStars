@@ -66,8 +66,3 @@
 	target_areas = list(/area/station/security/prison)
 	desired_atom = /obj/machinery/cryopod/prison
 	mode = AREA_SPAWN_MODE_MOUNT_WALL
-
-// Job spawners
-/datum/area_spawn/barber_landmark
-	target_areas = list(/area/station/service/salon, /area/station/hallway/secondary/service)
-	desired_atom = /obj/effect/landmark/start/barber
