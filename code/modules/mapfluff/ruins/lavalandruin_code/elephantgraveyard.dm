@@ -258,13 +258,11 @@
 			dug_closed = TRUE
 			close(user)
 		else if(open(user, force = TRUE) && affect_mood)
-			else
-				user.add_mood_event("graverobbing", /datum/mood_event/graverobbing)
+			user.add_mood_event("graverobbing", /datum/mood_event/graverobbing)
 			if(lead_tomb && first_open)
-				else
-					user.gain_trauma(/datum/brain_trauma/magic/stalker)
-					to_chat(user, span_boldwarning("Oh no, no no no, THEY'RE EVERYWHERE! EVERY ONE OF THEM IS EVERYWHERE!"))
-				first_open = FALSE
+				user.gain_trauma(/datum/brain_trauma/magic/stalker)
+				to_chat(user, span_boldwarning("Oh no, no no no, THEY'RE EVERYWHERE! EVERY ONE OF THEM IS EVERYWHERE!"))
+			first_open = FALSE
 
 		return TRUE
 
@@ -324,10 +322,9 @@
 	lead_tomb = TRUE
 	first_open = TRUE
 
-/obj/structure/closet/crate/grave/filled/lead_researcher/PopulateContents()  //ADVANCED GRAVEROBBING
+/obj/structure/closet/crate/grave/filled/lead_researcher/PopulateContents()  //YOU GET NOTHING. YOU LOSE. GOOD DAY SIR
 	..()
 	new /obj/effect/decal/cleanable/blood/gibs/old(src)
-	new /obj/item/book/granter/crafting_recipe/boneyard_notes(src)
 
 //***Fluff items for lore/intrigue
 /obj/item/paper/crumpled/muddy/fluff/elephant_graveyard

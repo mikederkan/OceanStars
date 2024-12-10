@@ -2604,7 +2604,6 @@
 #include "code\game\objects\items\granters\sign_language.dm"
 #include "code\game\objects\items\granters\crafting\_crafting_granter.dm"
 #include "code\game\objects\items\granters\crafting\advanced_donk_recipes.dm"
-#include "code\game\objects\items\granters\crafting\bone_notes.dm"
 #include "code\game\objects\items\granters\crafting\cannon.dm"
 #include "code\game\objects\items\granters\crafting\combat_baking.dm"
 #include "code\game\objects\items\granters\crafting\death_sandwich.dm"
