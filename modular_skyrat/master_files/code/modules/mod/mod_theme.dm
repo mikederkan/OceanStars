@@ -14,7 +14,7 @@
 	acid = 25
 	wound = 10
 
-/datum/mod_theme/atmospheric // Atmospheric Technician
+/datum/mod_theme/atmospheric // Atmospheric Technician - I wanna get rid of this so baddd I'll do it later
 	armor_type = /datum/armor/mod_theme_atmospheric
 
 /datum/armor/mod_theme_atmospheric

@@ -6,7 +6,6 @@ const BASEICONS = {
   // SKYRAT EDIT - END
   AI: 'eye',
   Assistant: 'toolbox',
-  'Atmospheric Technician': 'fan',
   Bartender: 'cocktail',
   'Bit Avatar': 'code',
   Bitrunner: 'gamepad',
@@ -77,10 +76,6 @@ const ALTTITLES = {
   Artist: BASEICONS['Assistant'],
   'Off-Duty Staff': BASEICONS['Assistant'],
   'Off-Duty Crew': BASEICONS['Assistant'],
-  // Atmospheric Technician - fan
-  'Life Support Technician': BASEICONS['Atmospheric Technician'],
-  'Emergency Fire Technician': BASEICONS['Atmospheric Technician'],
-  Firefighter: BASEICONS['Atmospheric Technician'],
   // Bartender - cocktail
   Mixologist: BASEICONS['Bartender'],
   Barkeeper: BASEICONS['Bartender'],
@@ -247,13 +242,15 @@ const ALTTITLES = {
 	Breaker: BASEICONS['Shipbreaker'],
 	'Ship Butcher': BASEICONS['Shipbreaker'],
   // Station Engineer - bolt-lightning
-  'Station Engineer': BASEICONS['Station Engineer'],
+ 'Station Engineer': BASEICONS['Station Engineer'],
+  'Maintenance Engineer': BASEICONS['Station Engineer'],
+  'HVAC Engineer': BASEICONS['Station Engineer'],
   Electrician: BASEICONS['Station Engineer'],
   'EVA Technician': BASEICONS['Station Engineer'],
-  Stationwright: BASEICONS['Station Engineer'],
+  'Atmospheric Technician': BASEICONS['Station Engineer'],
+  'Life Support Technician': BASEICONS['Station Engineer'],
   'Infrastructure Specialist': BASEICONS['Station Engineer'],
   'Solar Technician': BASEICONS['Station Engineer'],
-  'Maintenance Engineer': BASEICONS['Station Engineer'],
   'Apprentice Engineer': BASEICONS['Station Engineer'],
   // Station Mechanic - gears
   'Station Mechanic': BASEICONS['Station Mechanic'],
