@@ -1376,7 +1376,6 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/courtroom)
 "gt" = (
-/obj/effect/landmark/mafia_game_area,
 /turf/open/space/basic,
 /area/space)
 "gu" = (

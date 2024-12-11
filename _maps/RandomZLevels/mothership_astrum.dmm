@@ -750,7 +750,6 @@
 /turf/open/misc/beach/sand,
 /area/awaymission/mothership_astrum/deck5)
 "nx" = (
-/turf/open/lava/plasma/mafia,
 /area/awaymission/mothership_astrum/deck3)
 "ny" = (
 /obj/structure/window/reinforced/spawner/directional/north,

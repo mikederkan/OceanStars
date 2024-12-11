@@ -87,8 +87,6 @@
 #define POWER_LACK_TRAIT "power-lack"
 /// Trait associated to lacking motor movement
 #define MOTOR_LACK_TRAIT "motor-lack"
-/// Trait associated with mafia
-#define MAFIA_TRAIT "mafia"
 /// Trait associated with ctf
 #define CTF_TRAIT "ctf"
 /// Trait associated with highlander

@@ -27,5 +27,4 @@
 		"smmon_6.gif" = 'icons/ui/programs/smmon_6.gif',
 		"borg_mon.gif" = 'icons/ui/programs/borg_mon.gif',
 		"robotact.gif" = 'icons/ui/programs/robotact.gif',
-		"mafia.gif" = 'icons/ui/programs/mafia.gif',
 	)

@@ -57,8 +57,6 @@
 #define MODE_VOCALCORDS "cords"
 #define MODE_KEY_VOCALCORDS "x"
 
-#define MODE_MAFIA "mafia"
-
 /// Applies singing characters to the message
 #define MODE_SING "sing"
 /// A custom say emote is being supplied [value = the emote]

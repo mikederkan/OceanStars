@@ -111,8 +111,6 @@
 /area/construction/mining/aux_base : /area/station/construction/mining/aux_base
 /area/construction/storage_wing : /area/station/construction/storage_wing
 
-/area/mafia : /area/centcom/mafia
-
 /area/shuttle_arena : /area/shuttle/shuttle_arena
 
 /area/survivalpod : /area/misc/survivalpod

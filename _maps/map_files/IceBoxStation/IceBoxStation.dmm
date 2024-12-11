@@ -24613,7 +24613,6 @@
 /area/station/service/kitchen)
 "hbt" = (
 /obj/effect/decal/cleanable/cobweb,
-/obj/effect/spawner/random/clothing/mafia_outfit,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/bureaucracy/briefcase{
 	pixel_y = 8
@@ -42385,8 +42384,6 @@
 	pixel_y = 4;
 	pixel_x = -3
 	},
-/obj/effect/spawner/random/clothing/mafia_outfit,
-/obj/effect/spawner/random/clothing/mafia_outfit,
 /obj/effect/spawner/random/clothing/backpack,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating,
