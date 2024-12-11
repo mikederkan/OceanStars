@@ -42,16 +42,6 @@
 	spawn_loot_chance = 25
 	loot = list(/obj/item/clothing/mask/gas/cyborg)
 
-/obj/effect/spawner/random/clothing/mafia_outfit
-	name = "mafia outfit spawner"
-	icon_state = "costume"
-	loot = list(
-		/obj/effect/spawner/costume/mafia = 20,
-		/obj/effect/spawner/costume/mafia/white = 5,
-		/obj/effect/spawner/costume/mafia/beige = 5,
-		/obj/effect/spawner/costume/mafia/checkered = 2,
-	)
-
 /obj/effect/spawner/random/clothing/syndie
 	name = "syndie outfit spawner"
 	icon_state = "syndicate"

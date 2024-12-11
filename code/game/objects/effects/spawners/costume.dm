@@ -205,35 +205,3 @@
 		/obj/item/clothing/mask/gas/sexymime,
 		/obj/item/clothing/under/rank/civilian/mime/sexy,
 	)
-
-/obj/effect/spawner/costume/mafia
-	name = "black mafia outfit spawner"
-	items = list(
-		/obj/item/clothing/head/fedora,
-		/obj/item/clothing/under/suit/black,
-		/obj/item/clothing/shoes/laceup,
-	)
-
-/obj/effect/spawner/costume/mafia/white
-	name = "white mafia outfit spawner"
-	items = list(
-		/obj/item/clothing/head/fedora/white,
-		/obj/item/clothing/under/suit/white,
-		/obj/item/clothing/shoes/laceup,
-	)
-
-/obj/effect/spawner/costume/mafia/checkered
-	name = "checkered mafia outfit spawner"
-	items = list(
-		/obj/item/clothing/head/fedora,
-		/obj/item/clothing/under/suit/checkered,
-		/obj/item/clothing/shoes/laceup,
-	)
-
-/obj/effect/spawner/costume/mafia/beige
-	name = "beige mafia outfit spawner"
-	items = list(
-		/obj/item/clothing/head/fedora/beige,
-		/obj/item/clothing/under/suit/beige,
-		/obj/item/clothing/shoes/laceup,
-	)

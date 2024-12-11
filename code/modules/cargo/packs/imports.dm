@@ -104,22 +104,6 @@
 	hidden = TRUE
 	contains = list(/obj/item/book/granter/crafting_recipe/regal_condor)
 
-/datum/supply_pack/imports/mafia
-	name = "Cosa Nostra Starter Pack"
-	desc = "This crate contains everything you need to set up your own ethnicity-based racketeering operation."
-	cost = CARGO_CRATE_VALUE * 4
-	contains = list()
-	contraband = TRUE
-
-/datum/supply_pack/imports/mafia/fill(obj/structure/closet/crate/our_crate)
-	for(var/items in 1 to 4)
-		new /obj/effect/spawner/random/clothing/mafia_outfit(our_crate)
-		new /obj/item/virgin_mary(our_crate)
-		if(prob(30)) //Not all mafioso have mustaches, some people also find this item annoying.
-			new /obj/item/clothing/mask/fakemoustache/italian(our_crate)
-	if(prob(10)) //A little extra sugar every now and then to shake things up.
-		new /obj/item/switchblade(our_crate)
-
 /datum/supply_pack/imports/contraband
 	name = "'Contraband' Crate"
 	desc = "Psst.. bud... want some contraband? I can get you a poster, some nice cigs, dank, even some \

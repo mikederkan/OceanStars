@@ -49,7 +49,6 @@
 "u" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/clothing/beret_or_rabbitears,
-/obj/effect/spawner/random/clothing/mafia_outfit,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav)
 "x" = (
@@ -63,7 +62,6 @@
 /area/ruin/space/has_grav)
 "C" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/clothing/mafia_outfit,
 /obj/effect/spawner/random/clothing/pirate_or_bandana,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav)

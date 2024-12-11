@@ -563,9 +563,6 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 /// Makes the user handcuff others faster
 #define TRAIT_FAST_CUFFING "fast_cuffing"
 
-///Given by /obj/item/virgin_mary, mobs that used this can no longer use it again ever
-#define TRAIT_MAFIAINITIATE "mafiainitiate"
-
 /// Our mob has the mind reading genetic mutation.
 #define TRAIT_MIND_READER "mind reader"
 

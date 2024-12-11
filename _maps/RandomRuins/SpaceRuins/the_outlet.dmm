@@ -1325,9 +1325,6 @@
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "FD" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/clothing/mafia_outfit,
-/obj/effect/spawner/random/clothing/mafia_outfit,
-/obj/effect/spawner/random/clothing/mafia_outfit,
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "FF" = (
@@ -1935,8 +1932,6 @@
 /area/ruin/space/has_grav/the_outlet/storefront)
 "Vr" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/clothing/mafia_outfit,
-/obj/effect/spawner/random/clothing/mafia_outfit,
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "Vw" = (
