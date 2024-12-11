@@ -18,13 +18,6 @@
 ## "# Total Positions" should always be changed to "Total Positions", no additional spacing.
 ## Best of luck editing!
 
-[AI]
-"Playtime Requirements" = 2400
-"Required Account Age" = 30
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
-
 [ASSISTANT]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
