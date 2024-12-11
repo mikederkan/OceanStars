@@ -1662,7 +1662,6 @@
 	icon = 'icons/mob/simple/hivebot.dmi';
 	icon_state = "fab_robot"
 	},
-/turf/open/lava/plasma/mafia,
 /area/awaymission/museum)
 "nC" = (
 /obj/structure/railing,
@@ -2991,7 +2990,6 @@
 /turf/open/floor/wood/large,
 /area/awaymission/museum)
 "yl" = (
-/turf/open/lava/plasma/mafia,
 /area/awaymission/museum)
 "yn" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
