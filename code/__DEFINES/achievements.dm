@@ -119,15 +119,3 @@
 /// DB ID for the amount of achievements unlocked by the player.
 #define ACHIEVEMENTS_SCORE "Achievements Score"
 
-// Tourist related achievements and scores
-
-//centcom grades (achievement)
-
-#define MEDAL_BAD_SERVICE "Bad Service"
-#define MEDAL_OKAY_SERVICE "Okay Service"
-#define MEDAL_GOOD_SERVICE "Good Service"
-
-//scores
-
-#define CHEF_TOURISTS_SERVED "Tourists Served As Chef"
-#define BARTENDER_TOURISTS_SERVED "Tourists Served As Bartender"

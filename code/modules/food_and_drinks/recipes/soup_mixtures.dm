@@ -10,7 +10,6 @@
 	glass_price = FOOD_PRICE_CHEAP
 	fallback_icon = 'icons/obj/food/soupsalad.dmi'
 	fallback_icon_state = "bowl"
-	restaurant_order = /datum/custom_order/reagent/soup
 
 /**
  * ## Soup base chemical reaction.

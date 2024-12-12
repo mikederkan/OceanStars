@@ -179,7 +179,6 @@
 		"holosignsec",
 		"holosignengi",
 		"holosignatmos",
-		"holosignrestaurant",
 		"holosignbar",
 		"holobarrier_jani",
 		"holobarrier_med",

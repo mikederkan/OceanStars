@@ -82,16 +82,6 @@
 	///The default reagent container for the reagent, used for icon generation
 	var/obj/item/reagent_containers/default_container = /obj/item/reagent_containers/cup/bottle
 
-	// Used for restaurants.
-	///The amount a robot will pay for a glass of this (20 units but can be higher if you pour more, be frugal!)
-	var/glass_price
-	/// Icon for fallback item displayed in a tourist's thought bubble for if this reagent had no associated glass_style datum.
-	var/fallback_icon
-	/// Icon state for fallback item displayed in a tourist's thought bubble for if this reagent had no associated glass_style datum.
-	var/fallback_icon_state
-	/// When ordered in a restaurant, what custom order do we create?
-	var/restaurant_order = /datum/custom_order/reagent/drink
-
 /datum/reagent/New()
 	SHOULD_CALL_PARENT(TRUE)
 	. = ..()

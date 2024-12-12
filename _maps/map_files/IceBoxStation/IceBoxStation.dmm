@@ -22179,7 +22179,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
 "gpr" = (
-/obj/machinery/restaurant_portal/bar,
 /obj/effect/turf_decal/delivery/red,
 /obj/machinery/barsign/directional/south,
 /turf/open/floor/wood/parquet,
@@ -46778,7 +46777,6 @@
 	pixel_y = 2
 	},
 /obj/item/book/manual/chef_recipes,
-/obj/item/holosign_creator/robot_seat/restaurant,
 /obj/structure/rack,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/kitchen)
@@ -72247,7 +72245,6 @@
 /turf/open/floor/iron/dark/textured_edge,
 /area/station/security/prison)
 "uTq" = (
-/obj/machinery/restaurant_portal/restaurant,
 /obj/effect/turf_decal/delivery/red,
 /turf/open/floor/wood/parquet,
 /area/station/service/bar/atrium)
