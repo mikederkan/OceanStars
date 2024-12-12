@@ -53,10 +53,6 @@ const BASEICONS = {
   'Station Mechanic': 'gears',
   'Syndicate Operative': 'dragon',
   Warden: 'handcuffs',
-  // SKYRAT EDIT START - Skyrat-exclusive jobs have icons too
-
-  'Security Medic': 'heart-pulse',
-  // SKYRAT EDIT END
 } as const;
 
 // SKYRAT EDIT START - ALT TITLES
@@ -214,11 +210,7 @@ const ALTTITLES = {
   Xenoarchaeologist: BASEICONS['Scientist'],
   'Research Assistant': BASEICONS['Scientist'],
   'Graduate Student': BASEICONS['Scientist'],
-  // Security Medic - heart-pulse
-  'Field Medic': BASEICONS['Security Medic'],
-  'Security Corpsman': BASEICONS['Security Medic'],
-  'Brig Physician': BASEICONS['Security Medic'],
-  'Combat Medic': BASEICONS['Security Medic'],
+
   // Security Officer - shield-halved
   'Security Operative': BASEICONS['Security Officer'],
   Peacekeeper: BASEICONS['Security Officer'],
@@ -231,14 +223,14 @@ const ALTTITLES = {
   Prospector: BASEICONS['Shaft Miner'],
   // Shipbreaker: - rocket
   Shipbreaker: BASEICONS['Shipbreaker'],
-	'Salvage Technician': BASEICONS['Shipbreaker'],
-	'Systems Reclaimer': BASEICONS['Shipbreaker'],
-	Scrapper: BASEICONS['Shipbreaker'],
-	Junker: BASEICONS['Shipbreaker'],
-	Breaker: BASEICONS['Shipbreaker'],
-	'Ship Butcher': BASEICONS['Shipbreaker'],
+  'Salvage Technician': BASEICONS['Shipbreaker'],
+  'Systems Reclaimer': BASEICONS['Shipbreaker'],
+  Scrapper: BASEICONS['Shipbreaker'],
+  Junker: BASEICONS['Shipbreaker'],
+  Breaker: BASEICONS['Shipbreaker'],
+  'Ship Butcher': BASEICONS['Shipbreaker'],
   // Station Engineer - bolt-lightning
- 'Station Engineer': BASEICONS['Station Engineer'],
+  'Station Engineer': BASEICONS['Station Engineer'],
   'Maintenance Engineer': BASEICONS['Station Engineer'],
   'HVAC Engineer': BASEICONS['Station Engineer'],
   Electrician: BASEICONS['Station Engineer'],

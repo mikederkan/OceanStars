@@ -84,7 +84,7 @@
 
 
 /obj/structure/closet/secure_closet/atmospherics
-	name = "atmospheric technician's locker"
+	name = "atmospheric technician's locker" //we'll need to go over this sometime in the job thingy but
 	req_access = list(ACCESS_ATMOSPHERICS)
 	icon_state = "atmos"
 
