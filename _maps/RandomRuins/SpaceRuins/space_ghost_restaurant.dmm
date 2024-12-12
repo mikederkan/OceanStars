@@ -270,7 +270,6 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/space/space_ghost_restaurant)
 "Rm" = (
-/obj/item/circuitboard/machine/restaurant_portal,
 /turf/template_noop,
 /area/template_noop)
 "RI" = (
@@ -279,7 +278,6 @@
 /area/ruin/space/space_ghost_restaurant)
 "Sj" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/item/circuitboard/machine/restaurant_portal,
 /obj/item/stack/sheet/iron,
 /turf/open/floor/plating/airless,
 /area/ruin/space/space_ghost_restaurant)

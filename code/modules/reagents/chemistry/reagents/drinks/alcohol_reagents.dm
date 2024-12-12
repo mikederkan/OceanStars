@@ -13,8 +13,6 @@
 	burning_temperature = 2193//ethanol burns at 1970C (at its peak)
 	burning_volume = 0.1
 	default_container = /obj/item/reagent_containers/cup/glass/bottle/beer
-	fallback_icon = 'icons/obj/drinks/bottles.dmi'
-	fallback_icon_state = "beer"
 	/**
 	 * Boozepwr Chart
 	 *
@@ -120,7 +118,7 @@
 	taste_description = "mild carbonated malt"
 	ph = 4
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 // Beer is a chemical composition of alcohol and various other things. It's a garbage nutrient but hey, it's still one. Also alcohol is bad, mmmkay?
 /datum/reagent/consumable/ethanol/beer/on_hydroponics_apply(obj/machinery/hydroponics/mytray, mob/user)
@@ -200,7 +198,7 @@
 	taste_description = "molasses"
 	ph = 4.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/whiskey/kong
 	name = "Kong"
@@ -334,7 +332,7 @@
 	taste_description = "an alcoholic christmas tree"
 	ph = 6.9
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/rum
 	name = "Rum"
@@ -375,7 +373,7 @@
 	taste_description = "paint stripper"
 	ph = 4
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/vermouth
 	name = "Vermouth"
@@ -394,7 +392,7 @@
 	taste_description = "bitter sweetness"
 	ph = 3.45
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 	default_container = /obj/item/reagent_containers/cup/glass/bottle/wine
 
 /datum/reagent/consumable/ethanol/wine/on_merge(data)
@@ -419,7 +417,7 @@
 	taste_description = "scaley sweetness"
 	ph = 3
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/grappa
 	name = "Grappa"
@@ -429,7 +427,7 @@
 	taste_description = "classy bitter sweetness"
 	ph = 3.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/amaretto
 	name = "Amaretto"
@@ -438,7 +436,7 @@
 	boozepwr = 25
 	taste_description = "fruity and nutty sweetness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/cognac
 	name = "Cognac"
@@ -448,7 +446,7 @@
 	taste_description = "smooth and french"
 	ph = 3.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/absinthe
 	name = "Absinthe"
@@ -480,7 +478,7 @@
 	taste_description = "hearty barley ale"
 	ph = 4.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/goldschlager
 	name = "Goldschlager"
@@ -523,7 +521,7 @@
 	taste_description = "metallic and expensive"
 	ph = 4.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_HIGH
+
 
 /datum/reagent/consumable/ethanol/gintonic
 	name = "Gin and Tonic"
@@ -534,7 +532,7 @@
 	taste_description = "mild and tart"
 	ph = 3
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/ethanol/rum_coke
 	name = "Rum and Coke"
@@ -583,7 +581,7 @@
 	quality = DRINK_NICE
 	taste_description = "dry class"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/ethanol/vodkamartini
 	name = "Vodka Martini"
@@ -707,7 +705,7 @@
 	quality = DRINK_NICE
 	taste_description = "alcoholic bravery"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 	metabolized_traits = list(TRAIT_FEARLESS, TRAIT_ANALGESIA)
 	var/tough_text
 
@@ -732,7 +730,7 @@
 	quality = DRINK_GOOD
 	taste_description = "oranges with a hint of pomegranate"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 	var/obj/effect/light_holder
 
 /datum/reagent/consumable/ethanol/tequila_sunrise/on_mob_metabolize(mob/living/drinker)
@@ -876,7 +874,7 @@
 	quality = DRINK_GOOD
 	taste_description = "angry and irish"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/ethanol/b52/on_mob_metabolize(mob/living/drinker)
 	. = ..()
@@ -900,7 +898,7 @@
 	quality = DRINK_NICE
 	taste_description = "dry and salty"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/black_russian
 	name = "Black Russian"
@@ -919,7 +917,7 @@
 	quality = DRINK_NICE
 	taste_description = "mild dryness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/ethanol/manhattan_proj
 	name = "Manhattan Project"
@@ -1184,7 +1182,7 @@
 	taste_description = "sweet 'n creamy"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	//somewhat annoying mix
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/andalusia
 	name = "Andalusia"
@@ -1203,7 +1201,7 @@
 	quality = DRINK_NICE
 	taste_description = "bitter yet free"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/ethanol/acid_spit
 	name = "Acid Spit"
@@ -1347,7 +1345,7 @@
 	boozepwr = 25
 	taste_description = "the season that <i>falls</i> between summer and winter"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/fetching_fizz //A reference to one of my favorite games of all time. Pulls nearby ores to the imbiber!
 	name = "Fetching Fizz"
@@ -1402,7 +1400,7 @@
 	quality = DRINK_FANTASTIC
 	taste_description = "da bomb"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_HIGH
+
 
 /datum/reagent/consumable/ethanol/atomicbomb/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
 	. = ..()
@@ -1663,7 +1661,7 @@
 	metabolization_rate = 2 * REAGENTS_METABOLISM //0.4u per second
 	ph = 4
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_HIGH
+
 
 /datum/reagent/consumable/ethanol/bastion_bourbon/on_mob_metabolize(mob/living/drinker)
 	. = ..()
@@ -1752,7 +1750,7 @@
 	boozepwr = 70
 	taste_description = "sweet rice wine"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/peppermint_patty
 	name = "Peppermint Patty"
@@ -1820,7 +1818,7 @@
 	quality = DRINK_GOOD
 	taste_description = "delicious freedom"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/between_the_sheets
 	name = "Between the Sheets"
@@ -1830,7 +1828,7 @@
 	quality = DRINK_GOOD
 	taste_description = "seduction"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/between_the_sheets/on_mob_life(mob/living/drinker, seconds_per_tick, times_fired)
 	. = ..()
@@ -1874,7 +1872,7 @@
 	quality = DRINK_GOOD
 	taste_description = "refreshing mint"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/moscow_mule
 	name = "Moscow Mule"
@@ -1926,7 +1924,7 @@
 	quality = DRINK_NICE
 	taste_description = "a sweet sobering mix"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_HIGH
+
 
 /datum/reagent/consumable/ethanol/fanciulli/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
 	. = ..()
@@ -1946,7 +1944,7 @@
 	quality = DRINK_GOOD
 	taste_description = "a bitter freshness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/branca_menta/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
 	. = ..()
@@ -2087,7 +2085,7 @@
 	boozepwr = 40
 	taste_description = "auspicious occasions and bad decisions"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/ethanol/wizz_fizz
 	name = "Wizz Fizz"
@@ -2340,7 +2338,7 @@
 	quality = DRINK_GOOD
 	taste_description = "a delightful softened punch"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/ethanol/godmother
 	name = "Godmother"
@@ -2617,7 +2615,7 @@
 	boozepwr = 20
 	taste_description = "a poet's love and undoing"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/the_hat
 	name = "The Hat"
@@ -2627,7 +2625,7 @@
 	quality = DRINK_NICE
 	taste_description = "something perfumy"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 
 /datum/reagent/consumable/ethanol/gin_garden
 	name = "Gin Garden"

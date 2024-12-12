@@ -934,31 +934,7 @@
 	)
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
-// Restaurant Equipment
-
-/datum/design/holosign/restaurant
-	name = "Restaurant Seating Projector"
-	desc = "A holographic projector that creates seating designation for restaurants."
-	id = "holosignrestaurant"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron =SHEET_MATERIAL_AMOUNT, /datum/material/glass =HALF_SHEET_MATERIAL_AMOUNT)
-	build_path = /obj/item/holosign_creator/robot_seat/restaurant
-	category = list(
-		RND_CATEGORY_TOOLS + RND_SUBCATEGORY_TOOLS_SERVICE
-	)
-	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
-
-/datum/design/holosign/bar
-	name = "Bar Seating Projector"
-	desc = "A holographic projector that creates seating designation for bars."
-	id = "holosignbar"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron =SHEET_MATERIAL_AMOUNT, /datum/material/glass =HALF_SHEET_MATERIAL_AMOUNT)
-	build_path = /obj/item/holosign_creator/robot_seat/bar
-	category = list(
-		RND_CATEGORY_TOOLS + RND_SUBCATEGORY_TOOLS_SERVICE
-	)
-	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
+// Cooking Equipment
 
 /datum/design/oven_tray
 	name = "Oven Tray"

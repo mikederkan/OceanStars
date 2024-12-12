@@ -59,8 +59,6 @@
 		tastes = string_assoc_list(tastes)
 	if(eatverbs)
 		eatverbs = string_list(eatverbs)
-	if(venue_value)
-		AddElement(/datum/element/venue_price, venue_value)
 	make_edible()
 	make_processable()
 	make_leave_trash()

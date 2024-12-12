@@ -22,8 +22,6 @@
 	color = "#fbc314"
 	ph = 0
 	inverse_chem = null
-	fallback_icon = 'icons/obj/drinks/drink_effects.dmi'
-	fallback_icon_state = "acid_buffer_fallback"
 
 //Consumes self on addition and shifts ph
 /datum/reagent/reaction_agent/acidic_buffer/intercept_reagents_transfer(datum/reagents/target, amount)
@@ -50,8 +48,6 @@
 	color = "#3853a4"
 	ph = 14
 	inverse_chem = null
-	fallback_icon = 'icons/obj/drinks/drink_effects.dmi'
-	fallback_icon_state = "base_buffer_fallback"
 
 /datum/reagent/reaction_agent/basic_buffer/intercept_reagents_transfer(datum/reagents/target, amount)
 	. = ..()

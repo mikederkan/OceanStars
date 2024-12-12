@@ -7,10 +7,6 @@
 	nutriment_factor = 12 // Slightly less to that of nutriment as soups will come with nutriments in tow
 	burning_temperature = 520
 	default_container = /obj/item/reagent_containers/cup/bowl
-	glass_price = FOOD_PRICE_CHEAP
-	fallback_icon = 'icons/obj/food/soupsalad.dmi'
-	fallback_icon_state = "bowl"
-	restaurant_order = /datum/custom_order/reagent/soup
 
 /**
  * ## Soup base chemical reaction.
@@ -383,7 +379,7 @@
 	name = "Meatball Soup"
 	description = "You've got balls kid, BALLS!"
 	data = list("meat" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#FFFDCF"
 
 /datum/glass_style/has_foodtype/soup/meatball_soup
@@ -411,7 +407,7 @@
 	name = "Vegetable Soup"
 	description = "A true vegan meal."
 	data = list("vegetables" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#FAA810"
 
 /datum/glass_style/has_foodtype/soup/vegetable_soup
@@ -437,7 +433,7 @@
 	name = "Nettle Soup"
 	description = "To think, the botanist would've beat you to death with one of these."
 	data = list("nettles" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#C1E212"
 
 /datum/glass_style/has_foodtype/soup/nettle
@@ -493,7 +489,7 @@
 	name = "Hot Chili"
 	description = "A five alarm Texan Chili!"
 	data = list("hot peppers" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#E23D12"
 
 /datum/glass_style/has_foodtype/soup/hotchili
@@ -529,7 +525,7 @@
 	name = "Cold Chili"
 	description = "This slush is barely a liquid!"
 	data = list("tomato" = 1, "mint" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#3861C2"
 
 /datum/glass_style/has_foodtype/soup/coldchili
@@ -563,7 +559,7 @@
 		"kind of funny" = 2,
 		"someone's parents" = 2,
 	)
-	glass_price = FOOD_PRICE_EXOTIC
+
 	color = COLOR_RED
 
 /datum/glass_style/has_foodtype/soup/clownchili
@@ -679,7 +675,7 @@
 	name = "Miso Soup"
 	description = "The universes best soup! Yum!!!"
 	data = list("miso" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#E2BD12"
 
 /datum/glass_style/has_foodtype/soup/miso
@@ -731,7 +727,7 @@
 	name = "Slime Soup"
 	description = "If no water is available, you may substitute tears."
 	data = list("slime" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#41C0C0"
 
 /datum/glass_style/has_foodtype/soup/slime
@@ -855,7 +851,7 @@
 	name = "Monkey's Delight"
 	description = "A delicious soup with dumplings and hunks of monkey meat simmered to perfection, in a broth that tastes faintly of bananas."
 	data = list("the jungle" = 1, "banana" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#4C2A18"
 
 /datum/glass_style/has_foodtype/soup/monkey
@@ -963,7 +959,7 @@
 	name = "Stew"
 	description = "A nice and warm stew. Healthy and strong."
 	data = list("tomato" = 1, "carrot" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#EB7C82"
 
 /datum/glass_style/has_foodtype/soup/stew
@@ -1073,7 +1069,7 @@
 	name = "Bisque"
 	description = "A classic entree from Space-France."
 	data = list("creamy texture" = 1, "crab" = 4)
-	glass_price = FOOD_PRICE_EXOTIC
+
 	color = "#C8682F"
 
 /datum/glass_style/has_foodtype/soup/bisque
@@ -1099,7 +1095,7 @@
 	name = "Bungo Curry"
 	description = "A spicy vegetable curry made with the humble bungo fruit, Exotic!"
 	data = list("bungo" = 2, "hot curry" = 4, "tropical sweetness" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#E6BC32"
 
 /datum/glass_style/has_foodtype/soup/bungo
@@ -1128,7 +1124,7 @@
 	name = "Electron Soup"
 	description = "A gastronomic curiosity of ethereal origin. It is famed for the minature weather system formed over a properly prepared soup."
 	data = list("mushroom" = 1, "electrons" = 4)
-	glass_price = FOOD_PRICE_EXOTIC
+
 	color = "#E60040"
 
 /datum/glass_style/has_foodtype/soup/electrons
@@ -1181,7 +1177,7 @@
 	name = "Indian Chicken Curry"
 	description = "A mild, creamy curry from the old subcontinent. Liked by the Space-British, because it reminds them of the Raj."
 	data = list("chicken" = 2, "creamy curry" = 4, "earthy heat" = 1)
-	glass_price = FOOD_PRICE_NORMAL
+
 	color = "#BB2D1A"
 
 /datum/glass_style/has_foodtype/soup/indian_curry
