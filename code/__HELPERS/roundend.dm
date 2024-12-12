@@ -327,8 +327,6 @@ GLOBAL_LIST_INIT(achievements_unlocked, list())
 	parts += hardcore_random_report()
 
 	CHECK_TICK
-	//Medals
-	parts += medal_report()
 	//Station Goals
 	parts += goal_report()
 	//Economy & Money

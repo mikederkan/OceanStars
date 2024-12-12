@@ -256,7 +256,7 @@
 	overdose_threshold = 80
 	taste_description = "bitterness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 	metabolized_traits = list(TRAIT_STIMULATED)
 
 /datum/reagent/consumable/coffee/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
@@ -280,7 +280,7 @@
 	nutriment_factor = 0
 	taste_description = "tart black tea"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
+
 	default_container = /obj/item/reagent_containers/cup/glass/mug/tea
 	metabolized_traits = list(TRAIT_STIMULATED)
 
@@ -332,7 +332,7 @@
 	quality = DRINK_NICE
 	taste_description = "sunshine and summertime"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 
 /datum/reagent/consumable/tea/arnold_palmer
 	name = "Arnold Palmer"
@@ -708,7 +708,7 @@
 	quality = DRINK_NICE
 	taste_description = "creamy coffee"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 	metabolized_traits = list(TRAIT_STIMULATED)
 
 /datum/reagent/consumable/soy_latte/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
@@ -735,7 +735,7 @@
 	quality = DRINK_NICE
 	taste_description = "bitter cream"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_EASY
+
 	metabolized_traits = list(TRAIT_STIMULATED)
 
 /datum/reagent/consumable/cafe_latte/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
@@ -797,7 +797,7 @@
 	nutriment_factor = 8
 	taste_description = "creamy tart cherry"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/bluecherryshake
 	name = "Blue Cherry Shake"
@@ -816,7 +816,7 @@
 	nutriment_factor = 8
 	taste_description = "sweet creamy vanilla"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/caramelshake
 	name = "Caramel Shake"
@@ -826,7 +826,7 @@
 	nutriment_factor = 10
 	taste_description = "sweet rich creamy caramel"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/choccyshake
 	name = "Chocolate Shake"
@@ -836,7 +836,7 @@
 	nutriment_factor = 8
 	taste_description = "sweet creamy chocolate"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/strawberryshake
 	name = "Strawberry Shake"
@@ -846,7 +846,7 @@
 	nutriment_factor = 8
 	taste_description = "sweet strawberries and milk"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/bananashake
 	name = "Banana Shake"
@@ -856,7 +856,7 @@
 	nutriment_factor = 8
 	taste_description = "thick banana"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_MEDIUM
+
 
 /datum/reagent/consumable/pumpkin_latte
 	name = "Pumpkin Latte"
@@ -1203,7 +1203,7 @@
 	quality = DRINK_GOOD
 	taste_description = "citrus soda with cucumber"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_HIGH
+
 
 /datum/reagent/consumable/cucumberlemonade/on_mob_life(mob/living/carbon/doll, seconds_per_tick, times_fired)
 	. = ..()
