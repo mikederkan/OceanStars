@@ -195,8 +195,8 @@
 	if(!ignores_cooldown && !COOLDOWN_FINISHED(src, last_speech))
 		return
 	say(pick_list_replacements(speech_json_file, json_string))
-	playsound(src, 'sound/creatures/tourist/tourist_talk.ogg', 15, TRUE, SHORT_RANGE_SOUND_EXTRARANGE, frequency = rand(2, 2.2))
-	Shake(2, 2, 1 SECONDS)
+	playsound(src, 'sound/items/modsuit/ballout.ogg', 15, TRUE, SHORT_RANGE_SOUND_EXTRARANGE, frequency = rand(2, 2.2))
+	Shake(2, 2, 1 SECONDS) //dude i dont even know what this is but why is it using tourist talk sounds
 	COOLDOWN_START(src, last_speech, MOD_LASER_SPEECH_COOLDOWN)
 
 /obj/item/gun/energy/modular_laser_rifle/equipped(mob/user, slot, initial)

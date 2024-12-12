@@ -77,22 +77,3 @@
 	. = Move(get_step(loc,pick(cdir, ccdir)))
 	if(!.)//Can't dodge there so we just carry on
 		. = Move(moving_to, move_direction)
-
-/// The special hatsune miku themed mi-go.
-/mob/living/basic/migo/hatsune
-	name = "hatsune mi-go"
-	desc = parent_type::desc + " This one is wearing a bright blue wig."
-	icon_state = "mi-go-h"
-	icon_living = "mi-go-h"
-
-	gender = FEMALE
-	gold_core_spawnable = FRIENDLY_SPAWN
-	faction = list(FACTION_NEUTRAL)
-
-/mob/living/basic/migo/hatsune/make_migo_sound()
-	playsound(src, 'sound/creatures/tourist/tourist_talk_japanese1.ogg', 50, TRUE)
-
-/mob/living/basic/migo/hatsune/Initialize(mapload)
-	. = ..()
-	var/static/list/death_loot = list(/obj/item/instrument/piano_synth)
-	AddElement(/datum/element/death_drops, death_loot)
