@@ -2426,7 +2426,6 @@
 /turf/open/chasm,
 /area/awaymission/museum)
 "tC" = (
-/obj/structure/sign/departments/lawyer/directional/south,
 /turf/open/misc/grass,
 /area/awaymission/museum/mothroachvoid)
 "tD" = (
@@ -3377,7 +3376,6 @@
 /turf/open/floor/iron,
 /area/awaymission/museum)
 "Bj" = (
-/obj/structure/closet/lawcloset,
 /turf/open/floor/wood/large,
 /area/awaymission/museum)
 "Bo" = (

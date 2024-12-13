@@ -266,19 +266,6 @@
 		"Sanitation Technician",
 	)
 
-/datum/job/lawyer
-	alt_titles = list(
-		"Lawyer",
-		"Barrister",
-		"Defense Attorney",
-		"Human Resources Agent",
-		"Internal Affairs Agent",
-		"Magistrate",
-		"Legal Clerk",
-		"Prosecutor",
-		"Public Defender",
-	)
-
 /datum/job/mime
 	alt_titles = list(
 		"Mime",

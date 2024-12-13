@@ -92,7 +92,6 @@
 		/obj/structure/closet/gmcloset,
 		/obj/structure/closet/chefcloset,
 		/obj/structure/closet/jcloset,
-		/obj/structure/closet/lawcloset,
 		/obj/structure/closet/wardrobe/chaplain_black,
 		/obj/structure/closet/wardrobe/red,
 		/obj/structure/closet/wardrobe/cargotech,

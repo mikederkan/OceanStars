@@ -277,7 +277,6 @@
 		/datum/job/head_of_personnel = /obj/item/organ/internal/eyes/robotic,
 		/datum/job/head_of_security = /obj/item/organ/internal/eyes/robotic/thermals,
 		/datum/job/janitor = /obj/item/organ/internal/eyes/robotic/xray,
-		/datum/job/lawyer = /obj/item/organ/internal/heart/cybernetic/tier2,
 		/datum/job/mime = /obj/item/organ/internal/tongue/robot, //...
 		/datum/job/paramedic = /obj/item/organ/internal/cyberimp/eyes/hud/medical,
 		/datum/job/prisoner = /obj/item/organ/internal/eyes/robotic/shield,

@@ -1076,10 +1076,6 @@
 /obj/structure/plaque/static_plaque/golden{
 	pixel_y = 32
 	},
-/obj/item/clothing/accessory/lawyers_badge{
-	desc = "A badge of upmost glory.";
-	name = "thunderdome badge"
-	},
 /turf/open/floor/iron/grimy,
 /area/centcom/tdome/observation)
 "eP" = (

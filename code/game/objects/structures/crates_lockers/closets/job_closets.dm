@@ -72,33 +72,6 @@
 	new /obj/item/air_refresher(src)
 	//SKYRAT EDIT END
 
-/obj/structure/closet/lawcloset
-	name = "legal closet"
-	desc = "It's a storage unit for courtroom apparel and items."
-	icon_door = "law_wardrobe"
-
-/obj/structure/closet/lawcloset/PopulateContents()
-	..()
-	new /obj/item/clothing/under/suit/black(src)
-	new /obj/item/clothing/under/rank/civilian/lawyer/beige(src)
-	new /obj/item/clothing/under/rank/civilian/lawyer/black(src)
-	new /obj/item/clothing/under/rank/civilian/lawyer/red(src)
-	new /obj/item/clothing/under/rank/civilian/lawyer/bluesuit(src)
-	new /obj/item/clothing/neck/tie/blue(src)
-	new /obj/item/clothing/suit/toggle/lawyer(src)
-	new /obj/item/clothing/under/rank/civilian/lawyer/purpsuit(src)
-	new /obj/item/clothing/suit/toggle/lawyer/purple(src)
-	new /obj/item/clothing/under/costume/buttondown/slacks/service(src)
-	new /obj/item/clothing/neck/tie/black(src)
-	new /obj/item/clothing/suit/toggle/lawyer/black(src)
-	new /obj/item/clothing/shoes/laceup(src)
-	new /obj/item/clothing/shoes/laceup(src)
-
-/obj/structure/closet/lawcloset/populate_contents_immediate()
-	. = ..()
-	new /obj/item/clothing/accessory/lawyers_badge(src)
-	new /obj/item/clothing/accessory/lawyers_badge(src)
-
 /obj/structure/closet/wardrobe/chaplain_black
 	name = "chapel wardrobe"
 	desc = "It's a storage unit for Nanotrasen-approved religious attire."

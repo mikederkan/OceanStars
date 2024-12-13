@@ -4268,8 +4268,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/lesser)
 "byw" = (
-/obj/effect/landmark/start/lawyer,
-/turf/open/floor/wood,
+=/turf/open/floor/wood,
 /area/station/service/lawoffice)
 "byz" = (
 /obj/structure/chair,
@@ -6619,7 +6618,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/all/service/lawyer,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
 "ctn" = (
@@ -24333,7 +24332,6 @@
 	c_tag = "Locker Room Entrance"
 	},
 /obj/structure/cable,
-/obj/structure/sign/departments/lawyer/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/neutral{
@@ -35918,7 +35916,7 @@
 /obj/machinery/door/airlock{
 	name = "Law Office"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/service/lawyer,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/wood,
 /area/station/security/courtroom)
 "mLS" = (
@@ -39362,7 +39360,6 @@
 /turf/open/floor/wood,
 /area/station/commons/vacant_room/office)
 "nVy" = (
-/obj/effect/landmark/start/lawyer,
 /obj/structure/chair/office{
 	dir = 4
 	},
@@ -48772,7 +48769,7 @@
 	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/obj/effect/mapping_helpers/airlock/access/all/service/lawyer,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "rmL" = (
@@ -49608,7 +49605,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "rzJ" = (
-/obj/effect/landmark/start/lawyer,
 /turf/open/floor/iron,
 /area/station/security/courtroom)
 "rzM" = (
@@ -59745,10 +59741,9 @@
 "uZL" = (
 /obj/machinery/requests_console/directional/north{
 	department = "Law Office";
-	name = "Lawyer Requests Console"
+	name = "Lawyer Requests Console" //hmm
 	},
 /obj/machinery/newscaster/directional/west,
-/obj/structure/aquarium/lawyer,
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
 "uZP" = (

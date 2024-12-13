@@ -21,44 +21,6 @@
 	. = ..()
 	add_traits(list(TRAIT_FISHING_BAIT, TRAIT_GOOD_QUALITY_BAIT), INNATE_TRAIT)
 
-/obj/item/fish/goldfish/gill
-	name = "McGill"
-	desc = "A great rubber duck tool for Lawyers who can't get a grasp over their case."
-	stable_population = 1
-	random_case_rarity = FISH_RARITY_NOPE
-	show_in_catalog = FALSE
-	beauty = FISH_BEAUTY_GOOD
-	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/three_eyes)
-	fish_traits = list(/datum/fish_trait/recessive)
-
-/obj/item/fish/goldfish/three_eyes
-	name = "three-eyed goldfish"
-	desc = "A goldfish with an extra half a pair of eyes. You wonder what it's been feeding on lately..."
-	icon_state = "three_eyes"
-	stable_population = 4
-	fish_traits = list(/datum/fish_trait/recessive, /datum/fish_trait/shiny_lover)
-	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/gill, /obj/item/fish/goldfish/three_eyes/gill)
-	beauty = FISH_BEAUTY_GOOD
-	fishing_difficulty_modifier = 10
-	random_case_rarity = FISH_RARITY_VERY_RARE
-	food = /datum/reagent/toxin/mutagen
-	favorite_bait = list(
-		list(
-			"Type" = "Reagent",
-			"Value" = /datum/reagent/toxin/mutagen,
-			"Amount" = 3,
-		),
-	)
-
-/obj/item/fish/goldfish/three_eyes/gill
-	name = "McGill"
-	desc = "A great rubber duck tool for Lawyers who can't get a grasp over their case. It looks kinda different today..."
-	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/three_eyes)
-	beauty = FISH_BEAUTY_GREAT
-	show_in_catalog = FALSE
-	stable_population = 1
-	random_case_rarity = FISH_RARITY_NOPE
-
 /obj/item/fish/angelfish
 	name = "angelfish"
 	desc = "Young Angelfish often live in groups, while adults prefer solitary life. They become territorial and aggressive toward other fish when they reach adulthood."
