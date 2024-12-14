@@ -2253,7 +2253,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/item/storage/briefcase/lawyer,
+/obj/item/storage/briefcase/black,
 /obj/structure/noticeboard/directional/north,
 /turf/open/floor/iron,
 /area/virtual_domain)

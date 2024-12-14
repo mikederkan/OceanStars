@@ -2361,7 +2361,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/item/clipboard,
 /obj/item/folder/blue,
-/obj/item/stamp/law,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kO" = (
@@ -2414,7 +2413,6 @@
 /obj/structure/table/wood,
 /obj/item/clipboard,
 /obj/item/folder/blue,
-/obj/item/stamp/law,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kZ" = (

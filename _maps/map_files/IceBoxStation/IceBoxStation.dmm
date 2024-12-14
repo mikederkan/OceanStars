@@ -58608,7 +58608,6 @@
 /obj/item/folder/blue,
 /obj/item/folder/blue,
 /obj/item/folder/blue,
-/obj/item/stamp/law,
 /obj/machinery/camera/directional/south{
 	c_tag = "Service Law Office"
 	},

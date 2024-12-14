@@ -6,8 +6,6 @@
 #define DYE_REGISTRY_FANNYPACK "fannypack"
 #define DYE_REGISTRY_BEDSHEET "bedsheet"
 #define DYE_REGISTRY_DOUBLE_BEDSHEET "double_bedsheet"
-#define DYE_LAWYER_SPECIAL "lawyer_special"
-#define DYE_LAWYER_SPECIAL_SKIRT "lawyer_special_skirt" //this will stay until we remove dyes, gotta change lawyer suit paths
 
 #define DYE_RED "red"
 #define DYE_ORANGE "orange"
@@ -22,7 +20,6 @@
 #define DYE_COSMIC "cosmic"
 #define DYE_SYNDICATE "syndicate"
 #define DYE_QM "qm"
-#define DYE_LAW "law"
 #define DYE_CAPTAIN "captain"
 #define DYE_HOP "hop"
 #define DYE_HOS "hos"
