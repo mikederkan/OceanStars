@@ -8,7 +8,6 @@
 		/datum/reagent/consumable/nutriment/vitamin = 25
 	)
 	foodtypes = MEAT | GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_4
 
 /obj/item/food/snacks/store/bread/haggis/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/snacks/breadslice/haggis, 5, 30, screentip_verb = "Slice")
@@ -23,7 +22,6 @@
 		/datum/reagent/consumable/nutriment/vitamin = 5
 	)
 	foodtypes = MEAT | GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_4
 
 
 /obj/item/food/snacks/neep_tatty_haggis
@@ -49,7 +47,6 @@
 		/datum/reagent/consumable/nutriment/vitamin = 2,
 		/datum/reagent/consumable/ethanol/beerbatter = 5
 	)
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/raw_sausage/battered/make_grillable()
 	AddComponent(/datum/component/grillable, /obj/item/food/sausage/battered, rand(60 SECONDS, 75 SECONDS), TRUE)
@@ -82,4 +79,3 @@
 	)
 	tastes = list("sugary dough" = 1)
 	foodtypes = GRAIN | JUNKFOOD | SUGAR
-	crafting_complexity = FOOD_COMPLEXITY_2

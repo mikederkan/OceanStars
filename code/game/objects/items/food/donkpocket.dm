@@ -58,7 +58,6 @@
 	)
 	tastes = list("meat" = 2, "dough" = 2)
 	foodtypes = GRAIN | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/donkpocket/spicy
 	name = "\improper Spicy-pocket"

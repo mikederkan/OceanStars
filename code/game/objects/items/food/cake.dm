@@ -8,7 +8,6 @@
 	)
 	tastes = list("cake" = 1)
 	foodtypes = GRAIN | DAIRY
-	crafting_complexity = FOOD_COMPLEXITY_2
 	/// type is spawned 5 at a time and replaces this cake when processed by cutting tool
 	var/obj/item/food/cakeslice/slice_type
 	/// changes yield of sliced cake, default for cake is 5
@@ -31,7 +30,6 @@
 	tastes = list("cake" = 1)
 	foodtypes = GRAIN | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cake/plain
 	name = "plain cake"
@@ -457,7 +455,6 @@
 	venue_value = FOOD_PRICE_CHEAP
 	slice_type = /obj/item/food/cakeslice/pound_cake_slice
 	yield = 7
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cakeslice/pound_cake_slice
 	name = "pound cake slice"
@@ -469,7 +466,6 @@
 	)
 	tastes = list("cake" = 5, "sweetness" = 5, "batter" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR | JUNKFOOD
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cake/hardware_cake
 	name = "hardware cake"
@@ -597,7 +593,6 @@
 	foodtypes = GRAIN | DAIRY | SUGAR
 	slice_type = /obj/item/food/cakeslice/brioche
 	yield = 6
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cakeslice/brioche
 	name = "brioche cake slice"
@@ -605,7 +600,6 @@
 	icon_state = "briochecake_slice"
 	tastes = list("cake" = 4, "butter" = 2, "cream" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cake/pavlova
 	name = "pavlova"

@@ -14,7 +14,6 @@
 	)
 	tastes = list("rice" = 3, "blood" = 5)
 	foodtypes = GRAIN | GORE | BLOODY
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/hemophage/blood_rice_pearl/raw
 	name = "uncooked blood rice"
@@ -28,7 +27,6 @@
 	tastes = list("raw rice" = 3, "blood" = 5)
 	color = "#810000"
 	foodtypes = GRAIN | GORE | BLOODY | RAW
-	crafting_complexity = FOOD_COMPLEXITY_0
 
 /obj/item/food/hemophage/blood_rice_pearl/raw/make_microwaveable()
 	AddElement(/datum/element/microwavable, /obj/item/food/hemophage/blood_rice_pearl)
@@ -45,7 +43,6 @@
 	)
 	tastes = list("blood" = 5, "pasta" = 1)
 	foodtypes = GRAIN | GORE | BLOODY
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/hemophage/blood_noodles/raw
 	name = "raw blood noodles"
@@ -57,7 +54,6 @@
 	)
 	tastes = list("blood" = 5, "raw pasta" = 1)
 	foodtypes = GRAIN | GORE | BLOODY | RAW
-	crafting_complexity = FOOD_COMPLEXITY_0
 
 /obj/item/food/hemophage/blood_noodles/raw/make_microwaveable()
 	AddElement(/datum/element/microwavable, /obj/item/food/hemophage/blood_noodles)
@@ -75,7 +71,6 @@
 	)
 	tastes = list("blood" = 5, "congealed blood" = 3, "pasta" = 1)
 	foodtypes = GRAIN | GORE | BLOODY
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/hemophage/blood_curd
 	name = "blood curd"
@@ -87,7 +82,6 @@
 	)
 	tastes = list("congealed blood" = 1)
 	foodtypes = GORE | BLOODY | RAW
-	crafting_complexity = FOOD_COMPLEXITY_0
 
 /obj/item/food/hemophage/blood_cake
 	name = "ti hoeh koe"
@@ -100,7 +94,6 @@
 	)
 	tastes = list("blood" = 5, "crunchy rice" = 2, "peanut butter" = 2)
 	foodtypes = GRAIN | GORE | BLOODY | SUGAR | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_3
 
 /obj/item/food/soup/hemophage/blood_soup
 	name = "dinuguan"

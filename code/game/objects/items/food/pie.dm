@@ -8,7 +8,6 @@
 	tastes = list("pie" = 1)
 	foodtypes = GRAIN
 	venue_value = FOOD_PRICE_NORMAL
-	crafting_complexity = FOOD_COMPLEXITY_2
 	/// type is spawned 5 at a time and replaces this pie when processed by cutting tool
 	var/obj/item/food/pieslice/slice_type
 	/// so that the yield can change if it isn't 5
@@ -25,7 +24,6 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
 	tastes = list("pie" = 1, "uncertainty" = 1)
 	foodtypes = GRAIN | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pie/plain
 	name = "plain pie"
@@ -37,7 +35,6 @@
 	)
 	tastes = list("pie" = 1)
 	foodtypes = GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pie/plain/Initialize(mapload)
 	. = ..()
@@ -490,7 +487,6 @@
 	)
 	tastes = list("pie" = 1, "the far off year of 2010" = 1)
 	foodtypes = GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pie/bacid_pie
 	name = "battery acid pie"

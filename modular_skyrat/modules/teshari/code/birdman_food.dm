@@ -84,7 +84,6 @@
 	)
 	tastes = list("bun" = 2, "chikun" = 4, "Against God and Nature" = 1)
 	foodtypes = GRAIN | MEAT | FRIED | GORE
-	crafting_complexity = FOOD_COMPLEXITY_3
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/burger/human/chicken/CheckParts(list/parts_list)

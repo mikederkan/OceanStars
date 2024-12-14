@@ -15,7 +15,6 @@
 	tastes = list("meat" = 1, "black pudding" = 1)
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/raw_tiziran_sausage/Initialize(mapload)
 	. = ..()
@@ -33,7 +32,6 @@
 	tastes = list("meat" = 1, "black pudding" = 1)
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 	custom_price = PAYCHECK_CREW
 
 /obj/item/food/raw_headcheese
@@ -48,7 +46,6 @@
 	tastes = list("meat" = 1, "salt" = 1)
 	foodtypes = MEAT | GORE
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/raw_headcheese/Initialize(mapload)
 	. = ..()
@@ -66,7 +63,6 @@
 	tastes = list("cheese" = 1, "salt" = 1)
 	foodtypes = MEAT | GORE
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/headcheese/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/headcheese_slice, 5, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
@@ -83,7 +79,6 @@
 	tastes = list("cheese" = 1, "salt" = 1)
 	foodtypes = MEAT | GORE
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/shredded_lungs
 	name = "crispy shredded lung stirfry"
@@ -110,7 +105,6 @@
 	tastes = list("assorted minced organs" = 1)
 	foodtypes = MEAT | GORE
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/liver_pate
 	name = "liver pate"
@@ -121,7 +115,6 @@
 	tastes = list("liver" = 1)
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/moonfish_eggs
 	name = "moonfish eggs"
@@ -135,7 +128,6 @@
 	tastes = list("caviar" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/moonfish_caviar
 	name = "moonfish caviar paste"
@@ -149,7 +141,6 @@
 	tastes = list("caviar" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/lizard_escargot
 	name = "desert snail cocleas"
@@ -213,7 +204,6 @@
 	tastes = list("brains" = 2)
 	foodtypes = MEAT | VEGETABLES | GORE
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/crispy_headcheese
 	name = "crispy breaded headcheese"
@@ -288,7 +278,6 @@
 	tastes = list("fish" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/moonfish_demiglace
 	name = "moonfish demiglace"
@@ -333,7 +322,6 @@
 	)
 	tastes = list("gnocchi" = 1)
 	foodtypes = VEGETABLES | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/spaghetti/snail_nizaya
 	name = "desert snail nizaya"
@@ -400,7 +388,6 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("potato" = 1, "earthy heat" = 1)
 	foodtypes = VEGETABLES | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/rootdough/make_bakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/bread/root, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)
@@ -416,7 +403,6 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6)
 	tastes = list("potato" = 1, "earthy heat" = 1)
 	foodtypes = VEGETABLES | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/flatrootdough/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/rootdoughslice, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
@@ -433,7 +419,6 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("potato" = 1, "earthy heat" = 1)
 	foodtypes = VEGETABLES | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/rootdoughslice/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/spaghetti/nizaya, 1, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
@@ -449,7 +434,6 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8)
 	tastes = list("bread" = 1, "earthy heat" = 1)
 	foodtypes = VEGETABLES | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/rootroll
 	name = "rootroll"
@@ -460,7 +444,6 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("roll" = 1) // the roll tastes of roll.
 	foodtypes = VEGETABLES | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 //Bread Dishes
 
@@ -660,7 +643,6 @@
 	tastes = list("eggs" = 1, "greens" = 1, "blood" = 1)
 	foodtypes = MEAT | BREAKFAST | GORE
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/patzikula
 	name = "patzikula"
@@ -733,7 +715,6 @@
 	)
 	tastes = list("savouriness" = 1, "sweetness" = 1)
 	foodtypes = SUGAR | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 //Misc Dishes
 /obj/item/food/sauerkraut
@@ -745,7 +726,6 @@
 	tastes = list("cabbage" = 1, "acid" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/lizard_dumplings
 	name = "\improper Tiziran dumplings"
@@ -759,7 +739,6 @@
 	tastes = list("potato" = 1, "earthy heat" = 1)
 	foodtypes = VEGETABLES | NUTS
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/steeped_mushrooms
 	name = "steeped seraka mushrooms"
@@ -773,7 +752,6 @@
 	tastes = list("savouriness" = 1, "nuttiness" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/canned/jellyfish
 	name = "canned gunner jellyfish"

@@ -11,7 +11,6 @@
 	tastes = list("ice cream" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR
 	food_flags = FOOD_FINGER_FOOD
-	crafting_complexity = FOOD_COMPLEXITY_2
 	crafted_food_buff = /datum/status_effect/food/chilling
 
 /obj/item/food/strawberryicecreamsandwich
@@ -107,7 +106,6 @@
 	tastes = list("ice" = 1, "water" = 1)
 	foodtypes = SUGAR //We use SUGAR as a base line to act in as junkfood, other wise we use fruit
 	food_flags = FOOD_FINGER_FOOD
-	crafting_complexity = FOOD_COMPLEXITY_2
 	crafted_food_buff = /datum/status_effect/food/chilling
 
 /obj/item/food/snowcones/lime

@@ -14,7 +14,6 @@
 	tastes = list("crust" = 1, "tomato" = 1)
 	foodtypes = GRAIN
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_2
 	/// type is spawned 6 at a time and replaces this pizza when processed by cutting tool
 	var/obj/item/food/pizzaslice/slice_type
 	slice_type = /obj/item/food/pizzaslice
@@ -24,7 +23,6 @@
 /obj/item/food/pizza/raw
 	foodtypes = GRAIN | RAW
 	slice_type = null
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pizza/raw/make_bakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
@@ -44,7 +42,6 @@
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 	decomp_type = /obj/item/food/pizzaslice/moldy
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pizzaslice/make_processable()
 	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/stack/sheet/pizza, 1, 1 SECONDS, table_required = TRUE, screentip_verb = "Flatten")
@@ -147,7 +144,6 @@
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 	slice_type = /obj/item/food/pizzaslice/mushroom
 	boxtag = "Mushroom Special"
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pizza/mushroom/raw
 	name = "raw mushroom pizza"
@@ -164,7 +160,6 @@
 	icon_state = "mushroompizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "mushroom" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 
 /obj/item/food/pizza/vegetable
@@ -456,7 +451,6 @@
 	slice_type = /obj/item/food/pizzaslice/energy
 	foodtypes = TOXIC
 	boxtag = "24 Hour Energy"
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/pizza/energy/raw
 	name = "raw energy pizza"
@@ -473,7 +467,6 @@
 	icon_state ="energypizzaslice"
 	tastes = list("pure electricity" = 4, "pizza" = 2)
 	foodtypes = TOXIC
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/raw_meat_calzone
 	name = "raw meat calzone"

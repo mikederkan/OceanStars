@@ -11,7 +11,6 @@
 	tastes = list("spicy cabbage" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/inferno_kimchi
 	name = "inferno kimchi"
@@ -25,7 +24,6 @@
 	tastes = list("very spicy cabbage" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/garlic_kimchi
 	name = "garlic kimchi"
@@ -40,7 +38,6 @@
 	tastes = list("spicy cabbage" = 1, "garlic" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/surimi
 	name = "surimi"
@@ -54,7 +51,6 @@
 	tastes = list("fish" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/surimi/Initialize(mapload)
 	. = ..()
@@ -110,7 +106,6 @@
 	tastes = list("chilli heat" = 1, "umami" = 1)
 	foodtypes = SEAFOOD | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/katsu_fillet
 	name = "katsu fillet"
@@ -125,7 +120,6 @@
 	tastes = list("meat" = 1, "breadcrumbs" = 1)
 	foodtypes = MEAT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/rice_dough
 	name = "rice dough"
@@ -137,7 +131,6 @@
 	)
 	tastes = list("rice" = 1)
 	foodtypes = GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/rice_dough/make_bakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/bread/reispan, rand(30 SECONDS, 45 SECONDS), TRUE, TRUE)
@@ -156,7 +149,6 @@
 	)
 	tastes = list("rice" = 1)
 	foodtypes = GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/spaghetti/boilednoodles
 	name = "cooked noodles"
@@ -288,7 +280,6 @@
 	tastes = list("rice" = 1, "egg" = 1, "soy sauce" = 1)
 	foodtypes = MEAT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/salad/egg_fried_rice/Initialize(mapload)
 	. = ..()
@@ -373,7 +364,6 @@
 	tastes = list("noodles" = 1, "soy sauce" = 1)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/salad/simple_fried_noodles/Initialize(mapload)
 	. = ..()
@@ -627,7 +617,6 @@
 	tastes = list("rice" = 1, "tofu" = 1, "chilli cheese" = 1)
 	foodtypes = GRAIN | FRIED | VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/epok_epok
 	name = "epok-epok"
@@ -701,7 +690,6 @@
 	tastes = list("rice" = 1, "burger" = 1, "gravy" = 1, "egg" = 1)
 	foodtypes = MEAT | GRAIN | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/wild_duck_fries
 	name = "wild duck fries"
@@ -823,7 +811,6 @@
 	tastes = list("umami broth" = 1, "tofu" = 1)
 	foodtypes = SEAFOOD | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 // Curries and Stews
 /obj/item/food/salad/po_kok_gai
@@ -855,7 +842,6 @@
 	tastes = list("meat" = 1, "chilli heat" = 1, "tofu" = 1)
 	foodtypes = MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/feizhou_ji
 	name = "fēizhōu jī"
@@ -1241,7 +1227,6 @@
 	tastes = list("bread" = 1, "salt" = 1)
 	foodtypes = GRAIN | RAW
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/raw_ballpark_pretzel/make_bakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/ballpark_pretzel, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)
@@ -1275,7 +1260,6 @@
 	tastes = list("raw chicken" = 7, "salmonella" = 1)
 	foodtypes = MEAT | RAW
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/kebab/raw_ballpark_tsukune/make_grillable()
 	AddComponent(/datum/component/grillable, /obj/item/food/kebab/ballpark_tsukune, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)

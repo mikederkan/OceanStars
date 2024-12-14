@@ -9,7 +9,6 @@
 	tastes = list("cheese" = 1)
 	food_reagents = list(/datum/reagent/consumable/nutriment/fat = 3)
 	foodtypes = DAIRY
-	crafting_complexity = FOOD_COMPLEXITY_1
 	/// used to determine how much health rats/regal rats recover when they eat it.
 	var/rat_heal = 0
 
@@ -34,7 +33,6 @@
 	)
 	w_class = WEIGHT_CLASS_SMALL
 	rat_heal = 10
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/cheese/wheel
 	name = "cheese wheel"
@@ -47,7 +45,6 @@
 	) //Hard cheeses contain about 25% protein
 	w_class = WEIGHT_CLASS_NORMAL
 	rat_heal = 35
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/cheese/wheel/Initialize(mapload)
 	. = ..()
@@ -97,7 +94,6 @@
 	foodtypes = DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 	rat_heal = 35
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cheese/curd_cheese/make_bakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/cheese/cheese_curds, rand(15 SECONDS, 20 SECONDS), TRUE, TRUE)
@@ -112,7 +108,6 @@
 	foodtypes = DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 	rat_heal = 35
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cheese/cheese_curds/Initialize(mapload)
 	. = ..()
@@ -152,4 +147,3 @@
 	foodtypes = DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 	rat_heal = 10
-	crafting_complexity = FOOD_COMPLEXITY_2

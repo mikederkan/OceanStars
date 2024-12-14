@@ -10,7 +10,6 @@
 	foodtypes = VEGETABLES
 	eatverbs = list("devour", "nibble", "gnaw", "gobble", "chomp") //who the fuck gnaws and devours on a salad
 	venue_value = FOOD_PRICE_NORMAL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/salad/aesirsalad
 	name = "\improper Aesir salad"
@@ -28,7 +27,6 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("leaves" = 1, "apple" = 1)
 	foodtypes = VEGETABLES | FRUIT
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/salad/validsalad
 	name = "valid salad"
@@ -92,7 +90,6 @@
 	)
 	tastes = list("rice" = 1)
 	foodtypes = GRAIN | BREAKFAST
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/salad/ricepudding
 	name = "rice pudding"
@@ -118,7 +115,6 @@
 	)
 	tastes = list("rice" = 1, "meat" = 1)
 	foodtypes = GRAIN | MEAT
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/salad/risotto
 	name = "risotto"

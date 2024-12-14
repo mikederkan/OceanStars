@@ -40,7 +40,6 @@
 	tastes = list("salad" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/toasted_seeds
 	name = "toasted seeds"
@@ -52,7 +51,6 @@
 	tastes = list("seeds" = 1)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/engine_fodder
 	name = "engine fodder"
@@ -80,7 +78,6 @@
 	tastes = list("raw flour" = 1)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 //Entrees: categorising food that is 90% cheese and salad is not easy
 /obj/item/food/squeaking_stir_fry
@@ -143,7 +140,6 @@
 	tastes = list("cheese" = 1)
 	foodtypes = DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/baked_cheese_platter
 	name = "stanntkraktælo" //stannt = oven, krakt = baked, ælo = cheese
@@ -272,7 +268,6 @@
 	tastes = list("corn" = 1, "char" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/buttered_baked_corn
 	name = "buttered baked corn"
@@ -287,7 +282,6 @@
 	tastes = list("corn" = 1, "char" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/fiesta_corn_skillet
 	name = "fiesta corn skillet"
@@ -830,7 +824,6 @@
 	w_class = WEIGHT_CLASS_SMALL
 	slice_type = /obj/item/food/breadslice/corn
 	yield = 6
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/breadslice/corn
 	name = "cornbread slice"
@@ -839,7 +832,6 @@
 	icon_state = "cornbread_slice"
 	foodtypes = GRAIN
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3)
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 //Sweets
 /obj/item/food/moth_cheese_cakes
@@ -869,7 +861,6 @@
 	foodtypes = VEGETABLES | SUGAR
 	slice_type = /obj/item/food/cakeslice/mothmallow
 	yield = 6
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cakeslice/mothmallow
 	name = "mothmallow"
@@ -882,7 +873,6 @@
 	)
 	tastes = list("vanilla" = 1, "clouds" = 1, "chocolate" = 1)
 	foodtypes = VEGETABLES | SUGAR
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 //misc food
 /obj/item/food/bubblegum/wake_up
