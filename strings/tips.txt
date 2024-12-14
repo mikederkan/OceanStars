@@ -5,11 +5,6 @@ A thrown glass of water can make a slippery tile, allowing you to slow down your
 Anything you can light a cigarette with, you can use to cauterize a bleeding wound. Technically, that includes the Supermatter.
 As a Blobbernaut, you can communicate with overminds and other Blobbernauts via :b.
 As a Blobbernaut, your HUD shows your health and the core health of the overmind that created you.
-As a Botanist, you can combine production trait chemicals just like a Chemist. Hydrogen(grass) + water(peas) + sugar(grapes) equal mannitol!
-As a Botanist, you can combine production trait chemicals just like a Chemist. Potassium(bananas) + water(watermelons) equal... FUN!
-As a Botanist, you can hack the MegaSeed Vendor to get access to more exotic seeds. These seeds can alternatively be ordered from cargo.
-As a Botanist, you can mutate the plants growing in your hydroponics trays with Left 4 Zed from your NutriMax vendor.  Once you've ground up a few plants in the biogenerator, it can also produce Left 4 Zed.  Isn't science amazing?
-As a Botanist, you should look into increasing the potency of your plants. This increases the size, amount of chemicals, points gained from grinding them in the biogenerator, and lets people know you are a proficient botanist.
 As a Cargo Technician, you can earn more cargo points by shipping back crates from maintenance, liquid containers, plasma sheets, rare seeds from hydroponics, and more!
 As a Cargo Technician, you can hack MULEbots to make them faster, run over people in their way, and even let you ride them!
 As a Cargo Technician, you can order contraband items from the supply shuttle console by de-constructing it and using a multitool on the circuit board, the re-assembling it.

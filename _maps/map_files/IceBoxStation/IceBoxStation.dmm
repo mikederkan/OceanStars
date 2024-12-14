@@ -17680,7 +17680,6 @@
 /obj/effect/turf_decal/trimline/blue/corner{
 	dir = 1
 	},
-/obj/effect/landmark/start/botanist,
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
 "eYY" = (
@@ -33401,7 +33400,6 @@
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
 "jJl" = (
-/obj/effect/landmark/start/botanist,
 /obj/effect/turf_decal/tile/green/opposingcorners{
 	dir = 1
 	},
@@ -40455,7 +40453,6 @@
 	},
 /area/station/hallway/secondary/entry)
 "lGN" = (
-/obj/effect/landmark/start/botanist,
 /obj/structure/chair/office/light,
 /turf/open/floor/glass,
 /area/station/service/hydroponics)
@@ -50656,7 +50653,6 @@
 /obj/effect/turf_decal/trimline/blue/corner{
 	dir = 8
 	},
-/obj/effect/landmark/start/botanist,
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
 "oDH" = (
@@ -51177,7 +51173,6 @@
 /turf/open/floor/iron/white/corner,
 /area/station/science/research)
 "oLi" = (
-/obj/effect/landmark/start/botanist,
 /obj/effect/turf_decal/tile/green/opposingcorners{
 	dir = 1
 	},
@@ -79280,7 +79275,6 @@
 	pixel_x = 2
 	},
 /obj/item/clothing/accessory/armband/hydro,
-/obj/item/toy/figure/botanist,
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
 "xad" = (

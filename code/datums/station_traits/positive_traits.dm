@@ -261,7 +261,6 @@
 		/datum/job/assistant = /obj/item/organ/internal/heart/cybernetic, //real cardiac
 		/datum/job/bartender = /obj/item/organ/internal/liver/cybernetic/tier3,
 		/datum/job/bitrunner = /obj/item/organ/internal/eyes/robotic/thermals,
-		/datum/job/botanist = /obj/item/organ/internal/cyberimp/chest/nutriment,
 		/datum/job/captain = /obj/item/organ/internal/heart/cybernetic/tier3,
 		/datum/job/cargo_technician = /obj/item/organ/internal/stomach/cybernetic/tier2,
 		/datum/job/chaplain = /obj/item/organ/internal/cyberimp/brain/anti_drop,

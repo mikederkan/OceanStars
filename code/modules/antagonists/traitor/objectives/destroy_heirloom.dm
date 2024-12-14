@@ -45,7 +45,6 @@
 		/datum/job/chemist,
 		// Service
 		/datum/job/clown,
-		/datum/job/botanist,
 		/datum/job/janitor,
 		/datum/job/mime,
 		// Cargo
