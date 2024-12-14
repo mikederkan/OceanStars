@@ -29,12 +29,8 @@
 	for(var/i in 1 to 6)
 		new /obj/item/paper(folder)
 
-/obj/item/storage/briefcase/lawyer
+/obj/item/storage/briefcase/black
 	folder_path = /obj/item/folder/blue
-
-/obj/item/storage/briefcase/lawyer/PopulateContents()
-	new /obj/item/stamp/law(src)
-	..()
 
 /obj/item/storage/briefcase/suicide_act(mob/living/user)
 	var/list/papers_found = list()

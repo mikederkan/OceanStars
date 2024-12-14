@@ -410,22 +410,6 @@
 #undef AQUARIUM_BORDERS_LAYER
 #undef AQUARIUM_BELOW_GLASS_LAYER
 
-/obj/structure/aquarium/lawyer
-	anchored = TRUE
-
-/obj/structure/aquarium/lawyer/Initialize(mapload)
-	. = ..()
-
-	new /obj/item/aquarium_prop/sand(src)
-	new /obj/item/aquarium_prop/seaweed(src)
-
-	if(prob(85))
-		new /obj/item/fish/goldfish/gill(src)
-		reagents.add_reagent(/datum/reagent/consumable/nutriment, 2)
-	else
-		new /obj/item/fish/goldfish/three_eyes/gill(src)
-		reagents.add_reagent(/datum/reagent/toxin/mutagen, 2) //three eyes goldfish feed on mutagen.
-
 
 /obj/structure/aquarium/prefilled
 	anchored = TRUE

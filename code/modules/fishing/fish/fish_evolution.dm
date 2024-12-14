@@ -105,12 +105,6 @@ GLOBAL_LIST_INIT(fish_evolutions, init_subtypes_w_path_keys(/datum/fish_evolutio
 	required_temperature_min = MIN_AQUARIUM_TEMP+9
 	required_temperature_max = MIN_AQUARIUM_TEMP+10
 
-/datum/fish_evolution/three_eyes
-	name = "Three-eyed Goldfish"
-	probability = 3
-	new_fish_type = /obj/item/fish/goldfish/three_eyes
-	new_traits = list(/datum/fish_trait/recessive)
-
 /datum/fish_evolution/chainsawfish
 	name = "Chainsawfish"
 	probability = 30

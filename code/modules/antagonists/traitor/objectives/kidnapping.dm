@@ -58,7 +58,6 @@
 		/datum/job/clown,
 		/datum/job/curator,
 		/datum/job/janitor,
-		/datum/job/lawyer,
 		/datum/job/mime,
 	)
 	alive_bonus = 2

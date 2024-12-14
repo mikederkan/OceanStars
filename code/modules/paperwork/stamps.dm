@@ -27,11 +27,6 @@
 		stamp_class = sheet.icon_class_name(icon_state)
 	)
 
-/obj/item/stamp/law
-	name = "law office's rubber stamp"
-	icon_state = "stamp-law"
-	dye_color = DYE_LAW
-
 /obj/item/stamp/head
 
 /obj/item/stamp/head/Initialize(mapload)

@@ -71,9 +71,6 @@
 "p" = (
 /obj/structure/rack,
 /obj/item/toy/figure/cargotech,
-/obj/item/toy/figure/lawyer{
-	pixel_x = -7
-	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/powered/toy_store)
