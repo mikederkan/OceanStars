@@ -344,7 +344,6 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 	emit_radiation()
 	processing_sound()
 	handle_high_power()
-	psychological_examination()
 
 	// handle the engineers that saved the engine from cascading, if there were any
 	if(get_status() < SUPERMATTER_EMERGENCY && !isnull(saviors))
