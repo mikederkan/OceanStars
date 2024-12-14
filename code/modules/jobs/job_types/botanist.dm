@@ -36,7 +36,8 @@
 		/obj/item/food/monkeycube/bee = 2
 	)
 
-	job_flags = STATION_JOB_FLAGS
+	allow_bureaucratic_error = FALSE
+	job_flags = STATION_JOB_FLAGS | JOB_CANNOT_OPEN_SLOTS
 	rpg_title = "Gardener"
 
 /datum/outfit/job/botanist

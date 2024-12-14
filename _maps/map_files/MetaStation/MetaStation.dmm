@@ -2565,7 +2565,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/landmark/start/botanist,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "aWl" = (
@@ -43962,7 +43961,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "pEB" = (
-/obj/effect/landmark/start/botanist,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "pEG" = (
@@ -55092,7 +55090,6 @@
 /turf/open/floor/iron/dark,
 /area/station/security/courtroom)
 "txP" = (
-/obj/effect/landmark/start/botanist,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -55970,7 +55967,6 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/obj/effect/landmark/start/botanist,
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
 	},
@@ -66317,7 +66313,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/explab)
 "xoK" = (
-/obj/effect/landmark/start/botanist,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
