@@ -969,7 +969,6 @@
 /obj/structure/chair/office/light{
 	dir = 8
 	},
-/obj/effect/landmark/start/psychologist,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
@@ -29125,7 +29124,6 @@
 /area/station/maintenance/starboard/lesser)
 "ist" = (
 /obj/structure/chair/sofa/left/brown,
-/obj/effect/landmark/start/psychologist,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/blue,
 /area/station/medical/psychology)
@@ -47468,7 +47466,6 @@
 	pixel_y = 12
 	},
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/landmark/start/psychologist,
 /turf/open/floor/iron/freezer,
 /area/station/medical/break_room)
 "nMc" = (

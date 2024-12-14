@@ -73,22 +73,6 @@
 	var/next_sound = round((100 - aggression) * 5)
 	last_accent_sound = world.time + max(SUPERMATTER_ACCENT_SOUND_MIN_COOLDOWN, next_sound)
 
-/obj/machinery/power/supermatter_crystal/proc/psychological_examination()
-	// Defaults to a value less than 1. Over time the psy_coeff goes to 0 if
-	// no supermatter soothers are nearby.
-	var/psy_coeff_diff = -0.05
-	for(var/mob/living/carbon/human/seen_by_sm in view(src, SM_HALLUCINATION_RANGE(internal_energy)))
-		// Someone (generally a Psychologist), when looking at the SM within hallucination range makes it easier to manage.
-		if(HAS_MIND_TRAIT(seen_by_sm, TRAIT_SUPERMATTER_SOOTHER))
-			psy_coeff_diff = 0.05
-	visible_hallucination_pulse(
-		center = src,
-		radius = SM_HALLUCINATION_RANGE(internal_energy),
-		hallucination_duration = internal_energy * hallucination_power,
-		hallucination_max_duration = 400 SECONDS,
-	)
-	psy_coeff = clamp(psy_coeff + psy_coeff_diff, 0, 1)
-
 /obj/machinery/power/supermatter_crystal/proc/handle_high_power()
 	if(internal_energy <= POWER_PENALTY_THRESHOLD && damage <= danger_point) //If the power is above 5000 or if the damage is above 550
 		last_high_energy_zap_perspective_machines = SSmachines.times_fired //Prevent oddly high initial zap due to high energy zaps not getting triggered via too low energy.

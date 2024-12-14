@@ -3875,10 +3875,6 @@
 	pixel_x = -4;
 	pixel_y = -3
 	},
-/obj/item/toy/figure/psychologist{
-	pixel_x = 4;
-	pixel_y = 10
-	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding/cafe)
 "aVk" = (

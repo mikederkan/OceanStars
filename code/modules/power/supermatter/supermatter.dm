@@ -135,8 +135,6 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 
 	///cooldown tracker for accent sounds
 	var/last_accent_sound = 0
-	///Var that increases from 0 to 1 when a psychologist is nearby, and decreases in the same way
-	var/psy_coeff = 0
 
 	/// Disables all methods of taking damage.
 	var/disable_damage = FALSE
@@ -505,8 +503,6 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 
 /obj/machinery/power/supermatter_crystal/update_overlays()
 	. = ..()
-	if(psy_coeff > 0)
-		. += mutable_appearance(icon = icon, icon_state = "[base_icon_state]-psy", layer = FLOAT_LAYER - 1, alpha = psy_coeff * 255)
 	if(delamination_strategy)
 		. += delamination_strategy.overlays(src)
 	if(holiday_lights)
@@ -708,7 +704,6 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 		additive_power[SM_POWER_POWERLOSS] = -1 * (momentary_power * POWERLOSS_LINEAR_RATE + powerloss_linear_offset)
 	// Positive number
 	additive_power[SM_POWER_POWERLOSS_GAS] = -1 * gas_powerloss_inhibition *  additive_power[SM_POWER_POWERLOSS]
-	additive_power[SM_POWER_POWERLOSS_SOOTHED] = -1 * min(1-gas_powerloss_inhibition , 0.2 * psy_coeff) *  additive_power[SM_POWER_POWERLOSS]
 
 	for(var/powergain_types in additive_power)
 		internal_energy += additive_power[powergain_types]
@@ -783,7 +778,6 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 	var/additive_waste_multiplier = list()
 	additive_waste_multiplier[SM_WASTE_BASE] = 1
 	additive_waste_multiplier[SM_WASTE_GAS] = gas_heat_modifier
-	additive_waste_multiplier[SM_WASTE_SOOTHED] = -0.2 * psy_coeff
 
 	for (var/waste_type in additive_waste_multiplier)
 		waste_multiplier += additive_waste_multiplier[waste_type]
@@ -792,7 +786,7 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 
 /**
  * Calculate at which temperature the sm starts taking damage.
- * heat limit is given by: (T0C+40) * (1 + gas heat res + psy_coeff)
+ * heat limit is given by: (T0C+40) * (1 + gas heat res)
  *
  * Description of each factors can be found in the defines.
  *
@@ -805,7 +799,6 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 	var/list/additive_temp_limit = list()
 	additive_temp_limit[SM_TEMP_LIMIT_BASE] = T0C + HEAT_PENALTY_THRESHOLD
 	additive_temp_limit[SM_TEMP_LIMIT_GAS] = gas_heat_resistance *  (T0C + HEAT_PENALTY_THRESHOLD)
-	additive_temp_limit[SM_TEMP_LIMIT_SOOTHED] = psy_coeff * 45
 	additive_temp_limit[SM_TEMP_LIMIT_LOW_MOLES] =  clamp(2 - absorbed_gasmix.total_moles() / 100, 0, 1) * (T0C + HEAT_PENALTY_THRESHOLD)
 
 	temp_limit = 0

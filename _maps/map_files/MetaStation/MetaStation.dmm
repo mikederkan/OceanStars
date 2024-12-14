@@ -45750,7 +45750,6 @@
 "qkJ" = (
 /obj/structure/chair/office/light,
 /obj/structure/cable,
-/obj/effect/landmark/start/psychologist,
 /turf/open/floor/wood/parquet,
 /area/station/medical/psychology)
 "qkX" = (
