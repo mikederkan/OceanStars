@@ -46,7 +46,6 @@
 		// Medical
 		/datum/job/chemist,
 		/datum/job/doctor,
-		/datum/job/psychologist,
 		// Science
 		/datum/job/geneticist,
 		/datum/job/roboticist,

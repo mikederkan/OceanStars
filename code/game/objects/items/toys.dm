@@ -1314,7 +1314,7 @@
 	icon_state = "paramedic"
 	toysay = "And the best part? I'm not even a real doctor!"
 
-/obj/item/toy/figure/psychologist
+/obj/item/toy/figure/psychologist //sure keep it
 	name = "\improper Psychologist action figure"
 	icon_state = "psychologist"
 	toysay = "Alright, just take these happy pills!"
