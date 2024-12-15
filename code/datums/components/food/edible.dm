@@ -456,10 +456,6 @@ Behavior that's still missing from this component that original food items had t
 		qdel(owner)
 		return
 
-	//Give a buff when the dish is hand-crafted and unbitten
-	if(bitecount == 0)
-		apply_buff(eater)
-
 	var/fraction = min(bite_consumption / owner.reagents.total_volume, 1)
 	owner.reagents.trans_to(eater, bite_consumption, transferred_by = feeder, methods = INGEST)
 	bitecount++
@@ -561,11 +557,6 @@ Behavior that's still missing from this component that original food items had t
 /// Get food quality adjusted according to eater's preferences
 /datum/component/edible/proc/get_perceived_food_quality(mob/living/carbon/human/eater)
 	var/food_quality = 0
-
-	if(HAS_TRAIT(parent, TRAIT_FOOD_SILVER)) // it's not real food
-		if(!isjellyperson(eater)) //if you aren't a jellyperson, it makes you sick no matter how nice it looks
-			return TOXIC_FOOD_QUALITY_THRESHOLD
-		food_quality += LIKED_FOOD_QUALITY_CHANGE
 
 	if(check_liked) //Callback handling; use this as an override for special food like donuts
 		var/special_reaction = check_liked.Invoke(eater)

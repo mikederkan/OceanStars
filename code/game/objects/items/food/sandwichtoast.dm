@@ -12,7 +12,7 @@
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/sandwich/cheese
 	name = "cheese sandwich"
@@ -40,7 +40,7 @@
 		/datum/reagent/carbon = 4,
 	)
 	tastes = list("toast" = 2, "cheese" = 3, "butter" = 1)
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/sandwich/jelly
 	name = "jelly sandwich"
@@ -144,7 +144,7 @@
 	foodtypes = GRAIN | MEAT //Ketchup is not a vegetable
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 	custom_price = PAYCHECK_CREW * 0.7
 
 // Used for unit tests, do not delete
@@ -167,7 +167,7 @@
 	foodtypes = GRAIN | MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_NORMAL
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 	custom_price = PAYCHECK_CREW
 
 /obj/item/food/sandwich/blt
@@ -182,7 +182,7 @@
 	)
 	tastes = list("bacon" = 3, "lettuce" = 2, "tomato" = 2, "bread" = 2)
 	foodtypes = GRAIN | MEAT | VEGETABLES | BREAKFAST
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/sandwich/peanut_butter_jelly
 	name = "peanut butter and jelly sandwich"
@@ -195,7 +195,7 @@
 	)
 	tastes = list("peanut butter" = 1, "jelly" = 1, "bread" = 2)
 	foodtypes = GRAIN | FRUIT | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/sandwich/peanut_butter_banana
 	name = "peanut butter and banana sandwich"
@@ -209,7 +209,7 @@
 	)
 	tastes = list("peanut butter" = 1, "banana" = 1, "bread" = 2)
 	foodtypes = GRAIN | FRUIT | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/sandwich/philly_cheesesteak
 	name = "Philly cheesesteak"
@@ -222,7 +222,7 @@
 	)
 	tastes = list("bread" = 1, "juicy meat" = 1, "melted cheese" = 1, "onions" = 1)
 	foodtypes = GRAIN | MEAT | DAIRY | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/sandwich/toast_sandwich
 	name = "toast sandwich"

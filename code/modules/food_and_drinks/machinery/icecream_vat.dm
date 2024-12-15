@@ -273,8 +273,6 @@
 		balloon_alert_to_viewers("scoops [selected_flavour]", "scoops [selected_flavour]")
 
 	if(istype(cone))
-		if(isnull(cone.crafted_food_buff))
-			cone.crafted_food_buff = /datum/status_effect/food/chilling
 		if(user.mind)
 			ADD_TRAIT(cone, TRAIT_FOOD_CHEF_MADE, REF(user.mind))
 

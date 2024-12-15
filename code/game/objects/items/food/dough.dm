@@ -54,7 +54,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	tastes = list("dough" = 1)
 	foodtypes = GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_0
+	// = FOOD_COMPLEXITY_0
 
 /obj/item/food/doughslice/make_bakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/bun, rand(20 SECONDS, 25 SECONDS), TRUE, TRUE)

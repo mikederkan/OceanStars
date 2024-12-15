@@ -107,4 +107,3 @@
 	)
 	tastes = list("blood" = 5, "congealed blood" = 2, "chili" = 3, "vinegar" = 1, "garlic" = 1)
 	foodtypes = GORE | BLOODY | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_4

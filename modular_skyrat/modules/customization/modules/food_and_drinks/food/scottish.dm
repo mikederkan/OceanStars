@@ -35,8 +35,6 @@
 		/datum/reagent/iron = 10
 	)
 	foodtypes = GRAIN | VEGETABLES | MEAT
-	crafting_complexity = FOOD_COMPLEXITY_5
-
 /obj/item/food/raw_sausage/battered
 	name = "raw battered sausage"
 	desc = "A raw sausage coated in thick beer batter."
@@ -63,7 +61,6 @@
 		/datum/reagent/consumable/nutriment/fat/oil = 2
 	)
 	foodtypes = MEAT | BREAKFAST | FRIED
-	crafting_complexity = FOOD_COMPLEXITY_3
 
 /obj/item/food/sausage/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/salami, 6, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")

@@ -251,7 +251,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	foodtypes = MEAT | FRIED | BREAKFAST
 	tastes = list("egg" = 4, "meat" = 4)
 	venue_value = FOOD_PRICE_NORMAL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/boiledegg/rotten
 	food_reagents = list(/datum/reagent/consumable/eggrot = 10)
@@ -273,7 +273,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	tastes = list("egg" = 1, "cheese" = 1)
 	foodtypes = MEAT | BREAKFAST | DAIRY
 	venue_value = FOOD_PRICE_CHEAP
-	crafted_food_buff = /datum/status_effect/food/speech/french
+	// = /datum/status_effect/food/speech/french
 
 /obj/item/food/omelette/attackby(obj/item/item, mob/user, params)
 	if(istype(item, /obj/item/kitchen/fork))
@@ -307,7 +307,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	tastes = list("egg" = 1, "bacon" = 1, "bun" = 1)
 	foodtypes = MEAT | BREAKFAST | GRAIN
 	venue_value = FOOD_PRICE_NORMAL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/eggwrap
 	name = "egg wrap"
@@ -322,7 +322,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	tastes = list("egg" = 1)
 	foodtypes = MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/chawanmushi
 	name = "chawanmushi"
@@ -336,4 +336,4 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	)
 	tastes = list("custard" = 1)
 	foodtypes = MEAT | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3

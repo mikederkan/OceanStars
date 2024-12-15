@@ -91,7 +91,7 @@
 	tastes = list("baked potato" = 1, "bacon" = 1, "cheese" = 1, "cabbage" = 1)
 	foodtypes = VEGETABLES | DAIRY | MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 // Fries
 /obj/item/food/fries
@@ -148,7 +148,7 @@
 	foodtypes = VEGETABLES | FRIED | MEAT
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/poutine/Initialize(mapload)
 	. = ..()
@@ -190,4 +190,4 @@
 	tastes = list("fava beans" = 5, "garlic" = 3, "onion" = 2, "fresh herbs" = 4)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3

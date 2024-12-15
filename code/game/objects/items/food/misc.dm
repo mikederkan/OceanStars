@@ -271,7 +271,7 @@
 	tastes = list("melon" = 1)
 	foodtypes = FRUIT
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/melonkeg
 	name = "melon keg"
@@ -307,7 +307,7 @@
 	foodtypes = GRAIN | SUGAR
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/powercrepe
 	name = "Powercrepe"
@@ -331,7 +331,7 @@
 	tastes = list("cherry" = 1, "crepe" = 1)
 	foodtypes = GRAIN | FRUIT | SUGAR
 	food_flags = FOOD_FINGER_FOOD
-	crafting_complexity = FOOD_COMPLEXITY_5
+	// = FOOD_COMPLEXITY_5
 
 /obj/item/food/branrequests
 	name = "Bran Requests Cereal"
@@ -428,7 +428,7 @@
 	tastes = list("cream cheese" = 4, "crab" = 3, "crispiness" = 2)
 	foodtypes = MEAT | DAIRY | GRAIN
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/pesto
 	name = "pesto"
@@ -438,7 +438,7 @@
 	tastes = list("pesto" = 1)
 	foodtypes = VEGETABLES | DAIRY | NUTS
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/tomato_sauce
 	name = "tomato sauce"
@@ -493,7 +493,7 @@
 	tastes = list("juicy meat" = 1, "rice" = 1, "cabbage" = 1)
 	foodtypes = MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/seaweedsheet
 	name = "seaweed sheet"
@@ -536,7 +536,7 @@
 	tastes = list("granola" = 1, "nuts" = 1, "chocolate" = 1, "raisin" = 1)
 	foodtypes = GRAIN | NUTS | FRUIT | SUGAR | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/onigiri
 	name = "onigiri"
@@ -606,7 +606,7 @@
 	tastes = list("rice wrappers" = 1, "spice" = 1, "crunchy veggies" = 1)
 	foodtypes = GRAIN | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/cheese_pierogi
 	name = "cheese pierogi"
@@ -645,7 +645,7 @@
 	tastes = list("cooked eggplant" = 5, "cheese" = 4, "ground meat" = 3, "veggies" = 2)
 	foodtypes = VEGETABLES | MEAT | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/moussaka
 	name = "moussaka"
@@ -658,7 +658,7 @@
 	)
 	tastes = list("cooked eggplant" = 5, "potato" = 1, "baked veggies" = 2, "meat" = 4, "bechamel sauce" = 3)
 	foodtypes = MEAT | DAIRY | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/moussaka/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE,  /obj/item/food/moussaka_slice, 4, 3 SECONDS, table_required = TRUE,  screentip_verb = "Cut")
@@ -674,7 +674,7 @@
 	)
 	tastes = list("cooked eggplant" = 5, "potato" = 1, "baked veggies" = 2, "meat" = 4, "bechamel sauce" = 3)
 	foodtypes = MEAT | DAIRY | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/candied_pineapple
 	name = "candied pineapple"
@@ -749,7 +749,7 @@
 	tastes = list("pita bread" = 4, "tzatziki sauce" = 2, "olive oil" = 2)
 	foodtypes = VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/grilled_beef_gyro
 	name = "grilled beef gyro"
@@ -763,7 +763,7 @@
 	tastes = list("pita bread" = 4, "tender meat" = 2, "tzatziki sauce" = 2, "mixed veggies" = 2)
 	foodtypes = VEGETABLES | GRAIN | MEAT
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/vegetarian_gyro
 	name = "vegetarian gyro"
@@ -776,7 +776,7 @@
 	tastes = list("pita bread" = 4, "cucumber" = 2, "tzatziki sauce" = 2, "mixed veggies" = 2)
 	foodtypes = VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 ///Extracted from squids, or any fish with the ink fish trait.
 /obj/item/food/ink_sac

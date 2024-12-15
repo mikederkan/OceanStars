@@ -62,7 +62,7 @@
 	)
 	tastes = list("pancakes" = 1, "blueberries" = 1)
 	stack_name = "bbpancakes"
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/pancakes/chocolatechip
 	name = "chocolate chip pancake"
@@ -74,7 +74,7 @@
 	)
 	tastes = list("pancakes" = 1, "chocolate" = 1)
 	stack_name = "ccpancakes"
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/pancakes/Initialize(mapload)
 	. = ..()

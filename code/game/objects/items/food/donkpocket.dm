@@ -12,7 +12,7 @@
 	foodtypes = GRAIN
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 	/// What type of donk pocket we're warmed into via baking or microwaving.
 	var/warm_type = /obj/item/food/donkpocket/warm
@@ -166,7 +166,7 @@
 	tastes = list("banana" = 2, "dough" = 2, "children's antibiotics" = 1)
 	foodtypes = GRAIN
 	warm_type = /obj/item/food/donkpocket/warm/honk
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 	var/static/list/honk_added_reagents = list(
 		/datum/reagent/medicine/omnizine = 2,
 		/datum/reagent/consumable/laughter = 6,
@@ -190,7 +190,7 @@
 	)
 	tastes = list("banana" = 2, "dough" = 2, "children's antibiotics" = 1)
 	foodtypes = GRAIN
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/donkpocket/berry
 	name = "\improper Berry-pocket"
@@ -271,7 +271,7 @@
 	)
 	tastes = list("quality meat" = 2, "dough" = 2, "raw fanciness" = 1)
 	foodtypes = GRAIN | MEAT
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 	warm_type = /obj/item/food/donkpocket/warm/deluxe
 	var/static/list/deluxe_added_reagents = list(
@@ -308,7 +308,7 @@
 	)
 	tastes = list("raw meat" = 2, "more meat" = 2, "no carbs" = 1)
 	foodtypes = MEAT | RAW
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 	warm_type = /obj/item/food/donkpocket/warm/deluxe/nocarb
 
@@ -341,7 +341,7 @@
 	)
 	tastes = list("rice patty" = 2, "dough" = 2, "peppery kick" = 1)
 	foodtypes = GRAIN | VEGETABLES
-	crafting_complexity = FOOD_COMPLEXITY_4
+	// = FOOD_COMPLEXITY_4
 
 /obj/item/food/donkpocket/deluxe/vegan/make_bakeable()
 	AddComponent(/datum/component/bakeable, warm_type, rand(baking_time_short, baking_time_long), TRUE, TRUE, deluxe_added_reagents)
