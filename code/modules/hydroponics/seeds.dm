@@ -304,13 +304,9 @@
 			T.reagents.handle_reactions()
 			playsound(T.loc, 'sound/effects/space_wind.ogg', 50)
 
-/// Returns reagent purity based on seed stats
+/// Returns 1
 /obj/item/seeds/proc/get_reagent_purity()
-	var/purity_from_lifespan = lifespan / 400 //up to +25% for lifespan
-	var/purity_from_endurance = endurance / 400 //up to +25% for endurance
-	var/purity_from_instability = rand(-instability, instability) / 400  //up to +-25% at random for instability
-	var/result_purity = clamp(0.5 + purity_from_lifespan + purity_from_endurance + purity_from_instability, 0, 1) //50% base + stats
-	return result_purity
+	return 1
 
 /// Setters procs ///
 
