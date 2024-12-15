@@ -142,8 +142,6 @@
 #define ACCESS_HYDROPONICS "hydroponics"
 /// Access to the Janitor's room, and some tablet apps for control of the station's janitorial equipment.
 #define ACCESS_JANITOR "janitor"
-/// Access to the Lawyer's office.
-#define ACCESS_LAWYER "lawyer"
 
 /// - - - AWAY MISSIONS - - -
 /*For generic away-mission/ruin access. Why would normal crew have access to a long-abandoned derelict
@@ -306,7 +304,6 @@
 	ACCESS_HYDROPONICS, \
 	ACCESS_JANITOR, \
 	ACCESS_KITCHEN, \
-	ACCESS_LAWYER, \
 	ACCESS_LIBRARY, \
 	ACCESS_MAINT_TUNNELS, \
 	ACCESS_MECH_MINING, \
@@ -428,7 +425,6 @@
 	ACCESS_HYDROPONICS, \
 	ACCESS_JANITOR, \
 	ACCESS_KITCHEN, \
-	ACCESS_LAWYER, \
 	ACCESS_LIBRARY, \
 	ACCESS_SERVICE, \
 	ACCESS_THEATRE, \
@@ -560,7 +556,6 @@
 	/obj/item/modular_computer/pda/bitrunner = list(REGION_SUPPLY), \
 	/obj/item/modular_computer/pda/shaftminer = list(REGION_SUPPLY), \
 	/obj/item/modular_computer/pda/chaplain = list(REGION_GENERAL), \
-	/obj/item/modular_computer/pda/lawyer = list(REGION_GENERAL), \
 	/obj/item/modular_computer/pda/botanist = list(REGION_GENERAL), \
 	/obj/item/modular_computer/pda/roboticist = list(REGION_RESEARCH), \
 	/obj/item/modular_computer/pda/curator = list(REGION_GENERAL), \

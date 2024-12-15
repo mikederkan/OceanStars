@@ -31,7 +31,9 @@
 		/obj/item/gun/ballistic/automatic/wt550 = 1,
 	)
 	rpg_title = "Carpenter" //remove this, eventually, but until then hahah
-	job_flags = STATION_JOB_FLAGS
+
+	allow_bureaucratic_error = FALSE
+	job_flags = STATION_JOB_FLAGS | JOB_CANNOT_OPEN_SLOTS
 
 
 /datum/outfit/job/cargo_tech

@@ -46,19 +46,16 @@
 		// Medical
 		/datum/job/chemist,
 		/datum/job/doctor,
-		/datum/job/psychologist,
 		// Science
 		/datum/job/geneticist,
 		/datum/job/roboticist,
 		/datum/job/scientist,
 		// Service
 		/datum/job/bartender,
-		/datum/job/botanist,
 		/datum/job/chaplain,
 		/datum/job/clown,
 		/datum/job/curator,
 		/datum/job/janitor,
-		/datum/job/lawyer,
 		/datum/job/mime,
 	)
 	alive_bonus = 2

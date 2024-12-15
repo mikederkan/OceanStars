@@ -462,10 +462,6 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // You're immune to the hallucination effect of the supermatter, either
 // through force of will, or equipment. Present on /mob or /datum/mind
 #define TRAIT_MADNESS_IMMUNE "supermatter_madness_immune"
-// You can stare into the abyss, and it turns pink.
-// Being close enough to the supermatter makes it heal at higher temperatures
-// and emit less heat. Present on /mob or /datum/mind
-#define TRAIT_SUPERMATTER_SOOTHER "supermatter_soother"
 /// Mob has fov applied to it
 #define TRAIT_FOV_APPLIED "fov_applied"
 /// Mob is using the scope component

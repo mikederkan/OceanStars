@@ -1076,10 +1076,6 @@
 /obj/structure/plaque/static_plaque/golden{
 	pixel_y = 32
 	},
-/obj/item/clothing/accessory/lawyers_badge{
-	desc = "A badge of upmost glory.";
-	name = "thunderdome badge"
-	},
 /turf/open/floor/iron/grimy,
 /area/centcom/tdome/observation)
 "eP" = (
@@ -2365,7 +2361,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/item/clipboard,
 /obj/item/folder/blue,
-/obj/item/stamp/law,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kO" = (
@@ -2418,7 +2413,6 @@
 /obj/structure/table/wood,
 /obj/item/clipboard,
 /obj/item/folder/blue,
-/obj/item/stamp/law,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kZ" = (
@@ -10650,7 +10644,6 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/central_command_areas/admin/storage)
 "YV" = (
-/obj/structure/closet/lawcloset,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/courtroom)

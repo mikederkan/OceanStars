@@ -31,7 +31,6 @@ const BASEICONS = {
   'Head of Personnel': 'dog',
   'Head of Security': 'user-shield',
   Janitor: 'soap',
-  Lawyer: 'gavel',
   'Medical Doctor': 'staff-snake',
   Mime: 'comment-slash',
   Paramedic: 'truck-medical',
@@ -150,14 +149,6 @@ const ALTTITLES = {
   'Sanitation Technician': BASEICONS['Janitor'],
   Concierge: BASEICONS['Janitor'],
   Maid: BASEICONS['Janitor'],
-  // Lawyer - gavel
-  'Internal Affairs Agent': BASEICONS['Lawyer'],
-  'Human Resources Agent': BASEICONS['Lawyer'],
-  'Defence Attorney': BASEICONS['Lawyer'],
-  'Public Defender': BASEICONS['Lawyer'],
-  Barrister: BASEICONS['Lawyer'],
-  Prosecutor: BASEICONS['Lawyer'],
-  'Legal Clerk': BASEICONS['Lawyer'],
   // Medical Doctor - staff-snake
   Surgeon: BASEICONS['Medical Doctor'],
   Nurse: BASEICONS['Medical Doctor'],

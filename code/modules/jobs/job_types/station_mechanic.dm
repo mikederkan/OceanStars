@@ -36,8 +36,8 @@
 		/obj/item/clothing/head/utility/hardhat/red/upgraded = 1
 	)
 	rpg_title = "Technomancer" //remove this, eventually, but until then hahah
-	job_flags = STATION_JOB_FLAGS
-
+	allow_bureaucratic_error = FALSE
+	job_flags = STATION_JOB_FLAGS | JOB_CANNOT_OPEN_SLOTS
 
 /datum/outfit/job/mechanic
 	name = "Station Mechanic (Dummy)"

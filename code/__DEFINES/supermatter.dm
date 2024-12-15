@@ -131,9 +131,6 @@
 /// How much of the energy the SM loses is recouped. From gas factors here.
 /// Order matters here. We depend on the powerloss amount.
 #define SM_POWER_POWERLOSS_GAS "Gas Power Decay Negation"
-/// How much of the energy the SM loses is recouped. From the psychologist this time.
-/// Order matters here. We depend on the powerloss amount.
-#define SM_POWER_POWERLOSS_SOOTHED "Psychologist Power Decay Negation"
 
 // These four internal damage factors, heat, power, moles, and heal heat dont depend on each other, but they are interlinked.
 // They are going to be scaled to have a maximum damage hardcap of 1.8 per tick.
@@ -156,16 +153,12 @@
 #define SM_WASTE_BASE "Base Waste Multiplier"
 /// How much waste multiplier we get because of the gases around us.
 #define SM_WASTE_GAS "Gas Waste Multiplier"
-/// How much waste multiplier we (don't) get because there is a psychologist.
-#define SM_WASTE_SOOTHED "Psychologist Waste Multiplier"
 
 /// How many kelvins we get before taking damage, Given by god.
 #define SM_TEMP_LIMIT_BASE "Base Heat Resistance"
 /// How many extra kelvins we get before taking damage, this time from gases.
 /// Order matters, depends on base resistance.
 #define SM_TEMP_LIMIT_GAS "Gas Heat Resistance"
-/// How many extra kelvins we get before taking damage, this time from psychologist.
-#define SM_TEMP_LIMIT_SOOTHED "Psychologist Heat Resistance"
 /// How many extra kelvins we get before taking damage because our moles are low. I know, this is fucking hilarious.
 /// Order matters, depends on base resistance.
 #define SM_TEMP_LIMIT_LOW_MOLES "Low Moles Heat Resistance"
