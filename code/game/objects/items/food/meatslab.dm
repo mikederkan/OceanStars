@@ -361,7 +361,6 @@
 	)
 	tastes = list("bacon" = 1)
 	foodtypes = RAW | MEAT
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/meat/rawbacon/make_grillable()
 	AddComponent(/datum/component/grillable, /obj/item/food/meat/bacon, rand(25 SECONDS, 45 SECONDS), TRUE, TRUE)
@@ -377,7 +376,6 @@
 	)
 	tastes = list("bacon" = 1)
 	foodtypes = MEAT | BREAKFAST
-	crafting_complexity = FOOD_COMPLEXITY_1
 	blood_decal_type = null
 
 /obj/item/food/meat/slab/gondola
@@ -440,7 +438,6 @@
 	)
 	tastes = list("crab" = 1)
 	foodtypes = SEAFOOD
-	crafting_complexity = FOOD_COMPLEXITY_1
 	blood_decal_type = null
 
 /obj/item/food/meat/slab/chicken
@@ -499,7 +496,6 @@
 	)
 	foodtypes = MEAT
 	tastes = list("meat" = 1)
-	crafting_complexity = FOOD_COMPLEXITY_1
 	blood_decal_type = null
 
 /obj/item/food/meat/steak/Initialize(mapload)
@@ -718,7 +714,6 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2)
 	tastes = list("meat" = 1)
 	foodtypes = MEAT
-	crafting_complexity = FOOD_COMPLEXITY_1
 	blood_decal_type = null
 
 /obj/item/food/meat/cutlet/Initialize(mapload)

@@ -12,7 +12,6 @@
 	foodtypes = JUNKFOOD | SUGAR
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/candy_corn/prison
 	name = "desiccated candy corn"
@@ -35,7 +34,6 @@
 	tastes = list("apple" = 2, "caramel" = 3)
 	foodtypes = JUNKFOOD | FRUIT | SUGAR
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/mint
 	name = "mint"
@@ -61,7 +59,6 @@
 	foodtypes = JUNKFOOD | SUGAR | BUGS
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 // Chocolates
 /obj/item/food/chocolatebar
@@ -77,7 +74,6 @@
 	foodtypes = JUNKFOOD | SUGAR
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_TINY
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/virtual_chocolate
 	name = "virtual chocolate bar"
@@ -101,7 +97,6 @@
 	foodtypes = JUNKFOOD | SUGAR
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/fudgedice
 	name = "fudge dice"
@@ -117,7 +112,6 @@
 	foodtypes = JUNKFOOD | SUGAR
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/chocoorange
 	name = "chocolate orange"
@@ -131,7 +125,6 @@
 	foodtypes = JUNKFOOD | SUGAR | ORANGES
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/bonbon
 	name = "bon bon"
@@ -156,7 +149,6 @@
 		/datum/reagent/consumable/nutriment/vitamin = 3,
 	)
 	tastes = list("chocolate" = 1, "chewy caramel" = 1)
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/bonbon/chocolate_truffle
 	name = "chocolate truffle"
@@ -177,7 +169,6 @@
 	)
 	tastes = list("chocolate" = 1, "peanuts" = 1)
 	foodtypes = DAIRY | SUGAR | JUNKFOOD | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/bonbon/peanut_butter_cup
 	name = "peanut butter cup"
@@ -189,7 +180,6 @@
 	)
 	tastes = list("chocolate" = 1, "peanut butter" = 1)
 	foodtypes = DAIRY | SUGAR | JUNKFOOD | NUTS
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 // Gum
 /obj/item/food/bubblegum
@@ -349,7 +339,6 @@
 	foodtypes = JUNKFOOD | SUGAR | BUGS
 	food_flags = FOOD_FINGER_FOOD
 	slot_flags = ITEM_SLOT_MASK
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/spiderlollipop/Initialize(mapload)
 	. = ..()
@@ -370,7 +359,6 @@
 	foodtypes = JUNKFOOD | SUGAR
 	food_flags = FOOD_FINGER_FOOD
 	slot_flags = ITEM_SLOT_MASK
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/swirl_lollipop/Initialize(mapload)
 	. = ..()

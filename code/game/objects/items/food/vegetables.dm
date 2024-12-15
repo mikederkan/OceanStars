@@ -12,7 +12,6 @@
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_NORMAL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/yakiimo
 	name = "yaki imo"
@@ -25,7 +24,6 @@
 	tastes = list("sweet potato" = 1)
 	foodtypes = VEGETABLES | SUGAR
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/roastparsnip
 	name = "roast parsnip"
@@ -38,7 +36,6 @@
 	tastes = list("parsnip" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 // Potatoes
 /obj/item/food/tatortot
@@ -50,7 +47,6 @@
 	foodtypes = FRIED | VEGETABLES
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/tatortot/Initialize(mapload)
 	. = ..()
@@ -68,7 +64,6 @@
 	tastes = list("creamy mashed potatoes" = 1, "garlic" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/baked_potato
 	name = "baked potato"
@@ -78,7 +73,6 @@
 	tastes = list("baked potato" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/buttered_baked_potato
 	name = "buttered baked potato"
@@ -88,7 +82,6 @@
 	tastes = list("baked potato" = 1)
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/loaded_baked_potato
 	name = "loaded baked potato"
@@ -98,7 +91,7 @@
 	tastes = list("baked potato" = 1, "bacon" = 1, "cheese" = 1, "cabbage" = 1)
 	foodtypes = VEGETABLES | DAIRY | MEAT
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 // Fries
 /obj/item/food/fries
@@ -110,7 +103,6 @@
 	foodtypes = VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/fries/Initialize(mapload)
 	. = ..()
@@ -128,7 +120,6 @@
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/cheesyfries/Initialize(mapload)
 	. = ..()
@@ -143,7 +134,6 @@
 	tastes = list("carrots" = 3, "salt" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_1
 
 /obj/item/food/carrotfries/Initialize(mapload)
 	. = ..()
@@ -158,7 +148,7 @@
 	foodtypes = VEGETABLES | FRIED | MEAT
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_CHEAP
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3
 
 /obj/item/food/poutine/Initialize(mapload)
 	. = ..()
@@ -175,7 +165,6 @@
 	tastes = list("fried eggplant" = 4, "garlic" = 2, "olive oil" = 3)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/baba_ghanoush
 	name = "baba ghanoush"
@@ -189,7 +178,6 @@
 	tastes = list("mashed eggplant" = 5, "pita bread" = 4, "garlic" = 3, "olive oil" = 4, "lemon juice" = 2)
 	foodtypes = VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/falafel
 	name = "falafel"
@@ -202,4 +190,4 @@
 	tastes = list("fava beans" = 5, "garlic" = 3, "onion" = 2, "fresh herbs" = 4)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-	crafting_complexity = FOOD_COMPLEXITY_3
+	// = FOOD_COMPLEXITY_3

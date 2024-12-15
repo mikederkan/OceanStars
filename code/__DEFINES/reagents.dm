@@ -77,9 +77,9 @@
 ///The default purity of all non reacted reagents
 #define REAGENT_STANDARD_PURITY 0.75
 /// Starting purity of consumable reagents
-#define CONSUMABLE_STANDARD_PURITY 0.5 // 50% pure by default. Below - synthetic food. Above - natural food.
+#define CONSUMABLE_STANDARD_PURITY 1 // 50% pure by default. Below - synthetic food. Above - natural food.
 /// Starting purity of reagents made in biogenerator
-#define BIOGEN_REAGENT_PURITY 0.3
+#define BIOGEN_REAGENT_PURITY 1
 /// the default temperature at which chemicals are added to reagent holders at
 #define DEFAULT_REAGENT_TEMPERATURE 300
 

@@ -223,10 +223,7 @@ Behavior that's still missing from this component that original food items had t
 		examine_list += span_notice("It is [LOWER_TEXT(english_list(types))].")
 
 	var/quality = get_perceived_food_quality(user)
-	if(quality > 0)
-		var/quality_label = GLOB.food_quality_description[quality]
-		examine_list += span_green("You find this meal [quality_label].")
-	else if (quality == 0)
+	if (quality == 0)
 		examine_list += span_notice("You find this meal edible.")
 	else if (quality <= FOOD_QUALITY_DANGEROUS)
 		examine_list += span_warning("You may die from eating this meal.")
@@ -235,23 +232,7 @@ Behavior that's still missing from this component that original food items had t
 	else
 		examine_list += span_warning("You find this meal inedible.")
 
-	if(owner.reagents.total_volume > 0)
-		var/purity = owner.reagents.get_average_purity(/datum/reagent/consumable)
-		switch(purity)
-			if(0 to 0.2)
-				examine_list += span_warning("It is made of terrible ingredients shortening the effect...")
-			if(0.2 to 0.4)
-				examine_list += span_warning("It is made of synthetic ingredients shortening the effect.")
-			if(0.4 to 0.6)
-				examine_list += span_notice("It is made of average quality ingredients.")
-			if(0.6 to 0.8)
-				examine_list += span_green("It is made of organic ingredients prolonging the effect.")
-			if(0.8 to 1)
-				examine_list += span_green("It is made of finest ingredients prolonging the effect!")
-
 	var/datum/mind/mind = user.mind
-	if(mind && HAS_TRAIT_FROM(owner, TRAIT_FOOD_CHEF_MADE, REF(mind)))
-		examine_list += span_green("[owner] was made by you!")
 
 	if(!(food_flags & FOOD_IN_CONTAINER))
 		switch(bitecount)
@@ -475,10 +456,6 @@ Behavior that's still missing from this component that original food items had t
 		qdel(owner)
 		return
 
-	//Give a buff when the dish is hand-crafted and unbitten
-	if(bitecount == 0)
-		apply_buff(eater)
-
 	var/fraction = min(bite_consumption / owner.reagents.total_volume, 1)
 	owner.reagents.trans_to(eater, bite_consumption, transferred_by = feeder, methods = INGEST)
 	bitecount++
@@ -523,24 +500,6 @@ Behavior that's still missing from this component that original food items had t
 	if(SEND_SIGNAL(eater, COMSIG_CARBON_ATTEMPT_EAT, food) & COMSIG_CARBON_BLOCK_EAT)
 		return
 	return TRUE
-
-///Applies food buffs according to the crafting complexity
-/datum/component/edible/proc/apply_buff(mob/eater)
-	var/buff
-	var/recipe_complexity = get_recipe_complexity()
-	if(recipe_complexity <= 0)
-		return
-	var/obj/item/food/food = parent
-	if(!isnull(food.crafted_food_buff))
-		buff = food.crafted_food_buff
-	else
-		buff = pick_weight(GLOB.food_buffs[min(recipe_complexity, FOOD_COMPLEXITY_5)])
-	if(!isnull(buff))
-		var/mob/living/living_eater = eater
-		var/atom/owner = parent
-		var/timeout_mod = owner.reagents.get_average_purity(/datum/reagent/consumable) * 2 // buff duration is 100% at average purity of 50%
-		var/strength = recipe_complexity
-		living_eater.apply_status_effect(buff, timeout_mod, strength)
 
 ///Check foodtypes to see if we should send a moodlet
 /datum/component/edible/proc/checkLiked(fraction, mob/eater)
@@ -593,24 +552,11 @@ Behavior that's still missing from this component that original food items had t
 	var/quality_label = GLOB.food_quality_description[food_quality]
 	to_chat(gourmand, span_notice("That's \an [quality_label] meal."))
 
-/// Get the complexity of the crafted food
-/datum/component/edible/proc/get_recipe_complexity()
-	var/list/extra_complexity = list(0)
-	SEND_SIGNAL(parent, COMSIG_FOOD_GET_EXTRA_COMPLEXITY, extra_complexity)
-	var/complexity_to_add = extra_complexity[1]
-	if(!HAS_TRAIT(parent, TRAIT_FOOD_CHEF_MADE) || !istype(parent, /obj/item/food))
-		return complexity_to_add // It is factory made. Soulless.
-	var/obj/item/food/food = parent
-	return food.crafting_complexity + complexity_to_add
+
 
 /// Get food quality adjusted according to eater's preferences
 /datum/component/edible/proc/get_perceived_food_quality(mob/living/carbon/human/eater)
-	var/food_quality = get_recipe_complexity()
-
-	if(HAS_TRAIT(parent, TRAIT_FOOD_SILVER)) // it's not real food
-		if(!isjellyperson(eater)) //if you aren't a jellyperson, it makes you sick no matter how nice it looks
-			return TOXIC_FOOD_QUALITY_THRESHOLD
-		food_quality += LIKED_FOOD_QUALITY_CHANGE
+	var/food_quality = 0
 
 	if(check_liked) //Callback handling; use this as an override for special food like donuts
 		var/special_reaction = check_liked.Invoke(eater)
