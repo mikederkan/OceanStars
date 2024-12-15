@@ -43,8 +43,8 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 3
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [CAPTAIN]
 "Playtime Requirements" = 2400
@@ -151,13 +151,6 @@
 "Spawn Positions" = 5
 "Total Positions" = 5
 
-[LAWYER]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
 [MEDICAL_DOCTOR]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
@@ -178,13 +171,6 @@
 "# Required Character Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 3
-
-[PSYCHOLOGIST]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
 
 [QUARTERMASTER]
 "Playtime Requirements" = 2400

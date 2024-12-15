@@ -42,14 +42,11 @@
 		// Medical
 		/datum/job/doctor,
 		/datum/job/paramedic,
-		/datum/job/psychologist,
 		/datum/job/chemist,
 		// Service
 		/datum/job/clown,
-		/datum/job/botanist,
 		/datum/job/janitor,
 		/datum/job/mime,
-		/datum/job/lawyer,
 		// Cargo
 		/datum/job/cargo_technician,
 		// Science

@@ -514,7 +514,6 @@
 		ACCESS_JANITOR,
 		ACCESS_KEYCARD_AUTH,
 		ACCESS_KITCHEN,
-		ACCESS_LAWYER,
 		ACCESS_LIBRARY,
 		ACCESS_MAINT_TUNNELS,
 		ACCESS_MEDICAL,
@@ -622,27 +621,6 @@
 		ACCESS_CHANGE_IDS,
 		)
 	job = /datum/job/janitor
-
-/datum/id_trim/job/lawyer
-	assignment = JOB_LAWYER
-	trim_state = "trim_lawyer"
-	department_color = COLOR_SERVICE_LIME
-	subdepartment_color = COLOR_SECURITY_RED
-	sechud_icon_state = SECHUD_LAWYER
-	minimal_access = list(
-		ACCESS_BRIG_ENTRANCE,
-		ACCESS_COURT,
-		ACCESS_LAWYER,
-		ACCESS_MINERAL_STOREROOM,
-		ACCESS_SERVICE,
-		)
-	extra_access = list()
-	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
-		ACCESS_HOP,
-		)
-	job = /datum/job/lawyer
 
 /datum/id_trim/job/medical_doctor
 	assignment = JOB_MEDICAL_DOCTOR

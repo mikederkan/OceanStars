@@ -15,7 +15,6 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_CLOWN = /obj/item/clothing/under/rank/civilian/clown,
 		DYE_CHAP = /obj/item/clothing/under/rank/civilian/chaplain,
 		DYE_QM = /obj/item/clothing/under/rank/cargo/qm,
-		DYE_LAW = /obj/item/clothing/under/suit/black,
 		DYE_CAPTAIN = /obj/item/clothing/under/rank/captain,
 		DYE_HOP = /obj/item/clothing/under/rank/civilian/head_of_personnel,
 		DYE_HOS = /obj/item/clothing/under/rank/security/head_of_security,
@@ -127,7 +126,6 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_CLOWN = /obj/item/bedsheet/clown,
 		DYE_CHAP = /obj/item/bedsheet/chaplain,
 		DYE_QM = /obj/item/bedsheet/qm,
-		DYE_LAW = /obj/item/bedsheet/black,
 		DYE_CAPTAIN = /obj/item/bedsheet/captain,
 		DYE_HOP = /obj/item/bedsheet/hop,
 		DYE_HOS = /obj/item/bedsheet/hos,
@@ -152,7 +150,6 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_CLOWN = /obj/item/bedsheet/clown/double,
 		DYE_CHAP = /obj/item/bedsheet/chaplain/double,
 		DYE_QM = /obj/item/bedsheet/qm/double,
-		DYE_LAW = /obj/item/bedsheet/black/double,
 		DYE_CAPTAIN = /obj/item/bedsheet/captain/double,
 		DYE_HOP = /obj/item/bedsheet/hop/double,
 		DYE_HOS = /obj/item/bedsheet/hos/double,
@@ -162,16 +159,7 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_COSMIC = /obj/item/bedsheet/cosmos/double,
 		DYE_SYNDICATE = /obj/item/bedsheet/syndie/double,
 		DYE_CENTCOM = /obj/item/bedsheet/centcom/double
-	),
-	DYE_LAWYER_SPECIAL = list(
-		DYE_COSMIC = /obj/item/clothing/under/rank/civilian/lawyer/galaxy,
-		DYE_SYNDICATE = /obj/item/clothing/under/rank/civilian/lawyer/galaxy/red
-	),
-	DYE_LAWYER_SPECIAL_SKIRT = list(
-		DYE_COSMIC = /obj/item/clothing/under/rank/civilian/lawyer/galaxy/skirt,
-		DYE_SYNDICATE = /obj/item/clothing/under/rank/civilian/lawyer/galaxy/red/skirt
-	),
-))
+)))
 
 /obj/machinery/washing_machine
 	name = "washing machine"

@@ -14,50 +14,7 @@
 	favorite_bait = list(/obj/item/food/bait/worm)
 	required_temperature_min = MIN_AQUARIUM_TEMP+18
 	required_temperature_max = MIN_AQUARIUM_TEMP+26
-	evolution_types = list(/datum/fish_evolution/three_eyes, /datum/fish_evolution/chainsawfish)
-	compatible_types = list(/obj/item/fish/goldfish/gill, /obj/item/fish/goldfish/three_eyes, /obj/item/fish/goldfish/three_eyes/gill)
-
-/obj/item/fish/goldfish/Initialize(mapload, apply_qualities = TRUE)
-	. = ..()
-	add_traits(list(TRAIT_FISHING_BAIT, TRAIT_GOOD_QUALITY_BAIT), INNATE_TRAIT)
-
-/obj/item/fish/goldfish/gill
-	name = "McGill"
-	desc = "A great rubber duck tool for Lawyers who can't get a grasp over their case."
-	stable_population = 1
-	random_case_rarity = FISH_RARITY_NOPE
-	show_in_catalog = FALSE
-	beauty = FISH_BEAUTY_GOOD
-	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/three_eyes)
-	fish_traits = list(/datum/fish_trait/recessive)
-
-/obj/item/fish/goldfish/three_eyes
-	name = "three-eyed goldfish"
-	desc = "A goldfish with an extra half a pair of eyes. You wonder what it's been feeding on lately..."
-	icon_state = "three_eyes"
-	stable_population = 4
-	fish_traits = list(/datum/fish_trait/recessive, /datum/fish_trait/shiny_lover)
-	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/gill, /obj/item/fish/goldfish/three_eyes/gill)
-	beauty = FISH_BEAUTY_GOOD
-	fishing_difficulty_modifier = 10
-	random_case_rarity = FISH_RARITY_VERY_RARE
-	food = /datum/reagent/toxin/mutagen
-	favorite_bait = list(
-		list(
-			"Type" = "Reagent",
-			"Value" = /datum/reagent/toxin/mutagen,
-			"Amount" = 3,
-		),
-	)
-
-/obj/item/fish/goldfish/three_eyes/gill
-	name = "McGill"
-	desc = "A great rubber duck tool for Lawyers who can't get a grasp over their case. It looks kinda different today..."
-	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/three_eyes)
-	beauty = FISH_BEAUTY_GREAT
-	show_in_catalog = FALSE
-	stable_population = 1
-	random_case_rarity = FISH_RARITY_NOPE
+	evolution_types = list(/datum/fish_evolution/chainsawfish)
 
 /obj/item/fish/angelfish
 	name = "angelfish"

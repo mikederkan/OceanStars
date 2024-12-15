@@ -45,7 +45,6 @@
 		JOB_CAPTAIN = "Cpt.",
 
 		JOB_HEAD_OF_PERSONNEL = "Lt.",
-		JOB_LAWYER = "Esq.",
 
 		JOB_HEAD_OF_SECURITY = "Maj.",
 		JOB_WARDEN = "Sgt.",

@@ -12,20 +12,10 @@
 	if(!istype(local_turf))
 		return NONE
 
-	var/kiss_power = 0
-	switch(projectile.type)
-		if(/obj/projectile/kiss)
-			kiss_power = 60
-		if(/obj/projectile/kiss/death)
-			kiss_power = 20000
+//no more kissing the supermatter
 
 	if(!istype(projectile.firer, /obj/machinery/power/emitter))
 		investigate_log("has been hit by [projectile] fired by [key_name(projectile.firer)]", INVESTIGATE_ENGINE)
-	if(projectile.armor_flag != BULLET || kiss_power)
-		if(kiss_power)
-			psy_coeff = 1
-		external_power_immediate += projectile.damage * bullet_energy + kiss_power
-		log_activation(who = projectile.firer, how = projectile.fired_from)
 	else
 		external_damage_immediate += projectile.damage * bullet_energy * 0.1
 		// Stop taking damage at emergency point, yell to players at danger point.

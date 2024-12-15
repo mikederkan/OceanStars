@@ -196,15 +196,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/departments/holy, 32)
 	icon_state = "chapel"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/departments/holy, 32)
-
-/obj/structure/sign/departments/lawyer
-	name = "\improper Legal Department sign"
-	sign_change_name = "Department - Legal"
-	desc = "A sign labelling an area where the Lawyers work, apply here for arrivals shuttle whiplash settlement."
-	icon_state = "lawyer"
-
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/departments/lawyer, 32)
-
 ///////SUPPLY
 
 /obj/structure/sign/departments/cargo

@@ -261,7 +261,6 @@
 		/datum/job/assistant = /obj/item/organ/internal/heart/cybernetic, //real cardiac
 		/datum/job/bartender = /obj/item/organ/internal/liver/cybernetic/tier3,
 		/datum/job/bitrunner = /obj/item/organ/internal/eyes/robotic/thermals,
-		/datum/job/botanist = /obj/item/organ/internal/cyberimp/chest/nutriment,
 		/datum/job/captain = /obj/item/organ/internal/heart/cybernetic/tier3,
 		/datum/job/cargo_technician = /obj/item/organ/internal/stomach/cybernetic/tier2,
 		/datum/job/chaplain = /obj/item/organ/internal/cyberimp/brain/anti_drop,
@@ -277,11 +276,9 @@
 		/datum/job/head_of_personnel = /obj/item/organ/internal/eyes/robotic,
 		/datum/job/head_of_security = /obj/item/organ/internal/eyes/robotic/thermals,
 		/datum/job/janitor = /obj/item/organ/internal/eyes/robotic/xray,
-		/datum/job/lawyer = /obj/item/organ/internal/heart/cybernetic/tier2,
 		/datum/job/mime = /obj/item/organ/internal/tongue/robot, //...
 		/datum/job/paramedic = /obj/item/organ/internal/cyberimp/eyes/hud/medical,
 		/datum/job/prisoner = /obj/item/organ/internal/eyes/robotic/shield,
-		/datum/job/psychologist = /obj/item/organ/internal/ears/cybernetic/whisper,
 		/datum/job/quartermaster = /obj/item/organ/internal/stomach/cybernetic/tier3,
 		/datum/job/research_director = /obj/item/organ/internal/cyberimp/bci,
 		/datum/job/roboticist = /obj/item/organ/internal/cyberimp/eyes/hud/diagnostic,
