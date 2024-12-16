@@ -172,7 +172,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	desc = "Made specifically for the roboticists, who cannot decide between departments."
 	icon_state = "rob_headset"
 	worn_icon_state = "rob_headset"
-	keyslot = /obj/item/encryptionkey/headset_rob
+	keyslot = /obj/item/encryptionkey/headset_rob //Engineering + Medical
 
 /obj/item/radio/headset/headset_med
 	name = "medical radio headset"

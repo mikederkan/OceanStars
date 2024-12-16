@@ -59,7 +59,7 @@
 /obj/item/encryptionkey/headset_rob
 	name = "robotics radio encryption key"
 	icon_state = "cypherkey_engineering"
-	channels = list(RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_ENGINEERING = 1)
+	channels = list(RADIO_CHANNEL_MEDICAL = 1, RADIO_CHANNEL_ENGINEERING = 1)
 	greyscale_config = /datum/greyscale_config/encryptionkey_engineering
 	greyscale_colors = "#793a80#dca01b"
 

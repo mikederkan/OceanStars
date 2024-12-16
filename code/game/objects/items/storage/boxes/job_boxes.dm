@@ -289,14 +289,6 @@
 	for(var/skillchip in skillchips)
 		new skillchip(src)
 
-/obj/item/storage/box/skillchips/science
-	name = "box of science job skillchips"
-	desc = "Contains spares of every science job skillchip."
-
-/obj/item/storage/box/skillchips/science/PopulateContents()
-	new/obj/item/skillchip/job/roboticist(src)
-	new/obj/item/skillchip/job/roboticist(src)
-
 /obj/item/storage/box/skillchips/engineering
 	name = "box of engineering job skillchips"
 	desc = "Contains spares of every engineering job skillchip."

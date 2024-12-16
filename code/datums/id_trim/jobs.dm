@@ -858,31 +858,29 @@
 
 /datum/id_trim/job/roboticist
 	assignment = JOB_ROBOTICIST
-	trim_state = "trim_roboticist"
-	department_color = COLOR_SCIENCE_PINK
-	subdepartment_color = COLOR_SCIENCE_PINK
+	trim_state = "trim_roboticist" //remember to change the sprite
+	department_color = COLOR_ENGINEERING_ORANGE
+	subdepartment_color = COLOR_ENGINEERING_ORANGE
 	sechud_icon_state = SECHUD_ROBOTICIST
 	minimal_access = list(
-		ACCESS_AUX_BASE,
-		ACCESS_MECH_SCIENCE,
+		ACCESS_MECH_ENGINE, //you are the mech man, it's you!
+		ACCESS_MECH_MINING, //remove this w/ mining
+		ACCESS_MECH_SECURITY,
+		ACCESS_CONSTRUCTION,
+		ACCESS_ENGINEERING,
 		ACCESS_MINERAL_STOREROOM,
-		ACCESS_MORGUE,
-		ACCESS_RESEARCH,
 		ACCESS_ROBOTICS,
-		ACCESS_SCIENCE,
 		ACCESS_TECH_STORAGE,
-		ACCESS_ORDNANCE,
-		ACCESS_ORDNANCE_STORAGE,
+		//ACCESS_SILICON_GARAGE (soon)
 		)
 	extra_access = list(
-		ACCESS_GENETICS,
-		ACCESS_XENOBIOLOGY,
-		ACCESS_MORGUE_SECURE,
+		ACCESS_MAINT_TUNNELS, //presumably if youre the only one in engineering you'll want this access
+		ACCESS_ATMOSPHERICS, //sucks to be you though
 		)
 	template_access = list(
 		ACCESS_CAPTAIN,
 		ACCESS_CHANGE_IDS,
-		ACCESS_RD,
+		ACCESS_CE,
 		)
 	job = /datum/job/roboticist
 
