@@ -43,12 +43,13 @@
 		/datum/job/cargo_technician,
 		// Engineering
 		/datum/job/station_engineer,
+		/datum/job/roboticist,
+
 		// Medical
 		/datum/job/chemist,
 		/datum/job/doctor,
 		// Science
 		/datum/job/geneticist,
-		/datum/job/roboticist,
 		/datum/job/scientist,
 		// Service
 		/datum/job/bartender,
