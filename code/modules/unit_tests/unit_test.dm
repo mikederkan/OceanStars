@@ -243,8 +243,6 @@ GLOBAL_VAR_INIT(focused_tests, focused_tests())
 		/obj/machinery/flasher, //sue me
 		//Template type
 		/obj/effect/mob_spawn,
-		//Template type
-		/obj/structure/holosign/robot_seat,
 		//Singleton
 		/mob/dview,
 		//Template type
