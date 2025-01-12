@@ -134,6 +134,9 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	var/list/misc_contents = list() //list of lists of items that each box will contain
 	var/list/misc_costs = list() //list of overall costs sustained by each buyer.
 
+	// List of instances spawned, mapped to the turf they should spawn on.
+	var/list/purchases_to_turf = list()
+	// List of empty turfs we can spawn on. Will stop spawning when the empty turf list hits zero.
 	var/list/empty_turfs = list()
 	for(var/area/shuttle/shuttle_area as anything in shuttle_areas)
 		for(var/turf/open/floor/shuttle_turf in shuttle_area.get_turfs_from_all_zlevels())
@@ -145,7 +148,8 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	//but the biggest reason is that the chef requires produce to cook and do their job, and if they are using this system they
 	//already got let down by the botanists. So to open a new chance for cargo to also screw them over any more than is necessary is bad.
 	if(SSshuttle.chef_groceries.len)
-		var/obj/structure/closet/crate/freezer/grocery_crate = new(pick_n_take(empty_turfs))
+		var/obj/structure/closet/crate/freezer/grocery_crate = new
+		purchases_to_turf[grocery_crate] = pick_n_take(empty_turfs)
 		grocery_crate.name = "kitchen produce freezer"
 		investigate_log("Chef's [SSshuttle.chef_groceries.len] sized produce order arrived. Cost was deducted from orderer, not cargo.", INVESTIGATE_CARGO)
 		for(var/datum/orderable_item/item as anything in SSshuttle.chef_groceries)//every order
@@ -207,7 +211,8 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 		value += pack_cost
 
 		if(!spawning_order.pack.goody && !(spawning_order?.paying_account in forced_briefcases)) // SKYRAT EDIT CHANGE - ORIGINAL : if(!spawning_order.pack.goody)
-			var/obj/structure/closet/crate = spawning_order.generate(pick_n_take(empty_turfs))
+			var/obj/structure/closet/crate = spawning_order.generate(null)
+			purchases_to_turf[crate] = pick_n_take(empty_turfs)
 			crate.name += " - #[spawning_order.id]"
 
 		SSblackbox.record_feedback("nested tally", "cargo_imports", 1, list("[spawning_order.pack.get_cost()]", "[spawning_order.pack.name]"))
@@ -231,7 +236,9 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 		var/buyer = buying_account.account_holder
 
 		if(buying_account_orders.len > GOODY_FREE_SHIPPING_MAX) // no free shipping, send a crate
-			var/obj/structure/closet/crate/secure/owned/our_crate = new /obj/structure/closet/crate/secure/owned(pick_n_take(empty_turfs))
+			var/obj/structure/closet/crate/secure/owned/our_crate = new
+			purchases_to_turf[our_crate] = pick_n_take(empty_turfs)
+			miscboxes[buyer] = our_crate
 			our_crate.buyer_account = buying_account
 			/// SKYRAT EDIT ADDITION START - FIXES COMMAND BUDGET CASES BEING UNOPENABLE
 			if(istype(our_crate.buyer_account, /datum/bank_account/department))
@@ -239,16 +246,19 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 				our_crate.department_account = our_crate.buyer_account
 			/// SKYRAT EDIT ADDITION END
 			our_crate.name = "goody crate - purchased by [buyer]"
-			miscboxes[buyer] = our_crate
+
 		else //free shipping in a case
-			miscboxes[buyer] = new /obj/item/storage/lockbox/order(pick_n_take(empty_turfs))
-			var/obj/item/storage/lockbox/order/our_case = miscboxes[buyer]
+			var/obj/item/storage/lockbox/order/our_case = new
+			purchases_to_turf[our_case] = pick_n_take(empty_turfs)
+			miscboxes[buyer] = our_case
+
 			our_case.buyer_account = buying_account
 			/// SKYRAT EDIT ADDITION START - FIXES COMMAND BUDGET CASES BEING UNOPENABLE
 			if(istype(our_case.buyer_account, /datum/bank_account/department))
 				our_case.department_purchase = TRUE
 				our_case.department_account = our_case.buyer_account
 			/// SKYRAT EDIT ADDITION END
+
 			miscboxes[buyer].name = "goody case - purchased by [buyer]"
 		misc_contents[buyer] = list()
 
@@ -268,8 +278,20 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	for(var/datum/supply_order/completed_order in clean_up_orders)
 		qdel(completed_order)
 
+	move_cargo(purchases_to_turf)
 	var/datum/bank_account/cargo_budget = SSeconomy.get_dep_account(ACCOUNT_CAR)
 	investigate_log("[purchases] orders in this shipment, worth [value] credits. [cargo_budget.account_balance] credits left.", INVESTIGATE_CARGO)
+
+/obj/docking_port/mobile/supply/proc/move_cargo(list/to_move)
+	var/obj/machinery/cargo_accumulator/accumulator = length(GLOB.cargo_intercepts) ? GLOB.cargo_intercepts[1] : null
+	if(accumulator)
+		accumulator.intercept_cargo(to_move)
+		return
+
+	// No accumulator, fallback to spawning on the shuttle.
+	for(var/atom/movable/thing as anything in to_move)
+		var/turf/destination = to_move[thing]
+		thing.forceMove(destination)
 
 /// Deletes and sells the items on the shuttle
 /obj/docking_port/mobile/supply/proc/sell()
