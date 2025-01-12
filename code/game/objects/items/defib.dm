@@ -667,7 +667,7 @@
 					to_chat(H, "<span class='userdanger'>[CONFIG_GET(string/blackoutpolicy)]</span>") //SKYRAT EDIT ADDITION
 
 					SEND_SIGNAL(H, COMSIG_LIVING_MINOR_SHOCK)
-						user.add_mood_event("saved_life", /datum/mood_event/saved_life)
+					user.add_mood_event("saved_life", /datum/mood_event/saved_life)
 					log_combat(user, H, "revived", defib)
 
 					// SKYRAT EDIT ADDITION BEGIN - SYNTH REVIVAL
