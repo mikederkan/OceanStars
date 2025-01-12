@@ -1060,7 +1060,7 @@
 		)
 	job = /datum/job/shaft_miner
 
-	/datum/id_trim/job/shipbreaker //copy of cargo tech, dummy file
+/datum/id_trim/job/shipbreaker //copy of cargo tech, dummy file
 	assignment = JOB_SHIPBREAKER
 	trim_state = "trim_cargotechnician"
 	department_color = COLOR_CARGO_BROWN
