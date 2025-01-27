@@ -327,6 +327,8 @@
 /// Icon filter that creates gaussian blur
 #define GAUSSIAN_BLUR(filter_size) filter(type="blur", size=filter_size)
 
+#define RANDOM_RGB rgb(rand(0,255), rand(0,255), rand(0,255))
+
 // Colors related to items used in construction
 #define CABLE_COLOR_BLUE "blue"
 	#define CABLE_HEX_COLOR_BLUE COLOR_STRONG_BLUE

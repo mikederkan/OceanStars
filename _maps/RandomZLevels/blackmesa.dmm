@@ -4539,7 +4539,6 @@
 /area/awaymission/black_mesa/entrance_hall)
 "cak" = (
 /obj/structure/window/reinforced/spawner/directional/north,
-/obj/machinery/electrolyzer,
 /turf/open/floor/iron/textured_large,
 /area/awaymission/black_mesa/science_labs)
 "can" = (

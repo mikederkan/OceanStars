@@ -200,6 +200,7 @@
 #define COMSIG_MINE_TRIGGERED "minegoboom"
 ///from [/obj/structure/closet/supplypod/proc/preOpen]:
 #define COMSIG_SUPPLYPOD_LANDED "supplypodgoboom"
+#define COMSIG_TANK_SNOWFLAKE_PELLET_TRIGGER "ihatethiscodesomuch" //i understand
 
 /// from [/obj/item/stack/proc/can_merge]: (obj/item/stack/merge_with, in_hand)
 #define COMSIG_STACK_CAN_MERGE "stack_can_merge"

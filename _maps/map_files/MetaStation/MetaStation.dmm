@@ -2975,7 +2975,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/greater)
 "bcq" = (
-/obj/machinery/bluespace_vendor/directional/north,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
@@ -11637,7 +11636,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/machinery/atmospherics/components/unary/bluespace_sender,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "egR" = (
@@ -13010,7 +13008,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "eFC" = (
-/obj/machinery/bluespace_vendor/directional/south,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/station/commons/locker)
@@ -19324,7 +19321,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "gWz" = (
@@ -22001,7 +21997,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/bluespace_vendor/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "hTG" = (
@@ -25272,7 +25267,6 @@
 "iYc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/bluespace_vendor/directional/south,
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
@@ -31726,7 +31720,6 @@
 /area/station/security/prison/mess)
 "liO" = (
 /obj/structure/cable,
-/obj/machinery/bluespace_vendor/directional/west,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -35431,7 +35424,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "mEo" = (
@@ -36105,7 +36097,6 @@
 /area/station/service/lawoffice)
 "mQq" = (
 /obj/effect/turf_decal/delivery,
-/obj/machinery/bluespace_vendor/directional/east,
 /obj/machinery/photobooth,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
@@ -38021,7 +38012,6 @@
 /area/station/maintenance/aft/greater)
 "nwU" = (
 /obj/structure/cable,
-/obj/machinery/bluespace_vendor/directional/west,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -46789,10 +46779,6 @@
 /area/station/security/courtroom)
 "qGn" = (
 /obj/structure/table,
-/obj/item/hfr_box/body/waste_output,
-/obj/item/hfr_box/body/moderator_input,
-/obj/item/hfr_box/body/fuel_input,
-/obj/item/hfr_box/body/interface,
 /obj/structure/extinguisher_cabinet/directional/east,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -53364,7 +53350,6 @@
 "sSh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/bluespace_vendor/directional/north,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -53826,11 +53811,6 @@
 /area/station/medical/medbay/central)
 "sZI" = (
 /obj/structure/table,
-/obj/item/hfr_box/corner,
-/obj/item/hfr_box/corner,
-/obj/item/hfr_box/corner,
-/obj/item/hfr_box/corner,
-/obj/item/hfr_box/core,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "sZK" = (
@@ -56490,7 +56470,6 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/machinery/bluespace_vendor/directional/north,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -57388,9 +57367,6 @@
 "unk" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
-	},
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
-	filter_type = list(/datum/gas/nitrogen)
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
@@ -62062,7 +62038,6 @@
 /obj/effect/turf_decal/delivery,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/all_access,
-/obj/machinery/electrolyzer,
 /obj/machinery/atmospherics/components/binary/pump/on/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
@@ -62131,9 +62106,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
-	dir = 1
-	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "vQv" = (
@@ -66360,7 +66332,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/bluespace_vendor/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "xpL" = (

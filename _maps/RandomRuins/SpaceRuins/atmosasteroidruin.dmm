@@ -592,7 +592,6 @@
 "OY" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/light/directional/west,
-/obj/machinery/electrolyzer,
 /turf/open/floor/iron/dark/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "QA" = (

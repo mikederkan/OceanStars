@@ -13,7 +13,11 @@
 #define PLANE_SPACE -21
 #define PLANE_SPACE_PARALLAX -20
 
-#define GRAVITY_PULSE_PLANE -12
+#define HEAT_PLANE -12
+#define HEAT_RENDER_TARGET "*HEAT_RENDER_TARGET"
+#define HEAT_COMPOSITE_RENDER_TARGET "*HEAT_RENDER_TARGET_C"
+
+#define GRAVITY_PULSE_PLANE -11.5 //fuc u
 #define GRAVITY_PULSE_RENDER_TARGET "*GRAVPULSE_RENDER_TARGET"
 
 #define RENDER_PLANE_TRANSPARENT -11 //Transparent plane that shows openspace underneath the floor
@@ -222,6 +226,7 @@
 
 // ABOVE_GAME_PLANE layers
 #define NAVIGATION_EYE_LAYER 4.9
+#define GAS_LAYER 5
 //#define FLY_LAYER 5 //For easy recordkeeping; this is a byond define
 #define ABOVE_TREE_LAYER 5.01
 #define GASFIRE_LAYER 5.05

@@ -106,3 +106,6 @@
 
 /// Global signal sent when a mob is spawned from a ghost in a dynamic ruleset (mob/spawned_mob)
 #define COMSIG_RULESET_BODY_GENERATED_FROM_GHOSTS "!ruleset_body_generated_from_ghosts"
+
+///Global signal sent when SSticker enters Runlevel Game
+#define COMSIG_GLOB_GAME_START "!game_started"

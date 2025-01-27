@@ -16,8 +16,6 @@
 #define COMSIG_TURF_ON_SHUTTLE_MOVE "turf_on_shuttle_move"
 ///from base of /datum/turf_reservation/proc/Release: (datum/turf_reservation/reservation)
 #define COMSIG_TURF_RESERVATION_RELEASED "turf_reservation_released"
-///from /turf/open/temperature_expose(datum/gas_mixture/air, exposed_temperature)
-#define COMSIG_TURF_EXPOSE "turf_expose"
 ///from /turf/proc/immediate_calculate_adjacent_turfs()
 #define COMSIG_TURF_CALCULATED_ADJACENT_ATMOS "turf_calculated_adjacent_atmos"
 ///called when an elevator enters this turf
@@ -43,3 +41,5 @@
 
 ///Called when turf no longer blocks light from passing through
 #define COMSIG_TURF_NO_LONGER_BLOCK_LIGHT "turf_no_longer_block_light"
+
+#define COMSIG_TURF_EXPOSE "turf_expose"

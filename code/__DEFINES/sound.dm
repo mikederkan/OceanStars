@@ -33,7 +33,7 @@
 ///The default exponent of sound falloff
 #define SOUND_FALLOFF_EXPONENT 6
 
-#define SOUND_MINIMUM_PRESSURE 10
+//#define SOUND_MINIMUM_PRESSURE 10
 
 #define INTERACTION_SOUND_RANGE_MODIFIER -3
 #define EQUIP_SOUND_VOLUME 30
@@ -246,3 +246,4 @@ GLOBAL_LIST_INIT(announcer_keys, list(
 #define SFX_DEFAULT_FISH_SLAP "default_fish_slap"
 #define SFX_ALT_FISH_SLAP "alt_fish_slap"
 #define SFX_FISH_PICKUP "fish_pickup"
+#define SFX_GLASS_CRACK "glass_crack"

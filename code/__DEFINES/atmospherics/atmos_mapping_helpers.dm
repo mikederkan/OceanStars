@@ -2,7 +2,7 @@
 ///This is solely to be used after compile-time.
 #define TURF_TEMPERATURE(temperature) "TEMP=[temperature]"
 
-//OPEN TURF ATMOS
+/*/OPEN TURF ATMOS
 /// the default air mix that open turfs spawn
 #define OPENTURF_DEFAULT_ATMOS GAS_O2 + "=22;" + GAS_N2 + "=82;TEMP=293.15"
 /// the default low-pressure air mix used mostly for mining areas.
@@ -51,6 +51,8 @@
 #define ATMOS_TANK_ANTINOBLIUM GAS_ANTINOBLIUM + "=100000;TEMP=293.15"
 #define ATMOS_TANK_AIRMIX GAS_O2 + "=2644;" + GAS_N2 + "=10580;TEMP=293.15"
 
+*/
+
 //LAVALAND
 /// what pressure you have to be under to increase the effect of equipment meant for lavaland
 #define LAVALAND_EQUIPMENT_EFFECT_PRESSURE 50
@@ -58,6 +60,10 @@
 //ATMOS MIX IDS
 #define LAVALAND_DEFAULT_ATMOS "LAVALAND_ATMOS"
 #define ICEMOON_DEFAULT_ATMOS "ICEMOON_ATMOS"
+
+//ATMOS MIX IDS
+/// Hackjob define to fit into roundstart_atmos.
+#define PLANETARY_ATMOS list("planetary" = TRUE)
 
 //AIRLOCK CONTROLLER TAGS
 

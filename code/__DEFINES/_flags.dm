@@ -59,6 +59,12 @@ GLOBAL_LIST_INIT(bitflags, list(1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 204
 /// This atom always returns its turf in get_turf_pixel instead of the turf from its offsets
 #define IGNORE_TURF_PIXEL_OFFSET_1 (1<<18)
 
+//OH YEAH BABY FLAGS_2 HERE WE GO
+///Plasma Contamination
+#define CONTAMINATED_2 (1<<0)
+///Uses atom temperature. Opt-in.
+#define ATMOS_SENSITIVE_2 (1<<1)
+
 // Update flags for [/atom/proc/update_appearance]
 /// Update the atom's name
 #define UPDATE_NAME (1<<0)
@@ -325,3 +331,13 @@ GLOBAL_LIST_INIT(bitflags, list(1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 204
 #define EMOTE_IMPORTANT (1<<2)
 /// Emote only prints to runechat, not to the chat window
 #define EMOTE_RUNECHAT (1<<3)
+
+//Z-level flags. Currently only for ZAS
+///Allows air to flow IN from higher Z levels
+#define Z_ATMOS_IN_UP (1<<0)
+///Allows air to flow IN from lower z levels
+#define Z_ATMOS_IN_DOWN (1<<1)
+///Allows air to flow OUT to higher Z levels
+#define Z_ATMOS_OUT_UP (1<<2)
+///Allows air to flow OUT to LOWER z levels
+#define Z_ATMOS_OUT_DOWN (1<<3)
