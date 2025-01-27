@@ -108,13 +108,13 @@
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space)
 "B" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space)
 "C" = (
@@ -125,7 +125,7 @@
 	},
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space)
 "D" = (
@@ -145,14 +145,14 @@
 	},
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space)
 "G" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space)
 "H" = (
@@ -202,7 +202,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space)
 

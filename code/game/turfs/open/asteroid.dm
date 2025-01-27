@@ -323,6 +323,7 @@ GLOBAL_LIST_EMPTY(dug_up_basalt)
 	damaged_dmi = 'icons/turf/floors.dmi'
 	icon_state = "asteroid"
 	base_icon_state = "asteroid"
-	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9"
+	initial_gas = list("plasma" = 229.8, "nitrogen" = 135.1, "carbon_dioxide" = 173.4);
+	temperature = 351.9
 	planetary_atmos = TRUE
 

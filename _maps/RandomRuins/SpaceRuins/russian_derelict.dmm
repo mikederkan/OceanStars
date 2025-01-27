@@ -1687,7 +1687,8 @@
 	chamber_id = "ks13"
 	},
 /turf/open/floor/engine/air{
-	initial_gas_mix = "o2=20000;n2=80000;TEMP=293.15"
+	initial_gas = list("oxygen" = 20000, "nitrogen" = 80000);
+	temperature = 293.15
 	},
 /area/ruin/space/ks13/engineering/atmos)
 "rO" = (
@@ -4111,7 +4112,8 @@
 "EP" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/engine/air{
-	initial_gas_mix = "o2=20000;n2=80000;TEMP=293.15"
+	initial_gas = list("oxygen" = 20000, "nitrogen" = 80000);
+	temperature = 293.15
 	},
 /area/ruin/space/ks13/engineering/atmos)
 "EQ" = (
@@ -5610,7 +5612,8 @@
 	chamber_id = "ks13"
 	},
 /turf/open/floor/engine/air{
-	initial_gas_mix = "o2=20000;n2=80000;TEMP=293.15"
+	initial_gas = list("oxygen" = 20000, "nitrogen" = 80000);
+	temperature = 293.15
 	},
 /area/ruin/space/ks13/engineering/atmos)
 "Nh" = (
@@ -6649,7 +6652,8 @@
 	chamber_id = "ks13"
 	},
 /turf/open/floor/engine/air{
-	initial_gas_mix = "o2=20000;n2=80000;TEMP=293.15"
+	initial_gas = list("oxygen" = 20000, "nitrogen" = 80000);
+	temperature = 293.15
 	},
 /area/ruin/space/ks13/engineering/atmos)
 "Sz" = (
@@ -7648,7 +7652,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
 /turf/open/floor/iron{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/ks13/engineering/atmos)
 "Xy" = (

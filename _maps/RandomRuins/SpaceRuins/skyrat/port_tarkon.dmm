@@ -1228,7 +1228,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/grass/lavaland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/ruin/space/has_grav/port_tarkon/garden)
 "jh" = (
@@ -2148,7 +2149,8 @@
 "pb" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/grass/lavaland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/ruin/space/has_grav/port_tarkon/garden)
 "pe" = (
@@ -2165,7 +2167,8 @@
 	dir = 8
 	},
 /turf/open/floor/grass/lavaland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/ruin/space/has_grav/port_tarkon/garden)
 "ph" = (
@@ -5110,7 +5113,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/grass/lavaland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/ruin/space/has_grav/port_tarkon/garden)
 "JI" = (
@@ -5974,7 +5978,8 @@
 /area/ruin/space/has_grav/port_tarkon/developement)
 "OZ" = (
 /turf/open/floor/grass/lavaland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/ruin/space/has_grav/port_tarkon/garden)
 "Pa" = (

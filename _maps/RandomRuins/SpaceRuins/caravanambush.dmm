@@ -177,7 +177,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "eO" = (
@@ -348,7 +348,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "mN" = (
@@ -465,7 +465,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter2)
 "re" = (
@@ -544,7 +544,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "uY" = (
@@ -627,7 +627,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "zk" = (
@@ -751,7 +751,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "FL" = (
@@ -858,7 +858,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "JQ" = (
@@ -896,7 +896,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "Mt" = (
@@ -992,7 +992,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "QE" = (
@@ -1006,7 +1006,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter2)
 "Sh" = (
@@ -1029,7 +1029,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/shuttle/ruin/caravan/freighter3)
 "Sy" = (

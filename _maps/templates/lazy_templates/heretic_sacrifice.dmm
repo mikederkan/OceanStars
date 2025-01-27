@@ -25,8 +25,7 @@
 "dX" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -79,8 +78,7 @@
 "lz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -127,8 +125,7 @@
 	dir = 10
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -162,8 +159,7 @@
 	},
 /obj/effect/decal/cleanable/oil,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -180,8 +176,7 @@
 "qu" = (
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -192,8 +187,7 @@
 	dir = 5
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -205,8 +199,7 @@
 "sb" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -215,8 +208,7 @@
 	dir = 9
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -253,8 +245,7 @@
 	dir = 4
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -311,8 +302,7 @@
 /obj/structure/stone_tile/slab,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -357,8 +347,7 @@
 /area/centcom/heretic_sacrifice/rust)
 "Bw" = (
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -417,8 +406,7 @@
 	dir = 1
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -444,8 +432,7 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -454,8 +441,7 @@
 	dir = 5
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -468,8 +454,7 @@
 	dir = 1
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -506,8 +491,7 @@
 "KP" = (
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -553,8 +537,7 @@
 "NA" = (
 /obj/structure/stone_tile/burnt,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -563,8 +546,7 @@
 	dir = 1
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -580,8 +562,7 @@
 	dir = 10
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)
@@ -595,8 +576,7 @@
 	dir = 6
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0;
+	initial_gas = list("planetary" = 1);
 	slowdown = 0
 	},
 /area/centcom/heretic_sacrifice/ash)

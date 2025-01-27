@@ -12,7 +12,7 @@
 
 /turf/open/misc/dirt/icemoon
 	baseturfs = /turf/open/openspace/icemoon
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 
 /turf/open/misc/dirt/icemoon/Initialize(mapload)
 	. = ..()
@@ -25,7 +25,7 @@
 		Whatever it is, it feels pretty damn nice to swim in given the rest of the environment around here, and you \
 		can even catch a glimpse of the odd fish darting through the water."
 	baseturfs = /turf/open/openspace/icemoon
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	/// Holder for the steam particles that show up sometimes
 	var/obj/effect/abstract/particle_holder/particle_effect
 

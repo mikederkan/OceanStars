@@ -15,7 +15,7 @@
 	dir = 9
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "g" = (
@@ -30,7 +30,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "j" = (
@@ -39,7 +39,7 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "k" = (
@@ -52,7 +52,7 @@
 "m" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "n" = (
@@ -61,7 +61,7 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "o" = (
@@ -75,13 +75,13 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "q" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "t" = (
@@ -89,7 +89,7 @@
 	id = "wendigo arena"
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/unexplored)
 "u" = (
@@ -116,13 +116,13 @@
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "B" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "C" = (
@@ -133,7 +133,7 @@
 "D" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "F" = (
@@ -149,7 +149,7 @@
 	pixel_y = 11
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/unexplored)
 "G" = (
@@ -168,12 +168,12 @@
 	dir = 10
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/unexplored)
 "K" = (
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "L" = (
@@ -181,7 +181,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "M" = (
@@ -193,7 +193,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/unexplored)
 "O" = (
@@ -201,7 +201,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "P" = (
@@ -212,7 +212,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Q" = (
@@ -249,7 +249,7 @@
 	dir = 5
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "V" = (
@@ -261,7 +261,7 @@
 "W" = (
 /mob/living/simple_animal/hostile/megafauna/wendigo,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "X" = (
@@ -269,7 +269,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Y" = (
@@ -277,7 +277,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Z" = (
@@ -285,7 +285,7 @@
 	dir = 10
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 

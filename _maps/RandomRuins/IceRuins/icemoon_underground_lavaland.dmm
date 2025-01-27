@@ -30,7 +30,7 @@
 "eP" = (
 /obj/structure/stone_tile/slab,
 /turf/open/indestructible/boss{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/lavaland/surface)
 "eV" = (
@@ -46,7 +46,7 @@
 /obj/structure/stone_tile/slab,
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "gi" = (
@@ -78,7 +78,7 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "mL" = (
@@ -86,7 +86,7 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "na" = (
@@ -109,7 +109,7 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "pw" = (
@@ -118,7 +118,7 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "qv" = (
@@ -197,7 +197,7 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "wP" = (
@@ -226,7 +226,7 @@
 	dir = 10
 	},
 /turf/open/misc/asteroid{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "yP" = (
@@ -235,7 +235,7 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "zz" = (
@@ -250,7 +250,7 @@
 /area/lavaland/surface)
 "Ce" = (
 /turf/closed/mineral/volcanic/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/lavaland/surface)
 "Cp" = (
@@ -285,7 +285,7 @@
 /area/icemoon/underground/explored)
 "Ky" = (
 /turf/closed/mineral/volcanic/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Nn" = (
@@ -300,7 +300,7 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "PT" = (
@@ -323,7 +323,7 @@
 /obj/structure/stone_tile/slab/burnt,
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Sw" = (
@@ -372,7 +372,7 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "UF" = (
@@ -389,7 +389,7 @@
 	dir = 9
 	},
 /turf/open/misc/asteroid{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "UX" = (
@@ -426,23 +426,23 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Xm" = (
 /obj/structure/stone_tile/slab/burnt,
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "XQ" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "Zs" = (
 /turf/open/misc/asteroid{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "ZR" = (

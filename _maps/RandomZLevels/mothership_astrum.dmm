@@ -615,7 +615,8 @@
 "kw" = (
 /obj/structure/fluff/iced_abductor,
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "ky" = (
@@ -691,19 +692,22 @@
 	faction = list("Abductor")
 	},
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "lY" = (
 /obj/structure/flora/bush,
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "mm" = (
 /obj/structure/flora/tree/dead,
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "mo" = (
@@ -717,7 +721,8 @@
 "mq" = (
 /obj/structure/flora/grass/both,
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "mv" = (
@@ -727,7 +732,8 @@
 /area/awaymission/mothership_astrum/halls)
 "mW" = (
 /turf/open/misc/ice/smooth{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "nc" = (
@@ -1147,7 +1153,8 @@
 	faction = list("Abductor")
 	},
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "to" = (
@@ -3382,7 +3389,8 @@
 /area/awaymission/mothership_astrum/halls)
 "Vc" = (
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "Vh" = (
@@ -3657,7 +3665,8 @@
 	faction = list("Abductor")
 	},
 /turf/open/misc/asteroid/snow/ice{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/awaymission/mothership_astrum/deck3)
 "YO" = (

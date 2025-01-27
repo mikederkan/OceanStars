@@ -197,7 +197,8 @@
 	dir = 1
 	},
 /turf/open/floor/wood{
-	initial_gas_mix = "o2=22;n2=82;TEMP=180";
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 180;
 	name = "bridge"
 	},
 /area/ruin/powered/snow_biodome)
@@ -415,7 +416,8 @@
 "PM" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood{
-	initial_gas_mix = "o2=22;n2=82;TEMP=180";
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 180;
 	name = "bridge"
 	},
 /area/ruin/powered/snow_biodome)

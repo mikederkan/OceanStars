@@ -89,7 +89,7 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_smooth{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/syndicate_mothership)
 "bC" = (
@@ -1908,7 +1908,7 @@
 "vI" = (
 /obj/structure/railing,
 /turf/open/floor/catwalk_floor/iron_smooth{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/syndicate_mothership)
 "vP" = (
@@ -3963,7 +3963,7 @@
 /obj/structure/railing,
 /turf/open/floor/iron/stairs/old{
 	dir = 8;
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/syndicate_mothership)
 "Se" = (
@@ -4601,7 +4601,7 @@
 	dir = 6
 	},
 /turf/open/floor/catwalk_floor/iron_smooth{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/syndicate_mothership)
 "YZ" = (

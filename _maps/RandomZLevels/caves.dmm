@@ -11,14 +11,16 @@
 "ad" = (
 /turf/open/lava/smooth{
 	desc = "Looks hot.";
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	luminosity = 5
 	},
 /area/awaymission/caves/bmp_asteroid/level_four)
 "ah" = (
 /turf/open/lava/smooth{
 	desc = "Looks hot.";
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	luminosity = 5
 	},
 /area/awaymission/caves/bmp_asteroid/level_three)
@@ -191,7 +193,8 @@
 /obj/effect/forcefield/cult,
 /turf/open/lava/smooth{
 	desc = "Looks hot.";
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	luminosity = 5
 	},
 /area/awaymission/caves/bmp_asteroid/level_four)
@@ -314,7 +317,8 @@
 "bM" = (
 /turf/open/lava/smooth{
 	desc = "Looks hot.";
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	luminosity = 5
 	},
 /area/awaymission/caves/bmp_asteroid)
@@ -324,7 +328,8 @@
 "bO" = (
 /turf/open/lava/smooth{
 	desc = "Looks hot.";
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	luminosity = 5
 	},
 /area/awaymission/caves/bmp_asteroid/level_two)
@@ -971,7 +976,8 @@
 /area/awaymission/caves/bmp_asteroid)
 "fQ" = (
 /turf/open/floor/plating/elevatorshaft{
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	name = "elevator flooring"
 	},
 /area/awaymission/caves/bmp_asteroid)
@@ -1183,7 +1189,8 @@
 /obj/effect/baseturf_helper/lava,
 /turf/open/lava/smooth{
 	desc = "Looks hot.";
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7";
+initial_gas = list("oxygen" = 14, "nitrogen" = 23);
+	temperature = 2.7;
 	luminosity = 5
 	},
 /area/awaymission/caves/bmp_asteroid/level_four)

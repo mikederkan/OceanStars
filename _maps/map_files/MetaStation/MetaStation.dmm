@@ -14408,7 +14408,7 @@
 "ffP" = (
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating/foam{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/space/nearstation)
 "ffU" = (
@@ -28957,7 +28957,7 @@
 "kiE" = (
 /obj/item/book/manual/nuclear,
 /turf/open/floor/plating/foam{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/space/nearstation)
 "kiH" = (
@@ -50167,7 +50167,7 @@
 /area/station/science/lab)
 "rLv" = (
 /turf/open/floor/plating/foam{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/space/nearstation)
 "rLy" = (

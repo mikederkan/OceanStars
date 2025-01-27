@@ -595,7 +595,8 @@
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/station/security/prison/rec)
 "alb" = (
@@ -1536,7 +1537,7 @@
 	dir = 6
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "awz" = (
@@ -10484,7 +10485,7 @@
 "cSj" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "cSw" = (
@@ -13255,7 +13256,8 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/item/throwing_star/toy,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/station/security/prison/rec)
 "dHf" = (
@@ -14486,7 +14488,7 @@
 /area/mine/mechbay)
 "ebB" = (
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "ebH" = (
@@ -14739,7 +14741,7 @@
 "efM" = (
 /obj/structure/closet/crate/grave,
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "efR" = (
@@ -15875,7 +15877,7 @@
 	dir = 10
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "exv" = (
@@ -22586,7 +22588,8 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/machinery/light/warm/directional/north,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/station/security/prison/rec)
 "gwz" = (
@@ -30845,7 +30848,7 @@
 	dir = 8
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "iUs" = (
@@ -32684,7 +32687,7 @@
 	dir = 6
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "jwx" = (
@@ -37282,7 +37285,7 @@
 	dir = 9
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "kOk" = (
@@ -41228,7 +41231,7 @@
 "lTl" = (
 /obj/structure/closet/crate/grave,
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "lTs" = (
@@ -52541,7 +52544,7 @@
 	dir = 10
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "pgq" = (
@@ -59144,7 +59147,7 @@
 "qZZ" = (
 /obj/structure/marker_beacon/yellow,
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "rab" = (
@@ -59291,7 +59294,7 @@
 	dir = 8
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "rcj" = (
@@ -67349,7 +67352,7 @@
 "tuk" = (
 /obj/structure/closet/crate/grave,
 /turf/open/misc/dirt/dark{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "tur" = (
@@ -68393,7 +68396,7 @@
 	dir = 5
 	},
 /turf/open/misc/dirt/dark{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "tJE" = (
@@ -71692,7 +71695,7 @@
 /area/station/security/brig/upper)
 "uKc" = (
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "uKj" = (
@@ -72405,7 +72408,7 @@
 /area/station/service/bar)
 "uXk" = (
 /turf/open/misc/dirt/dark{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "uXu" = (
@@ -75963,7 +75966,7 @@
 "wcn" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "wcx" = (
@@ -79471,7 +79474,7 @@
 "xcf" = (
 /obj/structure/closet/crate/grave/filled,
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/graveyard)
 "xcp" = (
@@ -82923,7 +82926,7 @@
 	dir = 4
 	},
 /turf/open/misc/dirt{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored)
 "yaD" = (

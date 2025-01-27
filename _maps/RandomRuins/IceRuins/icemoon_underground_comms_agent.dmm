@@ -789,7 +789,7 @@
 /area/ruin/comms_agent)
 "Lz" = (
 /turf/open/floor/wood{
-	initial_gas_mix = "ICEMOON_ATMOS";
+	initial_gas = list("planetary" = 1);
 	name = "bridge"
 	},
 /area/icemoon/underground/explored)

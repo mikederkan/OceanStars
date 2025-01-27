@@ -108,12 +108,12 @@
 /obj/item/shard,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/massdriverhub)
 "tm" = (
 /turf/open/floor/catwalk_floor{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/massdriverhub)
 "uv" = (
@@ -174,7 +174,7 @@
 	id = "zaza"
 	},
 /turf/open/floor/catwalk_floor{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/massdriverhub)
 "CI" = (
@@ -193,7 +193,7 @@
 /obj/structure/cable,
 /obj/machinery/light/directional/south,
 /turf/open/floor/catwalk_floor{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/massdriverhub)
 "EN" = (
@@ -210,7 +210,7 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/machinery/light/directional/north,
 /turf/open/floor/catwalk_floor{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/massdriverhub)
 "Fw" = (
@@ -315,7 +315,7 @@
 "No" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/massdriverhub)
 "QZ" = (

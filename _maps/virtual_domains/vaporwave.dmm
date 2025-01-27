@@ -3,7 +3,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/virtual_domain)
 "bs" = (
@@ -13,7 +13,7 @@
 "bF" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/virtual_domain)
 "bJ" = (
@@ -120,7 +120,7 @@
 	},
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/virtual_domain)
 "xb" = (
@@ -138,7 +138,7 @@
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/virtual_domain)
 "Cq" = (
@@ -231,7 +231,7 @@
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/virtual_domain)
 "UV" = (
@@ -258,7 +258,7 @@
 	},
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/virtual_domain)
 "YE" = (

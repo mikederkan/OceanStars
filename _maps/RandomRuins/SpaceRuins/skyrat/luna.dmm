@@ -22,7 +22,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "cL" = (
@@ -37,7 +37,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "dC" = (
@@ -111,7 +111,7 @@
 "lE" = (
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "lO" = (
@@ -141,7 +141,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "pf" = (
@@ -176,7 +176,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "tQ" = (
@@ -219,7 +219,7 @@
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "xg" = (
@@ -232,7 +232,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "xC" = (
@@ -248,7 +248,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "ye" = (
@@ -289,7 +289,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "BP" = (
@@ -353,7 +353,7 @@
 	},
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "Mk" = (
@@ -399,7 +399,7 @@
 /obj/effect/light_emitter,
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "RZ" = (
@@ -415,7 +415,7 @@
 /obj/item/wrench,
 /turf/open/floor/stone{
 	color = "#03fcf0";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/has_grav/powered/skyrat/luna)
 "Sl" = (

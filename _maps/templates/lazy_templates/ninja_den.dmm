@@ -85,7 +85,8 @@
 	pixel_y = 15
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/centcom/central_command_areas/holding)
 "bP" = (
@@ -548,7 +549,7 @@
 /obj/structure/flora/rock/pile/style_random,
 /turf/open/misc/ironsand{
 	color = "#525252";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/central_command_areas/holding)
 "nA" = (
@@ -562,7 +563,8 @@
 "nW" = (
 /obj/machinery/light/warm/directional/west,
 /turf/open/water{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/centcom/central_command_areas/holding)
 "od" = (
@@ -604,12 +606,13 @@
 "ox" = (
 /obj/structure/flora/tree/dead/style_random,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/central_command_areas/holding)
 "oG" = (
 /turf/open/water{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/centcom/central_command_areas/holding)
 "oH" = (
@@ -703,7 +706,7 @@
 /obj/item/flashlight/lantern,
 /turf/open/misc/ironsand{
 	color = "#525252";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/central_command_areas/holding)
 "pX" = (
@@ -873,7 +876,7 @@
 "uy" = (
 /obj/structure/flora/rock/pile/style_random,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/central_command_areas/holding)
 "uL" = (
@@ -1256,7 +1259,8 @@
 	dir = 8
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/centcom/central_command_areas/holding)
 "EC" = (
@@ -1420,7 +1424,7 @@
 /area/centcom/central_command_areas/holding)
 "HU" = (
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/central_command_areas/holding)
 "HV" = (
@@ -1864,7 +1868,7 @@
 "RK" = (
 /turf/open/misc/ironsand{
 	color = "#525252";
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/centcom/central_command_areas/holding)
 "RS" = (
@@ -2011,7 +2015,8 @@
 /area/centcom/central_command_areas/holding)
 "VD" = (
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/centcom/central_command_areas/holding)
 "VE" = (
@@ -2112,7 +2117,8 @@
 	pixel_y = -3
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155
 	},
 /area/centcom/central_command_areas/holding)
 "Xn" = (

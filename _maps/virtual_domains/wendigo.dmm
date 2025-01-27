@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "ab" = (
@@ -12,7 +12,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "ad" = (
@@ -20,7 +20,7 @@
 	dir = 9
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "ae" = (
@@ -31,13 +31,13 @@
 	dir = 10
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "ah" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aj" = (
@@ -52,7 +52,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "al" = (
@@ -64,7 +64,7 @@
 	dir = 5
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "an" = (
@@ -75,7 +75,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "ar" = (
@@ -101,19 +101,19 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "ay" = (
 /obj/effect/mob_spawn/corpse/human/bitrunner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "az" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aA" = (
@@ -126,7 +126,7 @@
 	},
 /obj/structure/holosign/barrier,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aC" = (
@@ -134,7 +134,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aD" = (
@@ -142,14 +142,14 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aF" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /obj/effect/mob_spawn/corpse/human/bitrunner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aG" = (
@@ -158,13 +158,13 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aH" = (
 /mob/living/simple_animal/hostile/megafauna/wendigo,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aI" = (
@@ -172,14 +172,14 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aJ" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aK" = (
@@ -190,7 +190,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aL" = (
@@ -199,7 +199,7 @@
 "aM" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aN" = (
@@ -210,7 +210,7 @@
 "aO" = (
 /obj/effect/mob_spawn/corpse/human/cyber_police,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aP" = (
@@ -226,7 +226,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aR" = (
@@ -244,7 +244,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aU" = (
@@ -255,7 +255,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aV" = (
@@ -269,7 +269,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aX" = (
@@ -278,7 +278,7 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aY" = (
@@ -287,7 +287,7 @@
 	pixel_y = 3
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "aZ" = (
@@ -304,7 +304,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "jc" = (
@@ -313,7 +313,7 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "lc" = (
@@ -324,7 +324,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "pl" = (
@@ -333,13 +333,13 @@
 	},
 /obj/effect/mob_spawn/corpse/human/bitrunner,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "sn" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "yf" = (
@@ -354,7 +354,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis{
-	initial_gas_mix = "ICEMOON_ATMOS"
+	initial_gas = list("planetary" = 1)
 	},
 /area/icemoon/underground/explored/virtual_domain)
 "Vt" = (

@@ -1696,8 +1696,7 @@
 /area/centcom/central_command_areas/evacuation/ship)
 "ik" = (
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
+	initial_gas = list("planetary" = 1)
 	},
 /area/awaymission/errorroom)
 "il" = (
@@ -5558,8 +5557,7 @@
 "zi" = (
 /obj/item/rupee,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
+	initial_gas = list("planetary" = 1)
 	},
 /area/awaymission/errorroom)
 "zk" = (
@@ -6961,8 +6959,7 @@
 	invisibility = 100
 	},
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
+	initial_gas = list("planetary" = 1)
 	},
 /area/awaymission/errorroom)
 "FO" = (
@@ -10807,7 +10804,8 @@
 "ZE" = (
 /obj/effect/landmark/error,
 /turf/open/misc/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	initial_gas = list("oxygen" = 22, "nitrogen" = 82);
+	temperature = 293.155;
 	planetary_atmos = 0
 	},
 /area/awaymission/errorroom)

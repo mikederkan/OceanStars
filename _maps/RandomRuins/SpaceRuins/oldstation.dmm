@@ -7277,7 +7277,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass/plasma,
 /turf/open/floor/plating/foam{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/ancientstation/beta/supermatter)
 "Px" = (
@@ -7817,7 +7817,7 @@
 /obj/effect/decal/cleanable/glass/plasma,
 /obj/machinery/atmospherics/components/unary/vent_pump,
 /turf/open/floor/plating/foam{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/ancientstation/beta/supermatter)
 "Tu" = (
@@ -8157,7 +8157,7 @@
 /area/ruin/space/ancientstation/delta/biolab)
 "Wh" = (
 /turf/open/floor/plating/foam{
-	initial_gas_mix = "TEMP=2.7"
+	temperature = 2.7
 	},
 /area/ruin/space/ancientstation/beta/supermatter)
 "Wm" = (
