@@ -116,10 +116,22 @@
 #warn IF YOU PUT THIS ON LIVE I WILL FIND YOU AND MAKE YOU WISH YOU WERE NEVE-
 #endif
 
-#ifndef PRELOAD_RSC //set to:
-#define PRELOAD_RSC 1 // 0 to allow using external resources or on-demand behaviour;
-#endif // 1 to use the default behaviour;
-								// 2 for preloading absolutely everything;
+///Enables verbose debugging and the debug overlay. NOTE: Debug Overlay does not report MultiZAS information at this time.
+// #define ZASDBG
+
+///Enables multi-Z air movement. Zones do not merge across Z levels.
+#define MULTIZAS
+
+/////////////////////// MISC PERFORMANCE
+//uncomment this to load centcom and runtime station and thats it.
+// #define LOWMEMORYMODE
+
+/// 0 to allow using external resources or on-demand behaviour;
+/// 1 to use the default behaviour;
+/// 2 for preloading absolutely everything;
+#ifndef PRELOAD_RSC
+#define PRELOAD_RSC 2
+#endif
 
 #ifdef LOWMEMORYMODE
 #define FORCE_MAP "runtimestation"

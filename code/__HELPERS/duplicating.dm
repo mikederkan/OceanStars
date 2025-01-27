@@ -6,7 +6,7 @@ GLOBAL_LIST_INIT(duplicate_forbidden_vars, list(
 	"_active_timers",
 	"appearance",
 	"area",
-	"atmos_adjacent_turfs",
+	"get_atmos_adjacent_turfs()",
 	"bodyparts",
 	"ckey",
 	"client_mobs_in_contents",

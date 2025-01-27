@@ -80,6 +80,7 @@
 /atom/movable/screen/plane_master/rendering_plate/game_plate/Initialize(mapload, datum/hud/hud_owner)
 	. = ..()
 	add_filter("displacer", 1, displacement_map_filter(render_source = OFFSET_RENDER_TARGET(GRAVITY_PULSE_RENDER_TARGET, offset), size = 10))
+	add_filter("displacer", 2, displacement_map_filter(render_source = HEAT_COMPOSITE_RENDER_TARGET, size = 2.5))
 
 /atom/movable/screen/plane_master/rendering_plate/game_plate/show_to(mob/mymob)
 	. = ..()
