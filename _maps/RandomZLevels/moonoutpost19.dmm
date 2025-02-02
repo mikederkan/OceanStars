@@ -2279,7 +2279,6 @@
 /obj/structure/closet/toolcloset,
 /obj/item/clothing/gloves/color/yellow,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/item/clothing/under/rank/engineering/atmospheric_technician,
 /turf/open/floor/plating,
 /area/awaymission/moonoutpost19/research)
 "oV" = (
