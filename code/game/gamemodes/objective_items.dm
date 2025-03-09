@@ -117,8 +117,8 @@
 	name = "a mech removal tool"
 	targetitem = /obj/item/crowbar/mechremoval
 	excludefromjob = list(
-		JOB_RESEARCH_DIRECTOR,
-		JOB_SCIENTIST,
+		JOB_STATION_ENGINEER,
+		JOB_STATION_MECHANIC,
 		JOB_ROBOTICIST,
 	)
 	item_owner = list(JOB_ROBOTICIST)
@@ -460,7 +460,7 @@
 /datum/objective_item/steal/hdd_extraction
 	name = "the source code for Project Goon from the master R&D server mainframe"
 	targetitem = /obj/item/computer_disk/hdd_theft
-	excludefromjob = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_ROBOTICIST, JOB_GENETICIST)
+	excludefromjob = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_GENETICIST)
 	item_owner = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST)
 	exists_on_map = TRUE
 	difficulty = 4

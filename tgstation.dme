@@ -4565,7 +4565,6 @@
 #include "code\modules\library\skill_learning\job_skillchips\detective.dm"
 #include "code\modules\library\skill_learning\job_skillchips\janitor.dm"
 #include "code\modules\library\skill_learning\job_skillchips\miner.dm"
-#include "code\modules\library\skill_learning\job_skillchips\roboticist.dm"
 #include "code\modules\library\skill_learning\job_skillchips\station_engineer.dm"
 #include "code\modules\lighting\lighting_area.dm"
 #include "code\modules\lighting\lighting_atom.dm"
