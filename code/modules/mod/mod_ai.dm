@@ -148,7 +148,7 @@
 	if(active && !can_pai_move_suit && ispAI(ai_assistant))
 		return FALSE
 	// SKYRAT EDIT END
-	var/timemodifier = MOVE_DELAY * (ISDIAGONALDIR(direction) ? sqrt(2) : 1) * (wearer ? WEARER_DELAY : LONE_DELAY)
+	var/timemodifier = MOVE_DELAY * (ISDIAGONALDIR(direction) ? 2 : 1) * (wearer ? WEARER_DELAY : LONE_DELAY)
 	if(wearer && !wearer.Process_Spacemove(direction))
 		return FALSE
 	else if(!wearer && (!has_gravity() || !isturf(loc)))
