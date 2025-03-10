@@ -657,7 +657,7 @@
 /obj/item/paper/pamphlet/centcom/visitor_info{
 	pixel_x = -5
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/carpet,
 /area/ruin/comms_agent)
 "GR" = (

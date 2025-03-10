@@ -1882,7 +1882,7 @@
 	fax_name = "Chief Medical Officer's Office";
 	name = "Chief Medical Officer's Fax Machine"
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
@@ -19722,7 +19722,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/smooth_edge{
 	dir = 4
 	},
@@ -24465,7 +24465,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "gYT" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/machinery/status_display/ai/directional/east,
 /obj/structure/railing,
 /obj/structure/lattice/catwalk,
@@ -29985,7 +29985,7 @@
 	req_access = list("medical")
 	},
 /obj/effect/turf_decal/tile/blue/full,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/storage)
 "iIe" = (
@@ -35561,7 +35561,7 @@
 "kmG" = (
 /obj/machinery/defibrillator_mount/directional/north,
 /obj/effect/turf_decal/tile/blue/full,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/machinery/stasis{
 	dir = 4
 	},
@@ -37493,7 +37493,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue/half/contrasted,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/structure/sign/warning/bodysposal/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/aft)
@@ -37695,7 +37695,7 @@
 "kUo" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/railing/corner/end/flip{
 	dir = 4
 	},
@@ -49819,7 +49819,7 @@
 /area/station/security/courtroom)
 "oty" = (
 /obj/structure/rack,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/item/storage/box/bandages{
 	pixel_x = -6;
 	pixel_y = 6
@@ -50025,7 +50025,7 @@
 	dir = 8
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "owv" = (
@@ -51559,7 +51559,7 @@
 /obj/item/wrench/medical,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/structure/table/glass,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
@@ -53213,7 +53213,7 @@
 /obj/item/surgical_drapes,
 /obj/item/razor,
 /obj/machinery/status_display/evac/directional/west,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
 "ppS" = (
@@ -53299,7 +53299,7 @@
 /turf/open/floor/plating,
 /area/station/science/xenobiology)
 "prX" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/plating/snowed/coldroom,
 /area/station/service/kitchen/coldroom)
 "psb" = (
@@ -63694,7 +63694,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/structure/sign/warning/bodysposal/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/fore)
@@ -72907,7 +72907,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/freezer,
 /area/station/science/xenobiology)
 "vfj" = (
@@ -76418,7 +76418,7 @@
 	},
 /obj/item/clothing/gloves/latex/nitrile,
 /obj/item/clothing/gloves/latex/nitrile,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/medical/storage)
 "wjL" = (
@@ -78679,7 +78679,7 @@
 "wRG" = (
 /obj/machinery/computer/operating,
 /obj/effect/turf_decal/tile/blue/full,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/large,
 /area/station/medical/treatment_center)
 "wRI" = (
@@ -79038,7 +79038,7 @@
 	dir = 1
 	},
 /obj/structure/sign/departments/chemistry/directional/west,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/medical/treatment_center)
 "wVz" = (
@@ -82105,7 +82105,7 @@
 /turf/open/floor/iron/dark,
 /area/mine/mechbay)
 "xOc" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/plating/snowed/coldroom,
 /area/station/service/kitchen/coldroom)
 "xOk" = (

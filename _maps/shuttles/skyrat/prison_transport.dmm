@@ -17,7 +17,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/prison_transport)
 "aI" = (
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /obj/item/gun/ballistic/automatic/sol_smg/no_mag,
 /obj/item/ammo_box/magazine/c35sol_pistol/stendo,
 /obj/item/ammo_box/magazine/c35sol_pistol/stendo,
@@ -70,7 +70,7 @@
 /turf/open/floor/iron/smooth_half,
 /area/shuttle/prison_transport)
 "fK" = (
-/obj/machinery/light/cold/no_nightlight/directional/west,
+/obj/machinery/light/no_nightlight/directional/west,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "prisontransportlockdownc1"
 	},
@@ -160,7 +160,7 @@
 /area/shuttle/prison_transport)
 "iX" = (
 /obj/effect/turf_decal/trimline/brown/warning,
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/machinery/button/door/directional/east{
 	id = "prisontransportcell11";
 	name = "Cell Lockdown";
@@ -201,7 +201,7 @@
 /area/shuttle/prison_transport)
 "jQ" = (
 /obj/effect/turf_decal/trimline/brown/warning,
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/machinery/button/door/directional/east{
 	id = "prisontransportcell15";
 	name = "Cell Lockdown";
@@ -265,7 +265,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "prisontransportlockdownc1"
 	},
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 8
 	},
@@ -282,7 +282,7 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/prison_transport)
 "mU" = (
-/obj/machinery/light/cold/no_nightlight/directional/west,
+/obj/machinery/light/no_nightlight/directional/west,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "prisontransportlockdownc3"
 	},
@@ -327,7 +327,7 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/prison_transport)
 "pY" = (
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/trimline/dark_blue/filled/end{
 	dir = 4
@@ -411,7 +411,7 @@
 /turf/open/floor/iron/smooth_half,
 /area/shuttle/prison_transport)
 "uI" = (
-/obj/machinery/light/cold/no_nightlight/directional/west,
+/obj/machinery/light/no_nightlight/directional/west,
 /obj/structure/rack/shelf,
 /obj/item/shield/riot,
 /obj/item/shield/riot,
@@ -466,7 +466,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/prison_transport)
 "xc" = (
-/obj/machinery/light/cold/no_nightlight/directional/west,
+/obj/machinery/light/no_nightlight/directional/west,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "prisontransportlockdownc2"
 	},
@@ -501,7 +501,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "prisontransportlockdownc2"
 	},
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 8
 	},
@@ -590,7 +590,7 @@
 /area/shuttle/prison_transport)
 "DS" = (
 /obj/effect/turf_decal/trimline/brown/warning,
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/machinery/button/door/directional/east{
 	id = "prisontransportcell13";
 	name = "Cell Lockdown";
@@ -665,7 +665,7 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/prison_transport)
 "Gp" = (
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /turf/open/floor/iron/smooth,
 /area/shuttle/prison_transport)
 "GF" = (
@@ -726,7 +726,7 @@
 /area/shuttle/prison_transport)
 "Kd" = (
 /obj/structure/table/reinforced,
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /obj/item/storage/box/handcuffs,
 /obj/effect/turf_decal/tile/dark_blue/fourcorners,
 /turf/open/floor/iron/dark,
@@ -757,7 +757,7 @@
 /area/shuttle/prison_transport)
 "NO" = (
 /obj/effect/turf_decal/trimline/brown/warning,
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/machinery/button/door/directional/east{
 	id = "prisontransportcell9";
 	name = "Cell Lockdown";
@@ -789,7 +789,7 @@
 /area/shuttle/prison_transport)
 "PP" = (
 /obj/structure/bed/maint,
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /turf/open/floor/iron/shuttle/evac{
 	icon_state = "floorsec2"
 	},
@@ -798,7 +798,7 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/prison_transport)
 "Rb" = (
-/obj/machinery/light/cold/no_nightlight/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 1
 	},
@@ -823,7 +823,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/prison_transport)
 "RD" = (
-/obj/machinery/light/cold/no_nightlight/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /turf/open/floor/iron/smooth,
 /area/shuttle/prison_transport)
 "RP" = (
@@ -888,7 +888,7 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/prison_transport)
 "TH" = (
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/iron/smooth,
 /area/shuttle/prison_transport)
@@ -933,7 +933,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "prisontransportlockdownc3"
 	},
-/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/machinery/light/no_nightlight/directional/east,
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 8
 	},
@@ -959,7 +959,7 @@
 /area/shuttle/prison_transport)
 "WA" = (
 /obj/effect/turf_decal/trimline/brown/warning,
-/obj/machinery/light/cold/no_nightlight/directional/west,
+/obj/machinery/light/no_nightlight/directional/west,
 /turf/open/floor/iron/smooth_half,
 /area/shuttle/prison_transport)
 "Xk" = (
@@ -992,7 +992,7 @@
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 1
 	},
-/obj/machinery/light/cold/no_nightlight/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /turf/open/floor/iron/smooth_half,
 /area/shuttle/prison_transport)
 "ZT" = (

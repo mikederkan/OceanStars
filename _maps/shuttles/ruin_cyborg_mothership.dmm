@@ -331,7 +331,7 @@
 	lighting = 0
 	},
 /obj/effect/mapping_helpers/apc/unlocked,
-/obj/machinery/light/cold/no_nightlight/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /turf/open/floor/circuit/airless,
 /area/shuttle/ruin/cyborg_mothership)
 "qV" = (

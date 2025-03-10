@@ -800,7 +800,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/engineering/transit_tube)
 "apS" = (
@@ -2711,7 +2711,7 @@
 	c_tag = "Xenobiology Lab - Test Chamber";
 	network = list("ss13","rd","xeno")
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/engine/xenobio,
 /area/station/science/xenobiology)
 "aYw" = (
@@ -2998,7 +2998,7 @@
 /obj/item/hand_labeler,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/window/spawner/directional/south,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/command/teleporter)
 "bcT" = (
@@ -6131,7 +6131,7 @@
 /area/station/science/explab)
 "cky" = (
 /obj/machinery/power/shieldwallgen,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/window/spawner/directional/north,
 /turf/open/floor/iron/dark,
@@ -8956,7 +8956,7 @@
 /area/station/hallway/primary/central)
 "dkX" = (
 /obj/structure/cable,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/machinery/computer/security/telescreen/isolation/directional/north,
 /turf/open/floor/iron,
 /area/station/security/execution/transfer)
@@ -10537,7 +10537,7 @@
 "dQy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/random/directional/east,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/machinery/modular_computer/preset/cargochat/service{
 	dir = 8
 	},
@@ -19848,7 +19848,7 @@
 "hgu" = (
 /obj/machinery/defibrillator_mount/directional/south,
 /obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/structure/bed/medical,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
@@ -23135,7 +23135,7 @@
 	},
 /obj/machinery/defibrillator_mount/directional/north,
 /obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "inw" = (
@@ -25622,7 +25622,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "jei" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/newscaster/directional/south,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/vending/wardrobe/medi_wardrobe,
@@ -27709,7 +27709,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 5
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/station/security/execution/transfer)
 "jML" = (
@@ -27758,7 +27758,7 @@
 /obj/item/storage/medkit/regular,
 /obj/machinery/airalarm/directional/south,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "jNo" = (
@@ -32120,7 +32120,7 @@
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 4
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "lrh" = (
@@ -32512,7 +32512,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/bed/medical/emergency,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "lyF" = (
@@ -36460,7 +36460,7 @@
 	pixel_y = -3
 	},
 /obj/structure/table/reinforced,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/structure/window/spawner/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/medical/storage)
@@ -41160,7 +41160,7 @@
 /obj/item/reagent_containers/cup/bottle/chlorine{
 	pixel_x = 1
 	},
-/obj/machinery/light/cold/dim/directional/east,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 8
 	},
@@ -42939,7 +42939,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/obj/machinery/light/cold/dim/directional/south,
+/obj/machinery/light/dim/directional/south,
 /obj/effect/turf_decal/tile/dark_blue/half/contrasted{
 	dir = 1
 	},
@@ -43256,7 +43256,7 @@
 "pry" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/item/radio/intercom/directional/south,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "prD" = (
@@ -43764,7 +43764,7 @@
 	name = "\improper CRYOGENICS"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/cryo)
 "pBG" = (
@@ -43986,7 +43986,7 @@
 /obj/item/stack/license_plates/empty/fifty,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/radio/intercom/prison/directional/north,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/plating,
 /area/station/security/prison/work)
 "pFd" = (
@@ -47313,7 +47313,7 @@
 /obj/structure/table/optable,
 /obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/aft)
 "qOs" = (
@@ -47358,7 +47358,7 @@
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/disposal/bin,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/status_display/ai/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
@@ -48891,7 +48891,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "rpx" = (
@@ -50696,7 +50696,7 @@
 /obj/effect/turf_decal/tile/green/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "rVb" = (
@@ -52292,7 +52292,7 @@
 /obj/machinery/stasis,
 /obj/machinery/defibrillator_mount/directional/north,
 /obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "sAz" = (
@@ -53182,7 +53182,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/sign/xenobio_guide/directional/north,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "sPB" = (
@@ -63051,7 +63051,7 @@
 	c_tag = "Medbay Main Hallway - Virology Junction";
 	network = list("ss13","medbay")
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "weq" = (
@@ -65682,7 +65682,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat/foyer)
 "xdF" = (

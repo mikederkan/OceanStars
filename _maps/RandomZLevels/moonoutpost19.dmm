@@ -3573,7 +3573,7 @@
 /turf/open/floor/plating,
 /area/awaymission/moonoutpost19/arrivals)
 "xa" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/pod/light,
 /area/awaymission/moonoutpost19/tent)
 "xb" = (
@@ -6974,7 +6974,7 @@
 	},
 /area/awaymission/moonoutpost19/main)
 "Uw" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/structure/chair/office{
 	dir = 8
 	},

@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /obj/effect/turf_decal/siding/dark,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/closet/secure_closet/interdynefob/prisoner_locker,
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/syndicate_access,
@@ -84,7 +84,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "at" = (
 /obj/effect/turf_decal/siding/dark/end,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/hydroponics)
 "au" = (
@@ -159,7 +159,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "aH" = (
@@ -582,7 +582,7 @@
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /obj/machinery/button/door/directional/east{
 	desc = "To keep your hangar away from prying eyes.";
@@ -791,7 +791,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "dr" = (
 /obj/structure/cable,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 1
 	},
@@ -1016,7 +1016,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "ep" = (
 /obj/effect/turf_decal/bot_blue,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = list("syndicate")
 	},
@@ -1109,7 +1109,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo/hangar)
 "eJ" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "eK" = (
@@ -1302,7 +1302,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
 "fy" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
@@ -1575,7 +1575,7 @@
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate/brigoff{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
@@ -1644,7 +1644,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "hg" = (
@@ -1748,7 +1748,7 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/spawner/random/contraband/prison,
 /obj/structure/closet/crate/bin,
 /obj/effect/spawner/random/trash/food_packaging{
@@ -1763,14 +1763,14 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /obj/structure/rack,
 /obj/item/storage/medkit/emergency,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "hE" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
@@ -1850,7 +1850,7 @@
 	},
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo/hangar)
 "hP" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 4
 	},
@@ -1922,7 +1922,7 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "ij" = (
@@ -2000,7 +2000,7 @@
 "ix" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/trimline/purple/filled/line,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
@@ -2032,7 +2032,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo/hangar)
 "iB" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
@@ -2127,7 +2127,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/dorms)
 "jb" = (
 /obj/machinery/iv_drip,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/white/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
 "jc" = (
@@ -2137,7 +2137,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "jd" = (
@@ -2460,7 +2460,7 @@
 /turf/template_noop,
 /area/template_noop)
 "kB" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 4
 	},
@@ -2646,7 +2646,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
 "lu" = (
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
@@ -2668,7 +2668,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
 "lE" = (
 /obj/effect/turf_decal/bot_blue,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate/service{
 	dir = 1
 	},
@@ -2701,7 +2701,7 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/item/clothing/shoes/sneakers/crimson{
 	pixel_x = -4
 	},
@@ -3017,7 +3017,7 @@
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -3211,7 +3211,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/service/diner)
 "oc" = (
 /obj/machinery/chem_master,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/tile/dark_blue/full,
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -3234,7 +3234,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/dark_red/mid_joiner,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_half,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
 "og" = (
@@ -3290,7 +3290,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
 "ot" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate/stationmed{
 	dir = 8
 	},
@@ -3317,7 +3317,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "ow" = (
@@ -3377,7 +3377,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/structure/rack/shelf,
 /obj/item/crowbar/power/syndicate{
 	pixel_y = 8
@@ -3452,7 +3452,7 @@
 /turf/open/floor/iron/pool,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
 "pe" = (
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/effect/turf_decal/trimline/dark_red/filled,
 /obj/effect/turf_decal/siding/white/corner,
 /obj/effect/turf_decal/siding/white/corner{
@@ -4076,7 +4076,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
 "rH" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
@@ -4531,7 +4531,7 @@
 /obj/item/seeds/tower,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /obj/effect/turf_decal/siding/dark,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/item/seeds/tobacco,
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
@@ -4633,7 +4633,7 @@
 "uh" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/item/reagent_containers/cup/bucket,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/hydroponics)
 "ui" = (
@@ -5015,7 +5015,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
 "wp" = (
@@ -5158,7 +5158,7 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/turf_decal/siding/dark,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
 	},
@@ -5281,7 +5281,7 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/table,
 /obj/item/coin/iron{
 	pixel_x = -10
@@ -5300,7 +5300,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "yn" = (
@@ -5324,7 +5324,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "yy" = (
@@ -5498,7 +5498,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/recharger,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
@@ -5646,7 +5646,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/chair/office/light,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/research)
@@ -5738,7 +5738,7 @@
 "Au" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/extinguisher_cabinet/directional/east,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/dark_red/half{
 	dir = 4
 	},
@@ -5869,7 +5869,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
 "Bi" = (
@@ -6004,7 +6004,7 @@
 /obj/item/reagent_containers/condiment/peppermill{
 	pixel_x = 2
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "BN" = (
@@ -6099,7 +6099,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/skyrat/interdynefob)
 "Cj" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
 	},
@@ -6137,7 +6137,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "Ct" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
 "Cy" = (
@@ -6153,7 +6153,7 @@
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 8
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6453,7 +6453,7 @@
 /turf/open/floor/iron/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/service/diner)
 "Eb" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/effect/turf_decal/vg_decals/atmos/nitrogen{
 	dir = 4
 	},
@@ -6632,7 +6632,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
 	},
@@ -7133,7 +7133,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/rack/gunrack,
 /obj/item/gun/ballistic/automatic/sol_smg/evil{
 	pixel_x = -8
@@ -7147,7 +7147,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/armory)
 "Hh" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
 /obj/machinery/vending/dinnerware{
@@ -7417,7 +7417,7 @@
 	dir = 1
 	},
 /obj/item/kirbyplants/organic/plant18,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/structure/cable,
@@ -7539,7 +7539,7 @@
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "Jl" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/table,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -7628,7 +7628,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "JI" = (
@@ -7820,7 +7820,7 @@
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo/hangar)
 "KJ" = (
 /obj/structure/table/reinforced,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/item/storage/toolbox/electrical{
 	pixel_x = 4;
 	pixel_y = 4
@@ -8149,7 +8149,7 @@
 	pixel_y = 4
 	},
 /obj/effect/turf_decal/tile/dark_blue/full,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron/white/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
@@ -8867,7 +8867,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/structure/closet/secure_closet/interdynefob/science_gear,
 /turf/open/floor/iron/dark/side{
 	dir = 1
@@ -9100,7 +9100,7 @@
 /obj/effect/spawner/random/maintenance/five,
 /obj/effect/spawner/random/trash/janitor_supplies,
 /obj/structure/closet/crate,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/cargo)
 "QB" = (
@@ -9189,7 +9189,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -9243,7 +9243,7 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/bed/medical/emergency,
 /turf/open/floor/iron/white/diagonal,
 /area/ruin/space/has_grav/skyrat/interdynefob/medbay)
@@ -9319,7 +9319,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
 /turf/open/floor/iron/dark,
@@ -9545,7 +9545,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "So" = (
@@ -9724,7 +9724,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/item/stack/sheet/glass/fifty{
 	pixel_y = 9
 	},
@@ -9961,7 +9961,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "Uc" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/reagent_dispensers/wall/peppertank/directional/west,
@@ -10093,7 +10093,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/trimline/dark_blue/corner,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
@@ -10112,7 +10112,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/halls)
 "UM" = (
@@ -10214,7 +10214,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
 "Ve" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/processor,
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/siding/dark{
@@ -10235,7 +10235,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/skyrat/interdynefob)
 "Vm" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
 	},
@@ -10262,7 +10262,7 @@
 	},
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
 "Vo" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -10297,7 +10297,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/skyrat/interdynefob/engineering)
 "Vw" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/grill,
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/iron/kitchen{
@@ -10386,7 +10386,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security)
 "VM" = (
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge)
 "VO" = (
@@ -10528,7 +10528,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 5
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/kitchen{
 	dir = 4
 	},
@@ -10936,7 +10936,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
 	},

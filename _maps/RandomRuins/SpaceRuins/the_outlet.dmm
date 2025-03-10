@@ -347,7 +347,7 @@
 /area/ruin/space/has_grav/the_outlet/cultinfluence)
 "iY" = (
 /obj/effect/turf_decal/tile/bar/anticorner/contrasted,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "jg" = (

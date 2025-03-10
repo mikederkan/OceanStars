@@ -116,7 +116,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/machinery/light/cold/no_nightlight/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/robot_debris/down,
 /obj/item/bot_assembly/cleanbot,
@@ -818,7 +818,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/structure/closet/crate/cardboard,
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /obj/item/storage/box/lights/mixed{
 	pixel_y = 5
 	},

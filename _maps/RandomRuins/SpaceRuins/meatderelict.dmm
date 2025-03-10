@@ -200,7 +200,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/light/cold/dim/directional/west,
+/obj/machinery/light/dim/directional/west,
 /obj/machinery/computer/old{
 	dir = 4
 	},
@@ -512,7 +512,7 @@
 /area/ruin/space/has_grav/powered/biooutpost)
 "kn" = (
 /obj/effect/turf_decal/siding/purple,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/structure/table/reinforced/rglass,
 /obj/item/reagent_containers/cup/glass/coffee_cup{
 	pixel_y = 3
@@ -551,7 +551,7 @@
 	dir = 8
 	},
 /obj/structure/table,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/effect/spawner/random/medical/supplies,
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
@@ -624,7 +624,7 @@
 "mU" = (
 /obj/effect/turf_decal/stripes,
 /obj/effect/turf_decal/siding/purple,
-/obj/machinery/light/cold/dim/directional/south,
+/obj/machinery/light/dim/directional/south,
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
 "ne" = (
@@ -803,7 +803,7 @@
 /obj/machinery/computer/old{
 	dir = 1
 	},
-/obj/machinery/light/cold/dim/directional/south,
+/obj/machinery/light/dim/directional/south,
 /obj/effect/turf_decal/tile/purple/opposingcorners,
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
@@ -836,7 +836,7 @@
 	dir = 2
 	},
 /obj/effect/mob_spawn/corpse/human/damaged,
-/obj/machinery/light/cold/dim/directional/north,
+/obj/machinery/light/dim/directional/north,
 /turf/open/indestructible/white{
 	icon_state = "showroomfloor"
 	},
@@ -1587,7 +1587,7 @@
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
 "Ec" = (
@@ -1681,7 +1681,7 @@
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
 "Gd" = (
-/obj/machinery/light/cold/dim/directional/east,
+/obj/machinery/light/dim/directional/east,
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 4
 	},
@@ -1739,7 +1739,7 @@
 	dir = 4
 	},
 /obj/machinery/iv_drip,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
 "Hb" = (
@@ -2464,7 +2464,7 @@
 	dir = 1
 	},
 /obj/structure/broken_flooring/plating/directional/north,
-/obj/machinery/light/cold/dim/directional/east,
+/obj/machinery/light/dim/directional/east,
 /turf/open/indestructible/meat,
 /area/ruin/space/has_grav/powered/biooutpost)
 "WJ" = (
@@ -2477,7 +2477,7 @@
 "Xe" = (
 /obj/effect/turf_decal/siding/red,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/dark,
 /area/ruin/space/has_grav/powered/biooutpost)
@@ -2648,7 +2648,7 @@
 /area/ruin/space/has_grav/powered/biooutpost)
 "ZT" = (
 /obj/effect/turf_decal/tile/purple/opposingcorners,
-/obj/machinery/light/cold/dim/directional/east,
+/obj/machinery/light/dim/directional/east,
 /turf/open/indestructible/white,
 /area/ruin/space/has_grav/powered/biooutpost)
 "ZZ" = (

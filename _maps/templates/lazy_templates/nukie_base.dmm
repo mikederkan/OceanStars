@@ -12,7 +12,7 @@
 	dir = 4
 	},
 /obj/machinery/mech_bay_recharge_port,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/mineral/titanium,
 /area/centcom/syndicate_mothership/control)
 "al" = (
@@ -76,7 +76,7 @@
 /turf/open/floor/mineral/titanium,
 /area/centcom/syndicate_mothership/control)
 "bp" = (
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/mineral/titanium,
 /area/centcom/syndicate_mothership/control)
 "bs" = (
@@ -259,7 +259,7 @@
 /turf/open/floor/mineral/titanium/tiled,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
 "dF" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/table/glass/plasmaglass,
 /obj/item/pen{
 	pixel_x = 9;
@@ -330,7 +330,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/syndicate_mothership/control)
 "dO" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/centcom/syndicate_mothership/control)
 "dV" = (
@@ -428,7 +428,7 @@
 /obj/item/grenade/chem_grenade{
 	pixel_x = -4
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
 "eF" = (
@@ -453,7 +453,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/structure/chair/greyscale{
 	dir = 1
 	},
@@ -561,7 +561,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/syndicate_mothership/expansion_bombthreat)
 "go" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/machinery/vending/snack/teal,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
@@ -802,11 +802,11 @@
 	dir = 1
 	},
 /obj/structure/table/optable,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/centcom/syndicate_mothership/control)
 "iG" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/mineral/titanium,
 /area/centcom/syndicate_mothership/control)
 "iH" = (
@@ -855,7 +855,7 @@
 "jc" = (
 /obj/structure/closet/cardboard/metal,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/centcom/syndicate_mothership/control)
 "je" = (
@@ -967,7 +967,7 @@
 /turf/open/floor/catwalk_floor/iron,
 /area/centcom/syndicate_mothership/control)
 "kF" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/smooth,
 /area/centcom/syndicate_mothership/control)
 "kG" = (
@@ -1197,7 +1197,7 @@
 /turf/open/misc/asteroid/snow/airless,
 /area/centcom/syndicate_mothership)
 "nw" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/closet/crate/cardboard,
 /turf/open/floor/plating,
 /area/centcom/syndicate_mothership/control)
@@ -1230,7 +1230,7 @@
 /obj/structure/chair/office/light{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/syndicate_mothership/expansion_bioterrorism)
 "nN" = (
@@ -2094,7 +2094,7 @@
 /area/centcom/syndicate_mothership/expansion_bombthreat)
 "ym" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -2288,7 +2288,7 @@
 /turf/open/floor/plating,
 /area/centcom/syndicate_mothership/expansion_bombthreat)
 "AL" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
@@ -2533,7 +2533,7 @@
 "Dy" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/structure/chair/sofa/bench,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
@@ -2877,7 +2877,7 @@
 /obj/structure/chair/sofa/bench{
 	dir = 4
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer2,
@@ -3169,7 +3169,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/syndicate_mothership/expansion_bioterrorism)
 "JL" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -3354,7 +3354,7 @@
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
 "LS" = (
@@ -3397,7 +3397,7 @@
 /turf/open/misc/asteroid/snow/airless,
 /area/centcom/syndicate_mothership)
 "Ms" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
@@ -3442,7 +3442,7 @@
 /area/centcom/syndicate_mothership/control)
 "MH" = (
 /obj/machinery/hydroponics/constructable,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/item/seeds/cannabis{
 	pixel_y = 8
 	},
@@ -3774,7 +3774,7 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south{
 	name = "Tinted Window"
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /obj/structure/table/reinforced/plasmarglass,
 /obj/item/assembly/timer{
 	pixel_x = 12;
@@ -3943,7 +3943,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/portable_atmospherics/canister,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -4252,7 +4252,7 @@
 /turf/open/floor/plating/icemoon,
 /area/centcom/syndicate_mothership/control)
 "UE" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/plating,
 /area/centcom/syndicate_mothership/control)
 "Va" = (
@@ -4478,7 +4478,7 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/centcom/syndicate_mothership/control)
 "XL" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/centcom/syndicate_mothership/control)
 "XO" = (
@@ -4524,7 +4524,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
 	dir = 10
 	},
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/centcom/syndicate_mothership/expansion_bombthreat)
 "XX" = (

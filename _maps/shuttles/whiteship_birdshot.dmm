@@ -245,7 +245,7 @@
 /area/shuttle/abandoned/engine)
 "iB" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /obj/structure/cable,
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron/smooth_large,
@@ -736,7 +736,7 @@
 /turf/open/floor/iron/grimy,
 /area/shuttle/abandoned/crew)
 "yM" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/south,
 /obj/machinery/firealarm/directional/east,

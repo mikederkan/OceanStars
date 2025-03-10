@@ -111,7 +111,7 @@
 /obj/machinery/computer/terminal/derelict{
 	dir = 8
 	},
-/obj/machinery/light/cold/dim/directional/east,
+/obj/machinery/light/dim/directional/east,
 /turf/open/misc/snow,
 /area/template_noop)
 "y" = (
@@ -138,7 +138,7 @@
 	color = "#52B4E9"
 	},
 /obj/structure/noticeboard/directional/north,
-/obj/machinery/light/cold/dim/directional/north,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark/textured_large,
 /area/template_noop)
 "K" = (
