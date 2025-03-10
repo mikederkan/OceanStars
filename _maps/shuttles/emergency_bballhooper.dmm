@@ -93,7 +93,7 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "fH" = (
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
 "fL" = (
@@ -223,7 +223,7 @@
 /area/shuttle/escape)
 "jR" = (
 /obj/structure/chair/comfy/shuttle,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/escape)
 "kL" = (
@@ -812,7 +812,7 @@
 	pixel_y = 9
 	},
 /obj/structure/fireaxecabinet/directional/east,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/titanium/purple,
 /area/shuttle/escape)
 "OK" = (

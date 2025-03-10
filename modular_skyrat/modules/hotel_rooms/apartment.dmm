@@ -422,7 +422,7 @@
 /area/misc/hilbertshotel)
 "Py" = (
 /obj/structure/table/reinforced,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/siding/wideplating_new/light{
 	dir = 10
 	},
@@ -479,7 +479,7 @@
 /obj/structure/chair{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/kitchen,
 /area/misc/hilbertshotel)
 "Tj" = (

@@ -849,7 +849,7 @@
 /obj/effect/turf_decal/tile/green/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "VQ" = (

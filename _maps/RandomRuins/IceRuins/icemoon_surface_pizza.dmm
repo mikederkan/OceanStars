@@ -654,7 +654,7 @@
 /area/ruin/pizzeria)
 "CZ" = (
 /obj/structure/cable,
-/obj/machinery/light/cold/no_nightlight/directional/south,
+/obj/machinery/light/no_nightlight/directional/south,
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
@@ -1182,7 +1182,7 @@
 /area/ruin/pizzeria)
 "TE" = (
 /obj/machinery/oven,
-/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/machinery/light/no_nightlight/directional/north,
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},

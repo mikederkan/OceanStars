@@ -21,11 +21,11 @@
 	///Amount of power used
 	var/static_power_used = 0
 	///Luminosity when on, also used in power calculation
-	var/brightness = 8
+	var/brightness = 6
 	///Basically the alpha of the emitted light source
-	var/bulb_power = 1
+	var/bulb_power = 0.6
 	///Default colour of the light.
-	var/bulb_colour = LIGHT_COLOR_DEFAULT
+	var/bulb_colour = LIGHT_COLOR_FAINT_BLUE
 	///LIGHT_OK, _EMPTY, _BURNED or _BROKEN
 	var/status = LIGHT_OK
 	///Should we flicker?
@@ -48,9 +48,9 @@
 	///Set to FALSE to never let this light get switched to night mode.
 	var/nightshift_allowed = TRUE
 	///Brightness of the nightshift light
-	var/nightshift_brightness = 8
+	var/nightshift_brightness = 4
 	///Alpha of the nightshift light
-	var/nightshift_light_power = 0.45
+	var/nightshift_light_power = 0.4
 	///Basecolor of the nightshift light
 	var/nightshift_light_color = "#FFDDCC"
 	///If true, the light is in low power mode
@@ -60,27 +60,38 @@
 	///If true, overrides lights to use emergency lighting
 	var/major_emergency = FALSE
 	///Multiplier for this light's base brightness during a cascade
-	var/bulb_major_emergency_brightness_mul = 0.75
+	var/bulb_major_emergency_brightness_mul = 0.8
 	///Colour of the light when major emergency mode is on
-	var/bulb_emergency_colour = "#ff4e4e"
+	var/bulb_emergency_colour = LIGHT_COLOR_INTENSE_RED
 	///Multiplier for this light's base brightness in low power power mode
-	var/bulb_low_power_brightness_mul = 0.25
+	var/bulb_low_power_brightness_mul = 0.5
 	///Determines the colour of the light while it's in low power mode
-	var/bulb_low_power_colour = COLOR_VIVID_RED
+	var/bulb_low_power_colour = LIGHT_COLOR_FAINT_BLUE
 	///The multiplier for determining the light's power in low power mode
-	var/bulb_low_power_pow_mul = 0.75
+	var/bulb_low_power_pow_mul = 0.5
 	///The minimum value for the light's power in low power mode
 	var/bulb_low_power_pow_min = 0.5
 	///The Light range to use when working in fire alarm status
-	var/fire_brightness = 9
+	var/fire_brightness = 6
 	///The Light power to use when working in fire alarm status
-	var/fire_power = 0.5
+	var/fire_power = 0.6
 	///The Light colour to use when working in fire alarm status
 	var/fire_colour = COLOR_FIRE_LIGHT_RED
 	///Power usage - W per unit of luminosity
 	var/power_consumption_rate = 20
 	///break if moved, if false also makes it ignore if the wall its on breaks
 	var/break_if_moved = TRUE
+
+	//from skyrat aesthetics modular_skyrat\modules\aesthetics\lights\code
+
+	//So we don't have a lot of stress on startup.
+	var/maploaded = FALSE
+	//More stress stuff.
+	var/turning_on = FALSE
+	// Are we always flickering?
+	var/constant_flickering = FALSE
+	var/flicker_timer = null
+	var/roundstart_flicker = FALSE
 
 /obj/machinery/light/Move()
 	if(status != LIGHT_BROKEN && break_if_moved)
@@ -279,7 +290,7 @@
 		// SKYRAT EDIT ADDITION START
 				maploaded = FALSE
 				if(play_sound)
-					playsound(src.loc, 'modular_skyrat/modules/aesthetics/lights/sound/light_on.ogg', 65, 1)
+					playsound(src.loc, 'sound/machines/light_on.ogg', 65, 1)
 		else if(!matching && !turning_on)
 			switchcount++
 			turning_on = TRUE
@@ -298,10 +309,83 @@
 
 
 //SKYRAT EDIT ADDITION BEGIN - AESTHETICS
+
+/obj/machinery/light/proc/delayed_turn_on(trigger, play_sound = TRUE, color_set, power_set, brightness_set)
+	if(QDELETED(src))
+		return
+	turning_on = FALSE
+	if(!on)
+		return
+	if( prob( min(60, (switchcount**2)*0.01) ) )
+		if(trigger)
+			burn_out()
+	else
+		use_power = ACTIVE_POWER_USE
+		set_light(
+			l_range = brightness_set,
+			l_power = power_set,
+			l_color = color_set
+			)
+		if(play_sound)
+			playsound(src.loc, 'modular_skyrat/modules/aesthetics/lights/sound/light_on.ogg', 65, 1)
+
+/obj/machinery/light/proc/start_flickering()
+	on = FALSE
+	update(FALSE, TRUE, FALSE)
+
+	constant_flickering = TRUE
+
+	flicker_timer = addtimer(CALLBACK(src, PROC_REF(flicker_on)), rand(0.5 SECONDS, 1 SECONDS))
+
+/obj/machinery/light/proc/stop_flickering()
+	constant_flickering = FALSE
+
+	if(flicker_timer)
+		deltimer(flicker_timer)
+		flicker_timer = null
+
+	set_on(has_power())
+
+/obj/machinery/light/proc/alter_flicker(enable = TRUE)
+	if(!constant_flickering)
+		return
+	if(has_power())
+		on = enable
+		update(FALSE, TRUE, FALSE)
+
+/obj/machinery/light/proc/flicker_on()
+	alter_flicker(TRUE)
+	flicker_timer = addtimer(CALLBACK(src, PROC_REF(flicker_off)), rand(0.5 SECONDS, 1 SECONDS))
+
+/obj/machinery/light/proc/flicker_off()
+	alter_flicker(FALSE)
+	flicker_timer = addtimer(CALLBACK(src, PROC_REF(flicker_on)), rand(0.5 SECONDS, 5 SECONDS))
+
+/obj/machinery/light/Initialize(mapload = TRUE)
+	. = ..()
+	if(on)
+		maploaded = TRUE
+
+	if(roundstart_flicker)
+		start_flickering()
+
+/obj/machinery/light/multitool_act(mob/living/user, obj/item/multitool)
+	if(!constant_flickering)
+		balloon_alert(user, "ballast is already working!")
+		return ITEM_INTERACT_SUCCESS
+
+	balloon_alert(user, "repairing the ballast...")
+	if(do_after(user, 2 SECONDS, src))
+		stop_flickering()
+		balloon_alert(user, "ballast repaired!")
+		return ITEM_INTERACT_SUCCESS
+	return ..()
+
 #undef LIGHT_ON_DELAY_UPPER
 #undef LIGHT_ON_DELAY_LOWER
 #undef NIGHTSHIFT_LIGHT_MODIFIER
 #undef NIGHTSHIFT_COLOR_MODIFIER
+
 // SKYRAT EDIT ADDITION END
 
 /obj/machinery/light/update_current_power_usage()
@@ -772,14 +856,14 @@
 	icon = 'icons/obj/lighting.dmi'
 	base_state = "floor" // base description and icon_state
 	icon_state = "floor"
-	brightness = 4
+	brightness = 3
 	light_angle = 360
 	layer = ABOVE_OPEN_TURF_LAYER
 	plane = FLOOR_PLANE
 	light_type = /obj/item/light/bulb
 	fitting = "bulb"
-	nightshift_brightness = 3
-	fire_brightness = 4.5
+	nightshift_brightness = 2
+	fire_brightness = 3
 
 /obj/machinery/light/floor/get_light_offset()
 	return list(0, 0)

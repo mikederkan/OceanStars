@@ -3646,7 +3646,7 @@
 "yW" = (
 /obj/structure/table,
 /obj/machinery/microwave,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/cafeteria,
 /area/awaymission/cabin)
 "ze" = (
@@ -4230,7 +4230,7 @@
 /area/awaymission/cabin/caves)
 "Ic" = (
 /obj/machinery/processor,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/freezer,
 /area/awaymission/cabin)
 "Id" = (

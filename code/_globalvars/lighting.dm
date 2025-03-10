@@ -89,12 +89,12 @@ GLOBAL_LIST_INIT_TYPED(light_types, /datum/light_template, generate_light_types(
 /datum/light_template/read_light/cold_bar
 	name = "Cold Bar"
 	category = "Bar"
-	path_to_read = /obj/machinery/light/cold
+	path_to_read = /obj/machinery/light
 
 /datum/light_template/read_light/dimcold_bar
 	name = "Dim Cold Bar"
 	category = "Bar"
-	path_to_read = /obj/machinery/light/cold/dim
+	path_to_read = /obj/machinery/light/dim
 
 /datum/light_template/read_light/red_bar
 	name = "Red Bar"

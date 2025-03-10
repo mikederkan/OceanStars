@@ -565,7 +565,7 @@
 /area/virtual_domain/ancient_milsim/loot_camp)
 "rl" = (
 /obj/structure/table,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/item/tape/ruins/ancient_milsim/devlog_two,
 /turf/open/floor/iron/white,
 /area/virtual_domain/ancient_milsim/medbay)
@@ -1436,7 +1436,7 @@
 /area/virtual_domain/ancient_milsim/snpc_bar)
 "OA" = (
 /obj/machinery/sleeper/self_control,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/virtual_domain/ancient_milsim/medbay)
 "OG" = (

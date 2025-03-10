@@ -767,7 +767,7 @@
 /obj/effect/mapping_helpers/apc/no_charge,
 /obj/effect/mapping_helpers/apc/unlocked,
 /obj/structure/cable,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "lX" = (
@@ -914,7 +914,7 @@
 "ok" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/structure/closet/crate,
 /obj/item/mod/core/standard,
 /obj/item/mod/core/standard,
@@ -1060,7 +1060,7 @@
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
 "rt" = (
 /obj/machinery/hydroponics/constructable,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "rB" = (
@@ -1401,7 +1401,7 @@
 "xw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "xy" = (
@@ -1847,7 +1847,7 @@
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Et" = (
 /obj/structure/cable,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
@@ -2477,7 +2477,7 @@
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "Ny" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "NC" = (
@@ -2560,7 +2560,7 @@
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Oy" = (
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "OC" = (

@@ -1406,7 +1406,7 @@
 /obj/item/hand_labeler,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/window/spawner/directional/south,
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/virtual_domain)
 "lM" = (
@@ -5144,7 +5144,7 @@
 /turf/open/floor/iron,
 /area/virtual_domain)
 "Rg" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/window/spawner/directional/north,
 /obj/structure/frame/machine/secured,

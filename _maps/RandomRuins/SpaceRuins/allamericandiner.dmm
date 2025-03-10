@@ -197,7 +197,7 @@
 "kj" = (
 /obj/structure/kitchenspike,
 /obj/effect/turf_decal/bot,
-/obj/machinery/light/cold/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/allamericandiner)
 "kL" = (

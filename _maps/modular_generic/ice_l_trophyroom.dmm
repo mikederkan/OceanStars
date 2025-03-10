@@ -118,7 +118,7 @@
 	},
 /obj/structure/flora/bush/flowers_pp,
 /obj/item/hatchet/wooden,
-/obj/machinery/light/cold/dim/directional/north,
+/obj/machinery/light/dim/directional/north,
 /turf/open/misc/snow,
 /area/template_noop)
 "ul" = (
@@ -275,7 +275,7 @@
 /obj/structure/flora/bush/flowers_pp,
 /obj/structure/flora/bush/snow/style_random,
 /obj/structure/sign/clock/directional/south,
-/obj/machinery/light/cold/dim/directional/south,
+/obj/machinery/light/dim/directional/south,
 /turf/open/misc/snow,
 /area/template_noop)
 "Kb" = (

@@ -95,11 +95,11 @@
 	pixel_y = 3
 	},
 /obj/item/gun/ballistic/revolver/c38,
-/obj/machinery/light/cold/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white/diagonal,
 /area/shuttle/hunter)
 "eO" = (
-/obj/machinery/light/cold/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/carpet/black,
 /area/shuttle/hunter)
 "eZ" = (
@@ -425,7 +425,7 @@
 /turf/open/floor/iron/grimy,
 /area/shuttle/hunter)
 "uH" = (
-/obj/machinery/light/cold/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/carpet/black,
 /area/shuttle/hunter)
 "vv" = (

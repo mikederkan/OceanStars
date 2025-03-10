@@ -525,7 +525,7 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned/engine)
 "WL" = (
-/obj/machinery/light/cold/no_nightlight/directional/west,
+/obj/machinery/light/no_nightlight/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/mineral/plastitanium,
